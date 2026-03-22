@@ -2,298 +2,342 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Insights | Kingman Digital Cyber Network</title>
+<title>Cyber Insights | Kingman Digital Cyber Network</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <meta name="description" content="Insights and articles about cybersecurity, IT infrastructure, cloud systems, and digital security from Kingman Digital Cyber Network.">
-
 <link rel="icon" href="https://i.ibb.co/gFmMrxN0/Kingman-Digital-Cyber-Network-Logo.png">
-
 <style>
-
-:root{
---primary:#0b7fab;
---accent:#00d1ff;
---dark:#0a0f14;
---light:#ffffff;
---muted:#b9c6cf;
+/* Same global styles as previous pages */
+:root {
+  --primary: #0b7fab;
+  --accent: #00d1ff;
+  --dark: #0a0f14;
+  --light: #ffffff;
+  --muted: #b9c6cf;
+  --bg-gradient: linear-gradient(180deg, #060b10, #0a1118);
+  --card-bg: rgba(255,255,255,0.04);
+  --border: rgba(255,255,255,0.08);
+  --nav-bg: #0a1118;
+  --footer-bg: #05080c;
 }
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:"Segoe UI",system-ui,sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
 }
-
-body{
-background:linear-gradient(180deg,#060b10,#0a1118);
-color:var(--light);
-line-height:1.7;
+body {
+  background: var(--bg-gradient);
+  color: var(--light);
+  line-height: 1.7;
+  transition: background 0.3s, color 0.3s;
 }
-
-/* NAVIGATION */
-
-nav{
-position:fixed;
-top:0;
-width:100%;
-background:#0a1118;
-display:flex;
-justify-content:center;
-gap:30px;
-padding:14px;
-border-bottom:1px solid rgba(255,255,255,0.08);
-z-index:999;
+body.light {
+  --primary: #0b7fab;
+  --accent: #0077b6;
+  --dark: #f0f4f8;
+  --light: #111;
+  --muted: #2c3e44;
+  --bg-gradient: linear-gradient(180deg, #eef2f5, #ffffff);
+  --card-bg: rgba(0,0,0,0.02);
+  --border: rgba(0,0,0,0.08);
+  --nav-bg: #f8fafc;
+  --footer-bg: #eef2f5;
 }
-
-nav a{
-color:var(--light);
-text-decoration:none;
-font-weight:600;
+body.light .blog-card,
+body.light .cta {
+  background: var(--card-bg);
+  border-color: var(--border);
 }
-
-nav a:hover{
-color:var(--accent);
+body.light nav {
+  background: var(--nav-bg);
+  border-bottom-color: var(--border);
 }
-
-/* HEADER */
-
-header{
-text-align:center;
-padding:140px 20px 80px;
+body.light nav a {
+  color: var(--light);
 }
-
-header h1{
-font-size:2.5rem;
+body.light footer {
+  background: var(--footer-bg);
+  color: #2c3e44;
 }
-
-header span{
-color:var(--accent);
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--border);
+  z-index: 999;
+  padding: 1rem;
 }
-
-header p{
-margin-top:15px;
-color:var(--muted);
-font-size:1.1rem;
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
 }
-
-/* SECTION */
-
-section{
-max-width:1200px;
-margin:auto;
-padding:70px 20px;
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
 }
-
-.section-title{
-text-align:center;
-font-size:2rem;
-margin-bottom:50px;
+.nav-menu a {
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
 }
-
-/* BLOG GRID */
-
-.blog-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
+.nav-menu a:hover {
+  color: var(--accent);
 }
-
-.blog-card{
-background:rgba(255,255,255,0.04);
-border:1px solid rgba(255,255,255,0.08);
-border-radius:16px;
-padding:30px;
-transition:0.3s;
+.logo img {
+  height: 40px;
+  width: auto;
 }
-
-.blog-card:hover{
-transform:translateY(-8px);
-border-color:var(--accent);
+.hamburger {
+  display: none;
+  cursor: pointer;
 }
-
-.blog-card h3{
-color:var(--accent);
-margin-bottom:12px;
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background: var(--light);
+  transition: 0.3s;
 }
-
-.blog-card p{
-color:var(--muted);
-margin-bottom:15px;
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0 0.5rem;
 }
-
-.blog-card a{
-color:var(--accent);
-text-decoration:none;
-font-weight:600;
+header {
+  text-align: center;
+  padding: 140px 20px 80px;
 }
-
-/* CTA */
-
-.cta{
-text-align:center;
-background:linear-gradient(135deg,#07141d,#0b1f2c);
-padding:60px 30px;
-border-radius:20px;
+header h1 {
+  font-size: 2.5rem;
 }
-
-.cta h2{
-margin-bottom:15px;
+header span {
+  color: var(--accent);
 }
-
-.cta p{
-color:var(--muted);
-margin-bottom:25px;
+header p {
+  margin-top: 15px;
+  color: var(--muted);
+  font-size: 1.1rem;
 }
-
-.cta a{
-background:linear-gradient(135deg,var(--primary),var(--accent));
-color:#000;
-padding:14px 30px;
-border-radius:40px;
-text-decoration:none;
-font-weight:600;
+section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 70px 20px;
 }
-
-/* FOOTER */
-
-footer{
-background:#05080c;
-text-align:center;
-padding:35px;
-font-size:.9rem;
-color:var(--muted);
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
 }
-
-footer span{
-color:var(--accent);
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
 }
-
+.blog-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 30px;
+  transition: transform 0.3s, border 0.3s;
+}
+.blog-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--accent);
+}
+.blog-card h3 {
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.blog-card p {
+  color: var(--muted);
+  margin-bottom: 15px;
+}
+.blog-card a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+.blog-card a:hover {
+  text-decoration: underline;
+}
+.cta {
+  text-align: center;
+  background: linear-gradient(135deg, #07141d, #0b1f2c);
+  padding: 60px 30px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+body.light .cta {
+  background: linear-gradient(135deg, #d4e4f0, #e0edf5);
+}
+.cta h2 {
+  margin-bottom: 15px;
+}
+.cta p {
+  color: var(--muted);
+  margin-bottom: 25px;
+}
+.cta a {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #000;
+  padding: 14px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+footer {
+  background: var(--footer-bg);
+  text-align: center;
+  padding: 35px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+footer span {
+  color: var(--accent);
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background: var(--nav-bg);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding: 2rem 0;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .nav-container {
+    flex-wrap: wrap;
+  }
+  .nav-container .theme-toggle {
+    order: 2;
+  }
+  header {
+    padding-top: 120px;
+  }
+}
 </style>
 </head>
-
 <body>
 
-<!-- NAVIGATION -->
-
 <nav>
-<a href="index.html">Home</a>
-<a href="about.html">About Us</a>
-<a href="services.html">Services</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="blog.html">Blog</a>
-<a href="careers.html">Careers</a>
-<a href="contact.html">Contact</a>
+  <div class="nav-container">
+    <div class="logo">
+      <img src="https://i.ibb.co/gFmMrxN0/Kingman-Digital-Cyber-Network-Logo.png" alt="Kingman Digital Logo">
+    </div>
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="livestream.html">Live Stream</a></li>
+    </ul>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </div>
 </nav>
 
-<!-- HEADER -->
-
 <header>
-
-<h1>Cyber <span>Insights</span></h1>
-
-<p>
-Knowledge, strategies, and updates about cybersecurity,
-digital systems, and modern technology.
-</p>
-
+  <h1>Cyber <span>Insights</span></h1>
+  <p>Knowledge, strategies, and updates about cybersecurity, digital systems, and modern technology.</p>
 </header>
 
-<!-- BLOG ARTICLES -->
-
 <section>
-
-<h2 class="section-title">Latest Articles</h2>
-
-<div class="blog-grid">
-
-<div class="blog-card">
-<h3>5 Cybersecurity Habits Every Professional Should Follow</h3>
-<p>
-Simple but powerful digital habits that help protect accounts,
-devices, and online systems from modern cyber threats.
-</p>
-<a href="#">Read Article</a>
-</div>
-
-<div class="blog-card">
-<h3>Why Secure Cloud Infrastructure Matters</h3>
-<p>
-Understanding the importance of secure cloud architecture
-for startups, businesses, and digital professionals.
-</p>
-<a href="#">Read Article</a>
-</div>
-
-<div class="blog-card">
-<h3>Common Cybersecurity Mistakes Businesses Make</h3>
-<p>
-Many organizations unknowingly expose themselves to cyber threats.
-Learn the most common mistakes and how to avoid them.
-</p>
-<a href="#">Read Article</a>
-</div>
-
-<div class="blog-card">
-<h3>Building a Secure Digital Identity</h3>
-<p>
-How individuals and professionals can protect their
-digital identity in the modern internet environment.
-</p>
-<a href="#">Read Article</a>
-</div>
-
-<div class="blog-card">
-<h3>The Future of Cybersecurity in the Cloud Era</h3>
-<p>
-Exploring how cloud technology is changing the cybersecurity
-landscape worldwide.
-</p>
-<a href="#">Read Article</a>
-</div>
-
-<div class="blog-card">
-<h3>Why Every Startup Needs Cybersecurity Early</h3>
-<p>
-Security should not be an afterthought. Startups must build
-secure systems from the beginning.
-</p>
-<a href="#">Read Article</a>
-</div>
-
-</div>
-
+  <h2 class="section-title">Latest Articles</h2>
+  <div class="blog-grid">
+    <div class="blog-card">
+      <h3>5 Cybersecurity Habits Every Professional Should Follow</h3>
+      <p>Simple but powerful digital habits that help protect accounts, devices, and online systems from modern cyber threats.</p>
+      <a href="#">Read Article</a>
+    </div>
+    <div class="blog-card">
+      <h3>Why Secure Cloud Infrastructure Matters</h3>
+      <p>Understanding the importance of secure cloud architecture for startups, businesses, and digital professionals.</p>
+      <a href="#">Read Article</a>
+    </div>
+    <div class="blog-card">
+      <h3>Common Cybersecurity Mistakes Businesses Make</h3>
+      <p>Many organizations unknowingly expose themselves to cyber threats. Learn the most common mistakes and how to avoid them.</p>
+      <a href="#">Read Article</a>
+    </div>
+    <div class="blog-card">
+      <h3>Building a Secure Digital Identity</h3>
+      <p>How individuals and professionals can protect their digital identity in the modern internet environment.</p>
+      <a href="#">Read Article</a>
+    </div>
+    <div class="blog-card">
+      <h3>The Future of Cybersecurity in the Cloud Era</h3>
+      <p>Exploring how cloud technology is changing the cybersecurity landscape worldwide.</p>
+      <a href="#">Read Article</a>
+    </div>
+    <div class="blog-card">
+      <h3>Why Every Startup Needs Cybersecurity Early</h3>
+      <p>Security should not be an afterthought. Startups must build secure systems from the beginning.</p>
+      <a href="#">Read Article</a>
+    </div>
+  </div>
 </section>
 
-<!-- CTA -->
-
 <section>
-
-<div class="cta">
-
-<h2>Stay Updated with Cyber Insights</h2>
-
-<p>
-Follow Kingman Digital Cyber Network for the latest updates
-on cybersecurity, IT infrastructure, and digital protection strategies.
-</p>
-
-<a href="contact.html">Get in Touch</a>
-
-</div>
-
+  <div class="cta">
+    <h2>Stay Updated with Cyber Insights</h2>
+    <p>Follow Kingman Digital Cyber Network for the latest updates on cybersecurity, IT infrastructure, and digital protection strategies.</p>
+    <a href="contact.html">Get in Touch</a>
+  </div>
 </section>
-
-<!-- FOOTER -->
 
 <footer>
-
-<p><span>© 2026 Kingman Digital Cyber Network</span></p>
-
-<p>Cybersecurity • IT Systems • Cloud Infrastructure</p>
-
+  <p><span>© 2026 Kingman Digital Cyber Network</span></p>
+  <p>Cybersecurity • IT Systems • Cloud Infrastructure</p>
 </footer>
 
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('.nav-menu');
+  if (hamburger && navMenu) {
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  }
+  const toggle = document.getElementById('theme-toggle');
+  if (localStorage.getItem('theme') === 'light') {
+    document.body.classList.add('light');
+    toggle.textContent = '☀️';
+  }
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('light');
+    const isLight = document.body.classList.contains('light');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    toggle.textContent = isLight ? '☀️' : '🌙';
+  });
+</script>
 </body>
 </html>
