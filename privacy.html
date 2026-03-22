@@ -5,135 +5,261 @@
 <title>Privacy Policy | Kingman Digital Cyber Network</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Privacy Policy for Kingman Digital Cyber Network, detailing how user data is collected and handled.">
-
 <link rel="icon" href="https://i.ibb.co/gFmMrxN0/Kingman-Digital-Cyber-Network-Logo.png">
-
 <style>
-:root{
-  --primary:#0b7fab;
-  --accent:#00d1ff;
-  --dark:#0a0f14;
-  --light:#ffffff;
-  --muted:#b9c6cf;
+/* Shared global styles (same as other upgraded pages) */
+:root {
+  --primary: #0b7fab;
+  --accent: #00d1ff;
+  --dark: #0a0f14;
+  --light: #ffffff;
+  --muted: #b9c6cf;
+  --bg-gradient: linear-gradient(180deg, #060b10, #0a1118);
+  --card-bg: rgba(255,255,255,0.04);
+  --border: rgba(255,255,255,0.08);
+  --nav-bg: #0a1118;
+  --footer-bg: #05080c;
 }
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:"Segoe UI",system-ui,sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
 }
-
-body{
-  background:linear-gradient(180deg,#060b10,#0a1118);
-  color:var(--light);
-  line-height:1.7;
+body {
+  background: var(--bg-gradient);
+  color: var(--light);
+  line-height: 1.7;
+  transition: background 0.3s, color 0.3s;
 }
-
-/* NAVIGATION */
-nav{
-  position:fixed;
-  top:0;
-  width:100%;
-  background:#0a1118;
-  display:flex;
-  justify-content:center;
-  gap:30px;
-  padding:14px;
-  border-bottom:1px solid rgba(255,255,255,0.08);
-  z-index:999;
+body.light {
+  --primary: #0b7fab;
+  --accent: #0077b6;
+  --dark: #f0f4f8;
+  --light: #111;
+  --muted: #2c3e44;
+  --bg-gradient: linear-gradient(180deg, #eef2f5, #ffffff);
+  --card-bg: rgba(0,0,0,0.02);
+  --border: rgba(0,0,0,0.08);
+  --nav-bg: #f8fafc;
+  --footer-bg: #eef2f5;
 }
-nav a{
-  color:var(--light);
-  text-decoration:none;
-  font-weight:600;
+body.light nav {
+  background: var(--nav-bg);
+  border-bottom-color: var(--border);
 }
-nav a:hover{
-  color:var(--accent);
+body.light nav a {
+  color: var(--light);
 }
-
-/* HEADER */
-header{
-  text-align:center;
-  padding:140px 20px 80px;
+body.light footer {
+  background: var(--footer-bg);
+  color: #2c3e44;
 }
-header h1{
-  font-size:2.5rem;
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--border);
+  z-index: 999;
+  padding: 1rem;
 }
-header span{
-  color:var(--accent);
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
 }
-header p{
-  margin-top:15px;
-  color:var(--muted);
-  font-size:1.1rem;
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
 }
-
-/* CONTENT SECTION */
-section{
-  max-width:1000px;
-  margin:auto;
-  padding:70px 20px;
+.nav-menu a {
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
 }
-
-section h2{
-  color:var(--accent);
-  margin-bottom:20px;
+.nav-menu a:hover {
+  color: var(--accent);
 }
-
-section p{
-  margin-bottom:15px;
-  color:var(--muted);
-  line-height:1.6;
-  font-size:1rem;
+.logo img {
+  height: 40px;
+  width: auto;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background: var(--light);
+  transition: 0.3s;
+}
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0 0.5rem;
+}
+header {
+  text-align: center;
+  padding: 140px 20px 80px;
+}
+header h1 {
+  font-size: 2.5rem;
+}
+header span {
+  color: var(--accent);
+}
+header p {
+  margin-top: 15px;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 70px 20px;
+}
+section h2 {
+  color: var(--accent);
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+section p {
+  margin-bottom: 15px;
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+footer {
+  background: var(--footer-bg);
+  text-align: center;
+  padding: 35px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+footer span {
+  color: var(--accent);
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background: var(--nav-bg);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding: 2rem 0;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .nav-container {
+    flex-wrap: wrap;
+  }
+  .nav-container .theme-toggle {
+    order: 2;
+  }
+  header {
+    padding-top: 120px;
+  }
 }
 </style>
 </head>
 <body>
 
-<!-- NAVIGATION -->
 <nav>
-<a href="index.html">Home</a>
-<a href="about.html">About Us</a>
-<a href="services.html">Services</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="blog.html">Blog</a>
-<a href="careers.html">Careers</a>
-<a href="contact.html">Contact</a>
+  <div class="nav-container">
+    <div class="logo">
+      <img src="https://i.ibb.co/gFmMrxN0/Kingman-Digital-Cyber-Network-Logo.png" alt="Kingman Digital Logo">
+    </div>
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="livestream.html">Live Stream</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="terms.html">Terms</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+    </ul>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </div>
 </nav>
 
-<!-- HEADER -->
 <header>
-<h1>Privacy <span>Policy</span></h1>
-<p>Learn how Kingman Digital Cyber Network collects, uses, and protects your data.</p>
+  <h1>Privacy <span>Policy</span></h1>
+  <p>Learn how Kingman Digital Cyber Network collects, uses, and protects your data.</p>
 </header>
 
-<!-- CONTENT -->
 <section>
-<h2>1. Information Collection</h2>
-<p>We collect your name, email, and message when you submit forms or contact us. This data is used solely to respond to your inquiries.</p>
+  <h2>1. Information Collection</h2>
+  <p>We collect your name, email, and message when you submit forms or contact us. This data is used solely to respond to your inquiries.</p>
 
-<h2>2. Use of Information</h2>
-<p>Collected information is used to provide services, answer questions, or improve our digital platforms. We do not share personal data with unauthorized third parties.</p>
+  <h2>2. Use of Information</h2>
+  <p>Collected information is used to provide services, answer questions, or improve our digital platforms. We do not share personal data with unauthorized third parties.</p>
 
-<h2>3. Cookies</h2>
-<p>Our website may use cookies for performance monitoring and basic user experience enhancements. No sensitive personal data is tracked.</p>
+  <h2>3. Cookies</h2>
+  <p>Our website may use cookies for performance monitoring and basic user experience enhancements. No sensitive personal data is tracked.</p>
 
-<h2>4. Third-Party Links</h2>
-<p>We may provide links to external platforms like WhatsApp, Telegram, and Instagram. We are not responsible for their privacy practices.</p>
+  <h2>4. Third-Party Links</h2>
+  <p>We may provide links to external platforms like WhatsApp, Telegram, and Instagram. We are not responsible for their privacy practices.</p>
 
-<h2>5. Data Security</h2>
-<p>We implement reasonable security measures to protect your data, but cannot guarantee absolute protection against unauthorized access.</p>
+  <h2>5. Data Security</h2>
+  <p>We implement reasonable security measures to protect your data, but cannot guarantee absolute protection against unauthorized access.</p>
 
-<h2>6. Updates to Policy</h2>
-<p>We reserve the right to update this privacy policy at any time. Continued use of our services constitutes acceptance of the updated policy.</p>
+  <h2>6. Updates to Policy</h2>
+  <p>We reserve the right to update this privacy policy at any time. Continued use of our services constitutes acceptance of the updated policy.</p>
 </section>
 
-<!-- FOOTER -->
-<footer style="background:#05080c; text-align:center; padding:35px; font-size:.9rem; color:var(--muted);">
-<p><span>© 2026 Kingman Digital Cyber Network</span></p>
-<p>Cybersecurity • IT Systems • Cloud Infrastructure</p>
+<footer>
+  <p><span>© 2026 Kingman Digital Cyber Network</span></p>
+  <p>Cybersecurity • IT Systems • Cloud Infrastructure</p>
 </footer>
 
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('.nav-menu');
+  if (hamburger && navMenu) {
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  }
+  const toggle = document.getElementById('theme-toggle');
+  if (localStorage.getItem('theme') === 'light') {
+    document.body.classList.add('light');
+    toggle.textContent = '☀️';
+  }
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('light');
+    const isLight = document.body.classList.contains('light');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    toggle.textContent = isLight ? '☀️' : '🌙';
+  });
+</script>
 </body>
 </html>
