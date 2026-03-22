@@ -5,229 +5,354 @@
 <title>Contact | Kingman Digital Cyber Network</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Get in touch with Kingman Digital Cyber Network via email, WhatsApp, Telegram, Instagram, or our contact form.">
-
 <link rel="icon" href="https://i.ibb.co/gFmMrxN0/Kingman-Digital-Cyber-Network-Logo.png">
-
 <style>
-:root{
-  --primary:#0b7fab;
-  --accent:#00d1ff;
-  --dark:#0a0f14;
-  --light:#ffffff;
-  --muted:#b9c6cf;
+/* Same global styles as previous pages */
+:root {
+  --primary: #0b7fab;
+  --accent: #00d1ff;
+  --dark: #0a0f14;
+  --light: #ffffff;
+  --muted: #b9c6cf;
+  --bg-gradient: linear-gradient(180deg, #060b10, #0a1118);
+  --card-bg: rgba(255,255,255,0.04);
+  --border: rgba(255,255,255,0.08);
+  --nav-bg: #0a1118;
+  --footer-bg: #05080c;
 }
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:"Segoe UI",system-ui,sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
 }
-
-body{
-  background:linear-gradient(180deg,#060b10,#0a1118);
-  color:var(--light);
-  line-height:1.7;
+body {
+  background: var(--bg-gradient);
+  color: var(--light);
+  line-height: 1.7;
+  transition: background 0.3s, color 0.3s;
 }
-
-/* NAVIGATION */
-nav{
-  position:fixed;
-  top:0;
-  width:100%;
-  background:#0a1118;
-  display:flex;
-  justify-content:center;
-  gap:30px;
-  padding:14px;
-  border-bottom:1px solid rgba(255,255,255,0.08);
-  z-index:999;
+body.light {
+  --primary: #0b7fab;
+  --accent: #0077b6;
+  --dark: #f0f4f8;
+  --light: #111;
+  --muted: #2c3e44;
+  --bg-gradient: linear-gradient(180deg, #eef2f5, #ffffff);
+  --card-bg: rgba(0,0,0,0.02);
+  --border: rgba(0,0,0,0.08);
+  --nav-bg: #f8fafc;
+  --footer-bg: #eef2f5;
 }
-nav a{
-  color:var(--light);
-  text-decoration:none;
-  font-weight:600;
+body.light .contact-card,
+body.light .contact-form input,
+body.light .contact-form textarea {
+  background: var(--card-bg);
+  border-color: var(--border);
+  color: var(--light);
 }
-nav a:hover{
-  color:var(--accent);
+body.light nav {
+  background: var(--nav-bg);
+  border-bottom-color: var(--border);
 }
-
-/* HEADER */
-header{
-  text-align:center;
-  padding:140px 20px 80px;
+body.light nav a {
+  color: var(--light);
 }
-header h1{
-  font-size:2.5rem;
+body.light footer {
+  background: var(--footer-bg);
+  color: #2c3e44;
 }
-header span{
-  color:var(--accent);
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--border);
+  z-index: 999;
+  padding: 1rem;
 }
-header p{
-  margin-top:15px;
-  color:var(--muted);
-  font-size:1.1rem;
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
 }
-
-/* CONTACT INFO */
-.contact-info{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  gap:40px;
-  margin-bottom:60px;
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
 }
-
-.contact-card{
-  background:rgba(255,255,255,0.04);
-  border:1px solid rgba(255,255,255,0.08);
-  border-radius:16px;
-  padding:30px;
-  text-align:center;
-  width:260px;
-  transition:0.3s;
+.nav-menu a {
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
 }
-.contact-card:hover{
-  transform:translateY(-6px);
-  border-color:var(--accent);
+.nav-menu a:hover {
+  color: var(--accent);
 }
-.contact-card h3{
-  color:var(--accent);
-  margin-bottom:10px;
+.logo img {
+  height: 40px;
+  width: auto;
 }
-.contact-card p{
-  color:var(--muted);
-  font-size:1rem;
+.hamburger {
+  display: none;
+  cursor: pointer;
 }
-.contact-card a{
-  color:var(--accent);
-  text-decoration:none;
-  font-weight:600;
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background: var(--light);
+  transition: 0.3s;
 }
-
-/* FORM */
-.contact-form{
-  max-width:600px;
-  margin:auto;
-  display:flex;
-  flex-direction:column;
-  gap:15px;
-  margin-bottom:70px;
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0 0.5rem;
 }
-
+header {
+  text-align: center;
+  padding: 140px 20px 80px;
+}
+header h1 {
+  font-size: 2.5rem;
+}
+header span {
+  color: var(--accent);
+}
+header p {
+  margin-top: 15px;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 70px 20px;
+}
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.contact-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  width: 260px;
+  transition: transform 0.3s, border 0.3s;
+}
+.contact-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent);
+}
+.contact-card h3 {
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.contact-card p {
+  color: var(--muted);
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.contact-card a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+.contact-card a:hover {
+  text-decoration: underline;
+}
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 70px;
+}
 .contact-form input,
-.contact-form textarea{
-  padding:12px 15px;
-  border-radius:10px;
-  border:1px solid rgba(255,255,255,0.2);
-  background:rgba(255,255,255,0.05);
-  color:var(--light);
-  font-size:1rem;
-  resize:none;
+.contact-form textarea {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--light);
+  font-size: 1rem;
+  resize: none;
 }
-
 .contact-form input:focus,
-.contact-form textarea:focus{
-  border-color:var(--accent);
-  outline:none;
+.contact-form textarea:focus {
+  border-color: var(--accent);
+  outline: none;
 }
-
-.contact-form button{
-  background:linear-gradient(135deg,var(--primary),var(--accent));
-  color:#000;
-  font-weight:600;
-  padding:14px 30px;
-  border-radius:40px;
-  border:none;
-  cursor:pointer;
-  transition:0.3s;
+.contact-form button {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #000;
+  font-weight: 600;
+  padding: 14px 30px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
-
-.contact-form button:hover{
-  transform:translateY(-4px);
-  box-shadow:0 10px 20px rgba(0,209,255,0.3);
+.contact-form button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,209,255,0.3);
 }
-
-/* FOOTER */
-footer{
-  background:#05080c;
-  text-align:center;
-  padding:35px;
-  font-size:.9rem;
-  color:var(--muted);
+footer {
+  background: var(--footer-bg);
+  text-align: center;
+  padding: 35px;
+  font-size: 0.9rem;
+  color: var(--muted);
 }
-footer span{
-  color:var(--accent);
+footer span {
+  color: var(--accent);
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background: var(--nav-bg);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding: 2rem 0;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .nav-container {
+    flex-wrap: wrap;
+  }
+  .nav-container .theme-toggle {
+    order: 2;
+  }
+  header {
+    padding-top: 120px;
+  }
 }
 </style>
 </head>
 <body>
 
-<!-- NAVIGATION -->
 <nav>
-<a href="index.html">Home</a>
-<a href="about.html">About Us</a>
-<a href="services.html">Services</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="blog.html">Blog</a>
-<a href="careers.html">Careers</a>
-<a href="contact.html">Contact</a>
+  <div class="nav-container">
+    <div class="logo">
+      <img src="https://i.ibb.co/gFmMrxN0/Kingman-Digital-Cyber-Network-Logo.png" alt="Kingman Digital Logo">
+    </div>
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="livestream.html">Live Stream</a></li>
+    </ul>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </div>
 </nav>
 
-<!-- HEADER -->
 <header>
-<h1>Contact <span>Us</span></h1>
-<p>Reach Kingman Digital Cyber Network via email, WhatsApp, Telegram, Instagram, or our contact form.</p>
+  <h1>Contact <span>Us</span></h1>
+  <p>Reach Kingman Digital Cyber Network via email, WhatsApp, Telegram, Instagram, or our contact form.</p>
 </header>
 
-<!-- CONTACT METHODS -->
 <section>
-<h2 class="section-title">Get In Touch</h2>
-<div class="contact-info">
-  <div class="contact-card">
-    <h3>Email</h3>
-    <p>kingmandigitalcybernetwork@gmail.com</p>
-    <a href="mailto:kingmanakaken@gmail.com">Send Email</a>
+  <h2 class="section-title">Get In Touch</h2>
+  <div class="contact-info">
+    <div class="contact-card">
+      <h3>Email</h3>
+      <p>kingmandigitalcybernetwork@gmail.com</p>
+      <a href="mailto:kingmandigitalcybernetwork@gmail.com">Send Email</a>
+    </div>
+    <div class="contact-card">
+      <h3>WhatsApp</h3>
+      <p>+254111843716</p>
+      <a href="https://wa.me/254111843716" target="_blank">Chat Now</a>
+    </div>
+    <div class="contact-card">
+      <h3>Telegram</h3>
+      <p>@KINGMAN_KE</p>
+      <a href="https://t.me/KINGMAN_KE" target="_blank">Join Telegram</a>
+    </div>
+    <div class="contact-card">
+      <h3>Instagram</h3>
+      <p>@kingman.254k</p>
+      <a href="https://www.instagram.com/kingman.254k" target="_blank">Visit Instagram</a>
+    </div>
+    <div class="contact-card">
+      <h3>Threads</h3>
+      <p>@kingman.254k</p>
+      <a href="https://www.threads.net/@kingman.254k" target="_blank">Visit Threads</a>
+    </div>
   </div>
-  <div class="contact-card">
-    <h3>WhatsApp</h3>
-    <p>+254111843716</p>
-    <a href="https://wa.me/254726145371" target="_blank">Chat Now</a>
-  </div>
-  <div class="contact-card">
-    <h3>Telegram</h3>
-    <p>@KINGMAN_KE</p>
-    <a href="https://t.me/KINGMAN_KE" target="_blank">Join Telegram</a>
-  </div>
-  <div class="contact-card">
-    <h3>Instagram</h3>
-    <p>@kingman.254k</p>
-    <a href="https://www.instagram.com/kingman.254k" target="_blank">Visit Instagram</a>
-  </div>
-  <div class="contact-card">
-    <h3>Threads</h3>
-    <p>@kingman.254k</p>
-    <a href="https://www.threads.com/@kingman.254k" target="_blank">Visit Threads</a>
-  </div>
-</div>
 </section>
 
-<!-- CONTACT FORM -->
 <section>
-<h2 class="section-title">Send a Message</h2>
-<form class="contact-form" action="mailto:kingmanakaken@gmail.com" method="POST" enctype="text/plain">
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="email" name="email" placeholder="Your Email" required>
-  <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-  <button type="submit">Send Message</button>
-</form>
+  <h2 class="section-title">Send a Message</h2>
+  <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
 </section>
 
-<!-- FOOTER -->
 <footer>
-<p><span>© 2026 Kingman Digital Cyber Network</span></p>
-<p>Cybersecurity • IT Systems • Cloud Infrastructure</p>
+  <p><span>© 2026 Kingman Digital Cyber Network</span></p>
+  <p>Cybersecurity • IT Systems • Cloud Infrastructure</p>
 </footer>
 
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('.nav-menu');
+  if (hamburger && navMenu) {
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  }
+  const toggle = document.getElementById('theme-toggle');
+  if (localStorage.getItem('theme') === 'light') {
+    document.body.classList.add('light');
+    toggle.textContent = '☀️';
+  }
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('light');
+    const isLight = document.body.classList.contains('light');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    toggle.textContent = isLight ? '☀️' : '🌙';
+  });
+</script>
 </body>
 </html>
