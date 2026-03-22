@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio | Kingman Digital Cyber Network</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Explore projects and digital systems developed by Kingman Digital Cyber Network including cybersecurity systems, IT infrastructure, and web platforms.">
+
+<link rel="icon" href="https://i.ibb.co/gFmMrxN0/Kingman-Digital-Cyber-Network-Logo.png">
+
+<style>
+
+:root{
+--primary:#0b7fab;
+--accent:#00d1ff;
+--dark:#0a0f14;
+--light:#ffffff;
+--muted:#b9c6cf;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Segoe UI",system-ui,sans-serif;
+}
+
+body{
+background:linear-gradient(180deg,#060b10,#0a1118);
+color:var(--light);
+line-height:1.7;
+}
+
+/* NAVIGATION */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#0a1118;
+display:flex;
+justify-content:center;
+gap:30px;
+padding:14px;
+border-bottom:1px solid rgba(255,255,255,0.08);
+z-index:999;
+}
+
+nav a{
+color:var(--light);
+text-decoration:none;
+font-weight:600;
+}
+
+nav a:hover{
+color:var(--accent);
+}
+
+/* HEADER */
+
+header{
+text-align:center;
+padding:140px 20px 80px;
+}
+
+header h1{
+font-size:2.5rem;
+}
+
+header span{
+color:var(--accent);
+}
+
+header p{
+margin-top:15px;
+color:var(--muted);
+font-size:1.1rem;
+}
+
+/* SECTIONS */
+
+section{
+max-width:1200px;
+margin:auto;
+padding:70px 20px;
+}
+
+.section-title{
+text-align:center;
+font-size:2rem;
+margin-bottom:50px;
+}
+
+/* PORTFOLIO GRID */
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.project-card{
+background:rgba(255,255,255,0.04);
+border:1px solid rgba(255,255,255,0.08);
+border-radius:16px;
+padding:30px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+border-color:var(--accent);
+}
+
+.project-card h3{
+color:var(--accent);
+margin-bottom:10px;
+}
+
+.project-card p{
+color:var(--muted);
+margin-bottom:15px;
+}
+
+.project-card a{
+text-decoration:none;
+color:var(--accent);
+font-weight:600;
+}
+
+/* CTA */
+
+.cta{
+text-align:center;
+background:linear-gradient(135deg,#07141d,#0b1f2c);
+padding:60px 30px;
+border-radius:20px;
+}
+
+.cta h2{
+margin-bottom:15px;
+}
+
+.cta p{
+color:var(--muted);
+margin-bottom:25px;
+}
+
+.cta a{
+background:linear-gradient(135deg,var(--primary),var(--accent));
+color:#000;
+padding:14px 30px;
+border-radius:40px;
+text-decoration:none;
+font-weight:600;
+}
+
+/* FOOTER */
+
+footer{
+background:#05080c;
+text-align:center;
+padding:35px;
+font-size:.9rem;
+color:var(--muted);
+}
+
+footer span{
+color:var(--accent);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="services.html">Services</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="blog.html">Blog</a>
+<a href="careers.html">Careers</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<!-- HEADER -->
+
+<header>
+
+<h1>Our <span>Portfolio</span></h1>
+
+<p>
+Explore digital systems, cybersecurity solutions, and platforms developed
+by Kingman Digital Cyber Network.
+</p>
+
+</header>
+
+<!-- PROJECTS -->
+
+<section>
+
+<h2 class="section-title">Selected Projects</h2>
+
+<div class="portfolio-grid">
+
+<div class="project-card">
+<h3>Cybersecurity Protection System</h3>
+<p>
+Development of secure account protection methods and digital threat analysis systems
+for online professionals.
+</p>
+<a href="#">Project Details</a>
+</div>
+
+<div class="project-card">
+<h3>IT Infrastructure Deployment</h3>
+<p>
+Design and deployment of scalable cloud infrastructure using Firebase hosting,
+CDN protection, and optimized system architecture.
+</p>
+<a href="#">Project Details</a>
+</div>
+
+<div class="project-card">
+<h3>Business Website Development</h3>
+<p>
+Creation of modern, secure business websites optimized for performance,
+mobile responsiveness, and long-term maintainability.
+</p>
+<a href="#">Project Details</a>
+</div>
+
+<div class="project-card">
+<h3>Digital Security Audit</h3>
+<p>
+Security evaluation of online systems identifying vulnerabilities
+and improving digital defense strategies.
+</p>
+<a href="#">Project Details</a>
+</div>
+
+<div class="project-card">
+<h3>Cloud Hosting Optimization</h3>
+<p>
+Implementation of optimized hosting systems using secure CDN networks
+and performance monitoring.
+</p>
+<a href="#">Project Details</a>
+</div>
+
+<div class="project-card">
+<h3>Startup Digital Consulting</h3>
+<p>
+Strategic digital consulting for startups building secure
+online infrastructure and scalable digital operations.
+</p>
+<a href="#">Project Details</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section>
+
+<div class="cta">
+
+<h2>Have a Project in Mind?</h2>
+
+<p>
+Work with Kingman Digital Cyber Network to build secure and scalable
+digital systems for your business.
+</p>
+
+<a href="contact.html">Start a Project</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p><span>© 2026 Kingman Digital Cyber Network</span></p>
+
+<p>Cybersecurity • IT Systems • Cloud Infrastructure</p>
+
+</footer>
+
+</body>
+</html>
