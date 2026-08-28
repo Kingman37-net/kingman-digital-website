@@ -332,6 +332,101 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 }
+/* KDCN new navigation CTA button */
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #000;
+  padding: 8px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,209,255,0.3);
+}
+
+/* Footer new styles */
+footer {
+  padding: 50px 20px 30px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: left;
+}
+.footer-col h3,
+.footer-col h4 {
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+.footer-col p {
+  color: var(--muted);
+  margin: 5px 0;
+}
+.footer-col a {
+  display: block;
+  color: var(--muted);
+  text-decoration: none;
+  margin: 8px 0;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+.footer-col a:hover {
+  color: var(--accent);
+}
+.footer-social {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+.footer-social img {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) invert(1); /* makes icons white in dark mode; adjust for light mode */
+}
+.footer-bottom {
+  max-width: 1200px;
+  margin: 30px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-bottom a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  color: var(--accent);
+}
+.copyright {
+  max-width: 1200px;
+  margin: 20px auto 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.copyright span {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .cta-button {
+    display: none; /* hide on mobile, keep hamburger */
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 </style>
 </head>
 <body>
@@ -483,6 +578,175 @@ footer {
     toggle.textContent = isLight ? '☀️' : '🌙';
   });
 </script>
+
+<!-- KDCN Chat Widget -->
+<style>
+  .kdcn-chat-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0b7fab, #00d1ff);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #000;
+    transition: transform 0.3s;
+  }
+  .kdcn-chat-btn:hover { transform: scale(1.1); }
+  .kdcn-chat-panel {
+    position: fixed;
+    bottom: 95px;
+    right: 25px;
+    width: 320px;
+    max-width: 90vw;
+    height: 420px;
+    max-height: 70vh;
+    background: #0a1118;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 1001;
+  }
+  .kdcn-chat-panel.active { display: flex; }
+  .kdcn-chat-header {
+    background: linear-gradient(135deg, #0b7fab, #00d1ff);
+    padding: 15px;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .kdcn-chat-header span { font-size: 1.1rem; }
+  .kdcn-chat-close { background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #000; }
+  .kdcn-chat-body {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    color: #fff;
+  }
+  .kdcn-chat-message {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .kdcn-chat-message.bot { align-items: flex-start; }
+  .kdcn-chat-message.user { align-items: flex-end; }
+  .kdcn-chat-bubble {
+    max-width: 80%;
+    padding: 10px 15px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.1);
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  .kdcn-chat-message.user .kdcn-chat-bubble {
+    background: #00d1ff;
+    color: #000;
+  }
+  .kdcn-chat-input {
+    display: flex;
+    padding: 10px;
+    background: rgba(0,0,0,0.2);
+  }
+  .kdcn-chat-input input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: #fff;
+    color: #000;
+    outline: none;
+  }
+  .kdcn-chat-input button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #00d1ff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+<button class="kdcn-chat-btn" id="kdcnChatBtn" aria-label="Chat with us">💬</button>
+<div class="kdcn-chat-panel" id="kdcnChatPanel">
+  <div class="kdcn-chat-header">
+    <span>KDCN Assistant</span>
+    <button class="kdcn-chat-close" id="kdcnChatClose">&times;</button>
+  </div>
+  <div class="kdcn-chat-body" id="kdcnChatBody">
+    <div class="kdcn-chat-message bot">
+      <div class="kdcn-chat-bubble">Hello! I'm the KDCN virtual assistant. Ask me about our services, pricing, or how to get started.</div>
+    </div>
+  </div>
+  <div class="kdcn-chat-input">
+    <input type="text" id="kdcnChatInput" placeholder="Type your question...">
+    <button id="kdcnChatSend">Send</button>
+  </div>
+</div>
+<script>
+  (function() {
+    const btn = document.getElementById('kdcnChatBtn');
+    const panel = document.getElementById('kdcnChatPanel');
+    const close = document.getElementById('kdcnChatClose');
+    const body = document.getElementById('kdcnChatBody');
+    const input = document.getElementById('kdcnChatInput');
+    const send = document.getElementById('kdcnChatSend');
+
+    btn.addEventListener('click', () => panel.classList.toggle('active'));
+    close.addEventListener('click', () => panel.classList.remove('active'));
+
+    function addMessage(text, sender) {
+      const msgDiv = document.createElement('div');
+      msgDiv.className = 'kdcn-chat-message ' + sender;
+      const bubble = document.createElement('div');
+      bubble.className = 'kdcn-chat-bubble';
+      bubble.textContent = text;
+      msgDiv.appendChild(bubble);
+      body.appendChild(msgDiv);
+      body.scrollTop = body.scrollHeight;
+    }
+
+    function getBotResponse(userText) {
+      const t = userText.toLowerCase();
+      if (t.includes('hello') || t.includes('hi')) return "Hi there! How can I help you today?";
+      if (t.includes('service') || t.includes('offer')) return "We provide Cybersecurity Systems, IT Infrastructure & Cloud, Software Development, and Digital Systems Consulting. Which one are you interested in?";
+      if (t.includes('price') || t.includes('cost') || t.includes('fee')) return "Our pricing depends on the scope of the project. Please contact us via email or WhatsApp for a custom quote.";
+      if (t.includes('contact') || t.includes('reach')) return "You can email us at kingmandigitalcybernetwork@gmail.com or WhatsApp +254111843716.";
+      if (t.includes('location') || t.includes('where')) return "We are based in Embu, Kenya, serving clients globally.";
+      if (t.includes('platform') || t.includes('ecosystem')) return "Our KDCN Platform and Ecosystem are coming soon! Stay tuned for updates.";
+      if (t.includes('security') || t.includes('cyber')) return "We offer threat assessment, account protection, secure system architecture, and vulnerability analysis.";
+      return "I'm not sure I understand. For detailed assistance, please email kingmandigitalcybernetwork@gmail.com or WhatsApp +254111843716.";
+    }
+
+    send.addEventListener('click', () => {
+      const text = input.value.trim();
+      if (!text) return;
+      addMessage(text, 'user');
+      input.value = '';
+      setTimeout(() => {
+        addMessage(getBotResponse(text), 'bot');
+      }, 500);
+    });
+
+    input.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') send.click();
+    });
+  })();
+</script>
+
 
 <!-- KDCN Chat Widget -->
 <style>
