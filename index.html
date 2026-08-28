@@ -7,7 +7,7 @@
 <meta name="description" content="Kingman Digital Cyber Network – Global Cybersecurity, IT Systems, Software Development & Cloud Solutions. Built for long-term digital survival.">
 <meta name="author" content="CTO KINGMAN_KE">
 <meta name="keywords" content="Cybersecurity, IT Systems, Software Development, Cloud Solutions, Digital Consulting, Kingman Digital Cyber Network">
-<link rel="icon" href="https://i.ibb.co/sJ2r4wpY/Kingman-digital-cyber-network-logos.png" type="image/png">
+<link rel="icon" href="images/logo-transparent.png" type="image/png">
 
 <style>
 :root {
@@ -283,6 +283,101 @@ footer span {
     grid-template-columns: 1fr;
   }
 }
+/* KDCN new navigation CTA button */
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #000;
+  padding: 8px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,209,255,0.3);
+}
+
+/* Footer new styles */
+footer {
+  padding: 50px 20px 30px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: left;
+}
+.footer-col h3,
+.footer-col h4 {
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+.footer-col p {
+  color: var(--muted);
+  margin: 5px 0;
+}
+.footer-col a {
+  display: block;
+  color: var(--muted);
+  text-decoration: none;
+  margin: 8px 0;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+.footer-col a:hover {
+  color: var(--accent);
+}
+.footer-social {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+.footer-social img {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) invert(1); /* makes icons white in dark mode; adjust for light mode */
+}
+.footer-bottom {
+  max-width: 1200px;
+  margin: 30px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-bottom a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  color: var(--accent);
+}
+.copyright {
+  max-width: 1200px;
+  margin: 20px auto 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.copyright span {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .cta-button {
+    display: none; /* hide on mobile, keep hamburger */
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 </style>
 </head>
 <body>
@@ -290,19 +385,18 @@ footer span {
 <nav>
   <div class="nav-container">
     <div class="logo">
-      <img src="https://i.ibb.co/sJ2r4wpY/Kingman-digital-cyber-network-logos.png" alt="Kingman Digital Logo">
+      <img src="images/logo-transparent.png" alt="KDCN Logo">
     </div>
     <ul class="nav-menu">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
+      <li><a href="about.html">About</a></li>
       <li><a href="services.html">Services</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="careers.html">Careers</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="platform.html">Platform</a></li>
+      <li><a href="ecosystem.html">Ecosystem</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="livestream.html">Live Stream</a></li>
-      <li><a href="faq.html">FAQS</a></li>
     </ul>
+    <a href="contact.html" class="cta-button">Get in Touch</a>
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
     <div class="hamburger">
       <span class="bar"></span>
@@ -313,7 +407,7 @@ footer span {
 </nav>
 
 <header>
-  <img src="https://i.ibb.co/sJ2r4wpY/Kingman-digital-cyber-network-logos.png"
+  <img src="images/logo-transparent.png"
        alt="Kingman Digital Cyber Network Logo"
        class="site-logo">
   <h1>KINGMAN<span>DIGITAL</span> CYBER NETWORK</h1>
@@ -363,23 +457,82 @@ footer span {
   <!-- Floating social icons -->
   <div style="position:fixed; bottom:20px; right:20px; display:flex; flex-direction:column; gap:10px; z-index:999;">
     <a href="https://wa.me/254111843716" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+      <img src="images/icons/whatsapp.png" alt="WhatsApp">
     </a>
     <a href="https://t.me/KINGMAN_KE" target="_blank" rel="noopener noreferrer">
       <img src="https://img.icons8.com/color/48/000000/telegram-app.png" alt="Telegram">
     </a>
     <a href="https://www.instagram.com/kingman.254k" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram">
+      <img src="images/icons/instagram.png" alt="Instagram">
    </a>
-  <a href="https://x.com/Cto_kingman" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.icons8.com/color/48/000000/twitterx--v1.png" alt="X (Twitter)">
+  <a href="https://x.com/KDCN_OFFICIAL" target="_blank" rel="noopener noreferrer">
+  <img src="images/icons/x.png" alt="X (Twitter)">
 </a>
   </div>
 </section>
 
 <footer>
-  <p><span>© 2026 Kingman Digital Cyber Network</span></p>
-  <p>Global IT & Cybersecurity Services</p>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h3>🐺 KDCN</h3>
+      <p>KINGMAN DIGITAL<br>CYBER NETWORK</p>
+      <p>Global IT & Cybersecurity Services</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/Kingmandigitalnet" target="_blank" rel="noopener noreferrer"><img src="images/icons/facebook.png" alt="Facebook"></a>
+        <a href="https://x.com/KDCN_OFFICIAL" target="_blank" rel="noopener noreferrer"><img src="images/icons/x.png" alt="X"></a>
+        <a href="https://www.instagram.com/kingman.254k" target="_blank" rel="noopener noreferrer"><img src="images/icons/instagram.png" alt="Instagram"></a>
+        <a href="https://wa.me/254111843716" target="_blank" rel="noopener noreferrer"><img src="images/icons/whatsapp.png" alt="WhatsApp"></a>
+        <a href="https://youtube.com/@kingman-digital?si=57pVPskKmuR6epup" target="_blank" rel="noopener noreferrer"><img src="images/icons/youtube.png" alt="YouTube"></a>
+        <a href="https://www.linkedin.com/company/kingman-digital" target="_blank" rel="noopener noreferrer"><img src="images/icons/linkedin.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="about.html">About Us</a>
+      <a href="approach.html">Our Approach</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="careers.html">Careers</a>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="services.html#cybersecurity">Cybersecurity Systems</a>
+      <a href="services.html#it-infrastructure">IT Infrastructure & Cloud</a>
+      <a href="services.html#software-development">Software Development</a>
+      <a href="services.html#digital-consulting">Digital Systems Consulting</a>
+    </div>
+    <div class="footer-col">
+      <h4>KDCN Digital</h4>
+      <a href="platform.html">KDCN Platform</a>
+      <a href="ecosystem.html">KDCN Ecosystem</a>
+      <a href="platform.html#access">Platform Access</a>
+      <a href="ecosystem.html#overview">Ecosystem Overview</a>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <a href="blog.html">Blog</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="faq.html">FAQ</a>
+      <a href="knowledge-center.html">Knowledge Center</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="mailto:kingmandigitalcybernetwork@gmail.com">Email</a>
+      <a href="https://wa.me/254111843716" target="_blank">WhatsApp</a>
+      <a href="support.html">Technical Support</a>
+      <a href="livestream.html">Network Live Stream</a>
+      <p>Embu, Kenya<br>East Africa</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="security.html">Security</a>
+    <a href="accessibility.html">Accessibility</a>
+  </div>
+  <div class="copyright">
+    <p><span>© 2026 Kingman Digital Cyber Network.</span> All Rights Reserved.</p>
+    <p>Global IT & Cybersecurity Services</p>
+  </div>
 </footer>
 
 <script>

@@ -1,0 +1,95 @@
+/* KDCN new navigation CTA button */
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #000;
+  padding: 8px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,209,255,0.3);
+}
+
+/* Footer new styles */
+footer {
+  padding: 50px 20px 30px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: left;
+}
+.footer-col h3,
+.footer-col h4 {
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+.footer-col p {
+  color: var(--muted);
+  margin: 5px 0;
+}
+.footer-col a {
+  display: block;
+  color: var(--muted);
+  text-decoration: none;
+  margin: 8px 0;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+.footer-col a:hover {
+  color: var(--accent);
+}
+.footer-social {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+.footer-social img {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) invert(1); /* makes icons white in dark mode; adjust for light mode */
+}
+.footer-bottom {
+  max-width: 1200px;
+  margin: 30px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-bottom a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  color: var(--accent);
+}
+.copyright {
+  max-width: 1200px;
+  margin: 20px auto 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.copyright span {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .cta-button {
+    display: none; /* hide on mobile, keep hamburger */
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
