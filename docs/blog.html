@@ -237,221 +237,344 @@ footer span {
     padding-top: 120px;
   }
 }
-/* KDCN new navigation CTA button */
+
+/* KDCN V1.1 COMPONENTS START */
+/* =========================================================
+   KDCN WEBSITE V1.1
+   GLOBAL NAVIGATION + FOOTER COMPONENTS
+   ========================================================= */
+
+
+/* =========================
+   NAVIGATION CTA
+   ========================= */
+
 .cta-button {
   display: inline-block;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    var(--accent)
+  );
   color: #000;
-  padding: 8px 20px;
+  padding: 9px 20px;
   border-radius: 40px;
   text-decoration: none;
-  font-weight: 600;
-  margin-left: 20px;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,209,255,0.3);
+  font-weight: 700;
+  white-space: nowrap;
+  margin-left: 15px;
+  transition: transform .3s, box-shadow .3s;
 }
 
-/* Footer new styles */
-footer {
-  padding: 50px 20px 30px;
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,209,255,.3);
 }
+
+
+/* =========================
+   DROPDOWN NAVIGATION
+   ========================= */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 230px;
+  background: var(--nav-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 0;
+  box-shadow: 0 15px 35px rgba(0,0,0,.35);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 16px;
+  color: var(--light);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+  color: var(--accent);
+  background: rgba(0,209,255,.06);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+  background: var(--footer-bg);
+  padding: 60px 20px 30px;
+  color: var(--muted);
+}
+
 .footer-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 40px;
   max-width: 1200px;
   margin: auto;
+  display: grid;
+  grid-template-columns:
+    1.6fr
+    repeat(5, 1fr);
+  gap: 35px;
   text-align: left;
 }
+
 .footer-col h3,
 .footer-col h4 {
   color: var(--accent);
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
+
 .footer-col p {
   color: var(--muted);
-  margin: 5px 0;
+  margin: 6px 0;
 }
+
 .footer-col a {
   display: block;
   color: var(--muted);
   text-decoration: none;
-  margin: 8px 0;
-  font-size: 0.95rem;
-  transition: color 0.3s;
+  margin: 9px 0;
+  font-size: .94rem;
+  transition: color .3s;
 }
+
 .footer-col a:hover {
   color: var(--accent);
 }
-.footer-social {
-  display: flex;
-  gap: 15px;
-  margin-top: 15px;
-}
-.footer-social img {
-  width: 28px;
-  height: 28px;
-  filter: brightness(0) invert(1); /* makes icons white in dark mode; adjust for light mode */
-}
-.footer-bottom {
-  max-width: 1200px;
-  margin: 30px auto 0;
-  padding-top: 20px;
-  border-top: 1px solid var(--border);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-.footer-bottom a {
-  color: var(--muted);
-  text-decoration: none;
-}
-.footer-bottom a:hover {
-  color: var(--accent);
-}
-.copyright {
-  max-width: 1200px;
-  margin: 20px auto 0;
-  text-align: center;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-.copyright span {
-  color: var(--accent);
+
+.footer-logo {
+  width: 70px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-  .cta-button {
-    display: none; /* hide on mobile, keep hamburger */
-  }
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-/* KDCN new navigation CTA button */
-.cta-button {
-  display: inline-block;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  color: #000;
-  padding: 8px 20px;
-  border-radius: 40px;
-  text-decoration: none;
+.footer-tagline {
   font-weight: 600;
-  margin-left: 20px;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,209,255,0.3);
 }
 
-/* Footer new styles */
-footer {
-  padding: 50px 20px 30px;
+.brand-desc {
+  max-width: 280px;
+  line-height: 1.6;
 }
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 40px;
-  max-width: 1200px;
-  margin: auto;
-  text-align: left;
+
+.footer-location {
+  margin-top: 18px !important;
 }
-.footer-col h3,
-.footer-col h4 {
-  color: var(--accent);
-  margin-bottom: 15px;
-}
-.footer-col p {
-  color: var(--muted);
-  margin: 5px 0;
-}
-.footer-col a {
-  display: block;
-  color: var(--muted);
-  text-decoration: none;
-  margin: 8px 0;
-  font-size: 0.95rem;
-  transition: color 0.3s;
-}
-.footer-col a:hover {
-  color: var(--accent);
-}
-.footer-social {
-  display: flex;
-  gap: 15px;
-  margin-top: 15px;
-}
-.footer-social img {
-  width: 28px;
-  height: 28px;
-  filter: brightness(0) invert(1); /* makes icons white in dark mode; adjust for light mode */
-}
+
+
+/* =========================
+   LEGAL STRIP
+   ========================= */
+
 .footer-bottom {
   max-width: 1200px;
-  margin: 30px auto 0;
-  padding-top: 20px;
+  margin: 40px auto 0;
+  padding-top: 22px;
   border-top: 1px solid var(--border);
+
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  justify-content: flex-end;
+  gap: 18px;
 }
+
 .footer-bottom a {
   color: var(--muted);
   text-decoration: none;
+  font-size: .88rem;
 }
+
 .footer-bottom a:hover {
   color: var(--accent);
 }
+
+
+/* =========================
+   COPYRIGHT
+   ========================= */
+
 .copyright {
   max-width: 1200px;
   margin: 20px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
   text-align: center;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: .88rem;
 }
+
 .copyright span {
   color: var(--accent);
 }
 
+
+/* =========================
+   MOBILE
+   ========================= */
+
 @media (max-width: 768px) {
+
   .cta-button {
-    display: none; /* hide on mobile, keep hamburger */
+    display: none;
   }
+
+  .dropdown-content {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr 1fr;
+    gap: 30px 20px;
+  }
+
+  .brand-col {
+    grid-column: 1 / -1;
+  }
+
+  .footer-bottom {
+    justify-content: center;
+    text-align: center;
   }
 }
+
+
+@media (max-width: 480px) {
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-col {
+    grid-column: auto;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+}
+/* KDCN V1.1 COMPONENTS END */
 </style>
 </head>
 <body>
 
 <nav>
   <div class="nav-container">
-    <div class="logo">
-      <img src="images/logo-transparent.png" alt="KDCN Logo">
-    </div>
+
+    <a href="index.html" class="logo" aria-label="KDCN Home">
+      <img src="images/logo-transparent.png"
+           alt="Kingman Digital Cyber Network Logo">
+    </a>
+
     <ul class="nav-menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="resources.html">Resources</a></li>
-      <li><a href="platform.html">Platform</a></li>
-      <li><a href="ecosystem.html">Ecosystem</a></li>
-      <li><a href="contact.html">Contact</a></li>
+
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+
+      <li class="dropdown">
+        <a href="about.html" class="dropbtn">About</a>
+        <div class="dropdown-content">
+          <a href="about.html">About Us</a>
+          <a href="approach.html">Our Approach</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="services.html" class="dropbtn">Services</a>
+        <div class="dropdown-content">
+          <a href="services.html">Services Overview</a>
+          <a href="cybersecurity.html">Cybersecurity Systems</a>
+          <a href="infrastructure.html">IT Infrastructure &amp; Cloud</a>
+          <a href="software-development.html">Software Development</a>
+          <a href="digital-consulting.html">Digital Systems Consulting</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="resources.html" class="dropbtn">Resources</a>
+        <div class="dropdown-content">
+          <a href="resources.html">Resources Hub</a>
+          <a href="blog.html">Blog</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="faq.html">FAQ</a>
+          <a href="knowledge-center.html">Knowledge Center</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="platform.html" class="dropbtn">Platform</a>
+        <div class="dropdown-content">
+          <a href="platform.html">Platform Overview</a>
+          <a href="client-portal.html">Client Portal</a>
+          <a href="platform-access.html">Platform Access</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="ecosystem.html" class="dropbtn">Ecosystem</a>
+        <div class="dropdown-content">
+          <a href="ecosystem.html">Ecosystem Overview</a>
+          <a href="ecosystem-overview.html">Explore Ecosystem</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="contact.html" class="dropbtn">Contact</a>
+        <div class="dropdown-content">
+          <a href="contact.html">Contact Us</a>
+          <a href="support.html">Technical Support</a>
+          <a href="livestream.html">Network Live Stream</a>
+        </div>
+      </li>
+
     </ul>
-    <a href="contact.html" class="cta-button">Get in Touch</a>
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
-    <div class="hamburger">
+
+    <a href="contact.html" class="cta-button">
+      Get in Touch
+    </a>
+
+    <button
+      class="theme-toggle"
+      id="theme-toggle"
+      aria-label="Toggle dark and light theme">
+      🌙
+    </button>
+
+    <button
+      class="hamburger"
+      aria-label="Open navigation menu"
+      aria-expanded="false">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
-    </div>
+    </button>
+
   </div>
 </nav>
 
@@ -505,67 +628,164 @@ footer {
 </section>
 
 <footer>
+
   <div class="footer-grid">
-    <div class="footer-col">
-      <h3>🐺 KDCN</h3>
-      <p>KINGMAN DIGITAL<br>CYBER NETWORK</p>
-      <p>Global IT & Cybersecurity Services</p>
-      <div class="footer-social">
-        <a href="https://www.facebook.com/Kingmandigitalnet" target="_blank" rel="noopener noreferrer"><img src="images/icons/facebook.png" alt="Facebook"></a>
-        <a href="https://x.com/KDCN_OFFICIAL" target="_blank" rel="noopener noreferrer"><img src="images/icons/x.png" alt="X"></a>
-        <a href="https://www.instagram.com/kingman.254k" target="_blank" rel="noopener noreferrer"><img src="images/icons/instagram.png" alt="Instagram"></a>
-        <a href="https://wa.me/254111843716" target="_blank" rel="noopener noreferrer"><img src="images/icons/whatsapp.png" alt="WhatsApp"></a>
-        <a href="https://youtube.com/@kingman-digital?si=57pVPskKmuR6epup" target="_blank" rel="noopener noreferrer"><img src="images/icons/youtube.png" alt="YouTube"></a>
-        <a href="https://www.linkedin.com/company/kingman-digital" target="_blank" rel="noopener noreferrer"><img src="images/icons/linkedin.png" alt="LinkedIn"></a>
-      </div>
+
+    <!-- BRAND -->
+    <div class="footer-col brand-col">
+
+      <img
+        src="images/logo.png"
+        alt="KDCN Logo"
+        class="footer-logo">
+
+      <h3>
+        KINGMAN DIGITAL<br>
+        CYBER NETWORK
+      </h3>
+
+      <p class="footer-tagline">
+        Global IT &amp; Cybersecurity Services
+      </p>
+
+      <p class="brand-desc">
+        Building secure, scalable, and sustainable digital systems
+        for individuals, businesses, and organizations.
+      </p>
+
     </div>
+
+
+    <!-- COMPANY -->
     <div class="footer-col">
+
       <h4>Company</h4>
+
       <a href="about.html">About Us</a>
       <a href="approach.html">Our Approach</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="careers.html">Careers</a>
+
     </div>
+
+
+    <!-- SERVICES -->
     <div class="footer-col">
+
       <h4>Services</h4>
-      <a href="services.html#cybersecurity">Cybersecurity Systems</a>
-      <a href="services.html#it-infrastructure">IT Infrastructure & Cloud</a>
-      <a href="services.html#software-development">Software Development</a>
-      <a href="services.html#digital-consulting">Digital Systems Consulting</a>
+
+      <a href="services.html">Services Overview</a>
+      <a href="cybersecurity.html">Cybersecurity Systems</a>
+      <a href="infrastructure.html">IT Infrastructure &amp; Cloud</a>
+      <a href="software-development.html">Software Development</a>
+      <a href="digital-consulting.html">Digital Systems Consulting</a>
+
     </div>
+
+
+    <!-- DIGITAL -->
     <div class="footer-col">
+
       <h4>KDCN Digital</h4>
+
       <a href="platform.html">KDCN Platform</a>
+      <a href="platform-access.html">Platform Access</a>
+      <a href="client-portal.html">Client Portal</a>
+
       <a href="ecosystem.html">KDCN Ecosystem</a>
-      <a href="platform.html#access">Platform Access</a>
-      <a href="ecosystem.html#overview">Ecosystem Overview</a>
+      <a href="ecosystem-overview.html">Explore Ecosystem</a>
+
     </div>
+
+
+    <!-- RESOURCES -->
     <div class="footer-col">
+
       <h4>Resources</h4>
+
+      <a href="resources.html">Resources Hub</a>
       <a href="blog.html">Blog</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="faq.html">FAQ</a>
       <a href="knowledge-center.html">Knowledge Center</a>
+
     </div>
+
+
+    <!-- CONTACT -->
     <div class="footer-col">
+
       <h4>Contact</h4>
-      <a href="mailto:kingmandigitalcybernetwork@gmail.com">Email</a>
-      <a href="https://wa.me/254111843716" target="_blank">WhatsApp</a>
+
+      <a href="contact.html">Contact Us</a>
       <a href="support.html">Technical Support</a>
       <a href="livestream.html">Network Live Stream</a>
-      <p>Embu, Kenya<br>East Africa</p>
+
+      <p class="footer-location">
+        Embu, Kenya<br>
+        East Africa
+      </p>
+
+      <a href="mailto:kingmandigitalcybernetwork@gmail.com">
+        Email KDCN
+      </a>
+
+      <a
+        href="https://wa.me/254111843716"
+        target="_blank"
+        rel="noopener noreferrer">
+        WhatsApp
+      </a>
+
     </div>
+
   </div>
-  <div class="footer-bottom">
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="terms.html">Terms of Service</a>
-    <a href="security.html">Security</a>
-    <a href="accessibility.html">Accessibility</a>
+
+
+  <!-- LEGAL / TRUST -->
+  <div class="footer-bottom legal-links">
+
+    <a href="privacy.html">
+      🔒 Privacy Policy
+    </a>
+
+    <a href="terms.html">
+      Terms of Service
+    </a>
+
+    <a href="cookies.html">
+      Cookie Policy
+    </a>
+
+    <a href="cookie-preferences.html">
+      Cookie Preferences
+    </a>
+
+    <a href="security.html">
+      Security
+    </a>
+
+    <a href="accessibility.html">
+      Accessibility
+    </a>
+
   </div>
+
+
+  <!-- COPYRIGHT -->
   <div class="copyright">
-    <p><span>© 2026 Kingman Digital Cyber Network.</span> All Rights Reserved.</p>
-    <p>Global IT & Cybersecurity Services</p>
+
+    <p>
+      <span>© 2026 Kingman Digital Cyber Network.</span>
+      All Rights Reserved.
+    </p>
+
+    <p>
+      Global IT &amp; Cybersecurity Services
+    </p>
+
   </div>
+
 </footer>
 
 <script>

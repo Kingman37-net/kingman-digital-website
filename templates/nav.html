@@ -1,23 +1,94 @@
 <nav>
   <div class="nav-container">
-    <div class="logo">
-      <img src="images/logo-transparent.png" alt="KDCN Logo">
-    </div>
+
+    <a href="index.html" class="logo" aria-label="KDCN Home">
+      <img src="images/logo-transparent.png"
+           alt="Kingman Digital Cyber Network Logo">
+    </a>
+
     <ul class="nav-menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="resources.html">Resources</a></li>
-      <li><a href="platform.html">Platform</a></li>
-      <li><a href="ecosystem.html">Ecosystem</a></li>
-      <li><a href="contact.html">Contact</a></li>
+
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+
+      <li class="dropdown">
+        <a href="about.html" class="dropbtn">About</a>
+        <div class="dropdown-content">
+          <a href="about.html">About Us</a>
+          <a href="approach.html">Our Approach</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="services.html" class="dropbtn">Services</a>
+        <div class="dropdown-content">
+          <a href="services.html">Services Overview</a>
+          <a href="cybersecurity.html">Cybersecurity Systems</a>
+          <a href="infrastructure.html">IT Infrastructure &amp; Cloud</a>
+          <a href="software-development.html">Software Development</a>
+          <a href="digital-consulting.html">Digital Systems Consulting</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="resources.html" class="dropbtn">Resources</a>
+        <div class="dropdown-content">
+          <a href="resources.html">Resources Hub</a>
+          <a href="blog.html">Blog</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="faq.html">FAQ</a>
+          <a href="knowledge-center.html">Knowledge Center</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="platform.html" class="dropbtn">Platform</a>
+        <div class="dropdown-content">
+          <a href="platform.html">Platform Overview</a>
+          <a href="client-portal.html">Client Portal</a>
+          <a href="platform-access.html">Platform Access</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="ecosystem.html" class="dropbtn">Ecosystem</a>
+        <div class="dropdown-content">
+          <a href="ecosystem.html">Ecosystem Overview</a>
+          <a href="ecosystem-overview.html">Explore Ecosystem</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="contact.html" class="dropbtn">Contact</a>
+        <div class="dropdown-content">
+          <a href="contact.html">Contact Us</a>
+          <a href="support.html">Technical Support</a>
+          <a href="livestream.html">Network Live Stream</a>
+        </div>
+      </li>
+
     </ul>
-    <a href="contact.html" class="cta-button">Get in Touch</a>
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
-    <div class="hamburger">
+
+    <a href="contact.html" class="cta-button">
+      Get in Touch
+    </a>
+
+    <button
+      class="theme-toggle"
+      id="theme-toggle"
+      aria-label="Toggle dark and light theme">
+      🌙
+    </button>
+
+    <button
+      class="hamburger"
+      aria-label="Open navigation menu"
+      aria-expanded="false">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
-    </div>
+    </button>
+
   </div>
 </nav>
