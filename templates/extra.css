@@ -465,3 +465,61 @@ footer {
   }
 
 }
+
+/* =========================================================
+   LEVEL 3 — FBI-STYLE AUTHORITY STAMP
+   ========================================================= */
+
+.kdcn-footer-authority {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.authority-divider {
+  width: 120px;
+  height: 3px;
+  background: var(--accent);
+  margin: 0 auto 25px auto;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.5);
+}
+
+.authority-address {
+  font-family: 'Courier New', monospace;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+  text-shadow: 0 0 20px rgba(0, 229, 255, 0.15);
+}
+
+.authority-tagline {
+  color: var(--muted);
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  margin: 0 0 12px 0;
+  font-weight: 300;
+}
+
+.authority-copyright {
+  color: #555;
+  font-size: 0.8rem;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+/* Mobile responsiveness for the stamp */
+@media (max-width: 480px) {
+  .authority-address {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+  .authority-divider {
+    width: 80px;
+  }
+}
+
