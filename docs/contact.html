@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <title>Contact | Kingman Digital Cyber Network</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Get in touch with Kingman Digital Cyber Network via email, WhatsApp, Telegram, Instagram, or our contact form.">
+<meta name="description" content="Get in touch with Kingman Digital Cyber Network via email, WhatsApp, Facebook, LinkedIn, Instagram, or our contact form.">
 <link rel="icon" href="images/logo-transparent.png">
 <style>
 /* Same global styles as previous pages */
@@ -165,19 +165,30 @@ section {
 .contact-card h3 {
   color: var(--accent);
   margin-bottom: 10px;
+  font-size: 1.2rem;
 }
 .contact-card p {
   color: var(--muted);
   font-size: 1rem;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
+  word-break: break-word;
 }
-.contact-card a {
-  color: var(--accent);
+/* --- BUTTON STYLE FOR CONTACT CARDS --- */
+.contact-card .contact-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #000;
+  font-weight: 700;
+  padding: 10px 24px;
+  border-radius: 40px;
   text-decoration: none;
-  font-weight: 600;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-top: 4px;
+  font-size: 0.95rem;
 }
-.contact-card a:hover {
-  text-decoration: underline;
+.contact-card .contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,209,255,0.3);
 }
 .contact-form {
   max-width: 600px;
@@ -600,36 +611,36 @@ footer {
 
 <header>
   <h1>Contact <span>Us</span></h1>
-  <p>Reach Kingman Digital Cyber Network via email, WhatsApp, Telegram, Instagram, or our contact form.</p>
+  <p>Reach Kingman Digital Cyber Network via email, WhatsApp, Facebook, LinkedIn, Instagram, or our contact form.</p>
 </header>
 
 <section>
   <h2 class="section-title">Get In Touch</h2>
   <div class="contact-info">
     <div class="contact-card">
-      <h3>Email</h3>
+      <h3>📧 Email</h3>
       <p>kingmandigitalcybernetwork@gmail.com</p>
-      <a href="mailto:kingmandigitalcybernetwork@gmail.com">Send Email</a>
+      <a href="mailto:kingmandigitalcybernetwork@gmail.com" class="contact-btn">Send Email</a>
     </div>
     <div class="contact-card">
-      <h3>WhatsApp</h3>
-      <p>+254111843716</p>
-      <a href="https://wa.me/254111843716" target="_blank" rel="noopener noreferrer">Chat Now</a>
+      <h3>📱 WhatsApp</h3>
+      <p>+254 111 843 716</p>
+      <a href="https://wa.me/254111843716" target="_blank" rel="noopener noreferrer" class="contact-btn">Chat Now</a>
     </div>
     <div class="contact-card">
-      <h3>Telegram</h3>
-      <p>@KINGMAN_KE</p>
-      <a href="https://t.me/KINGMAN_KE" target="_blank" rel="noopener noreferrer">Join Telegram</a>
+      <h3>📘 Facebook</h3>
+      <p>Kingman Digital Cyber Network</p>
+      <a href="https://www.facebook.com/Kingmandigitalnet" target="_blank" rel="noopener noreferrer" class="contact-btn">Follow Us</a>
     </div>
     <div class="contact-card">
-      <h3>Instagram</h3>
-      <p>@kingman.254k</p>
-      <a href="https://www.instagram.com/kingman.254k" target="_blank" rel="noopener noreferrer">Visit Instagram</a>
+      <h3>💼 LinkedIn</h3>
+      <p>Kingman Digital Cyber Network</p>
+      <a href="https://www.linkedin.com/company/kingman-digital-cyber-network" target="_blank" rel="noopener noreferrer" class="contact-btn">Connect</a>
     </div>
     <div class="contact-card">
-      <h3>Threads</h3>
-      <p>@kingman.254k</p>
-      <a href="https://www.threads.net/@kingman.254k" target="_blank" rel="noopener noreferrer">Visit Threads</a>
+      <h3>📸 Instagram</h3>
+      <p>@kingman_ke</p>
+      <a href="https://www.instagram.com/kingman_ke" target="_blank" rel="noopener noreferrer" class="contact-btn">Visit</a>
     </div>
   </div>
 </section>
@@ -644,6 +655,7 @@ footer {
   </form>
 </section>
 
+<!-- ==================== FOOTER ==================== -->
 <footer class="kdcn-footer"><footer class="kdcn-footer">
 
   <!-- =====================================================
@@ -746,21 +758,6 @@ footer {
     toggle.textContent = isLight ? '☀️' : '🌙';
   });
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- KDCN Chat Widget -->
 <style>
