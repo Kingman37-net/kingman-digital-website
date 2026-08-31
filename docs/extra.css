@@ -1,0 +1,231 @@
+/* =========================================================
+   KDCN FOOTER — EXACT ASCII MATCH
+   ========================================================= */
+
+.kdcn-footer {
+  background: var(--footer-bg);
+  color: var(--muted);
+  padding: 60px 20px 30px;
+}
+
+/* =========================================================
+   LEVEL 1 — 3-COLUMN GRID
+   ========================================================= */
+
+.kdcn-footer-level {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.level-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding-bottom: 40px;
+}
+
+.footer-section h4 {
+  color: var(--accent);
+  margin: 0 0 18px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-section a {
+  display: block;
+  width: fit-content;
+  color: var(--muted);
+  text-decoration: none;
+  margin: 10px 0;
+  font-size: 0.94rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-section a:hover {
+  color: var(--accent);
+  transform: translateX(3px);
+}
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.footer-divider {
+  border: 0;
+  height: 2px;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  background: linear-gradient(to right, transparent, var(--accent), transparent);
+}
+
+/* =========================================================
+   LEVEL 2 — SIDE-BY-SIDE (Identity | Legal)
+   ========================================================= */
+
+.level-two {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+/* =========================================================
+   IDENTITY (LEFT)
+   ========================================================= */
+
+.footer-identity {
+  max-width: 600px;
+}
+
+.footer-logo {
+  width: 72px;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.footer-identity h3 {
+  color: var(--accent);
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.legal-name {
+  margin: 0 0 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.footer-motto {
+  color: var(--light);
+  line-height: 1.7;
+  font-style: italic;
+  margin: 18px 0 12px 0;
+}
+
+.footer-location {
+  color: #cccccc;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 16px 0 20px 0;
+  letter-spacing: 0.3px;
+}
+
+/* SOCIALS */
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin-top: 10px;
+}
+
+.footer-socials a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+  color: var(--accent);
+}
+
+/* =========================================================
+   LEGAL (RIGHT)
+   ========================================================= */
+
+.footer-legal {
+  border-left: 2px solid var(--border);
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.legal-copyright {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 0 20px 0;
+}
+
+.footer-legal a {
+  color: var(--muted);
+  text-decoration: none;
+  margin: 6px 0;
+  font-size: 0.94rem;
+  transition: color 0.3s, transform 0.3s;
+  width: fit-content;
+}
+
+.footer-legal a:hover {
+  color: var(--accent);
+  transform: translateX(3px);
+}
+
+/* =========================================================
+   MOBILE — STACK LEVEL 2 VERTICALLY
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .kdcn-footer {
+    padding: 40px 18px 20px;
+  }
+
+  .level-one {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 20px;
+  }
+
+  .level-one .footer-section:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .level-two {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-legal {
+    border-left: none;
+    border-top: 2px solid var(--border);
+    padding-left: 0;
+    padding-top: 30px;
+  }
+
+  .footer-identity {
+    max-width: 100%;
+  }
+
+  .footer-socials {
+    gap: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .level-one {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .level-one .footer-section:last-child {
+    grid-column: auto;
+  }
+
+  .footer-logo {
+    width: 56px;
+  }
+
+  .footer-identity h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-location {
+    font-size: 0.95rem;
+  }
+}
