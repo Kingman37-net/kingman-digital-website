@@ -7,7 +7,9 @@
 
 <div align="center">
 
-# 🐺 KINGMAN DIGITAL CYBER NETWORK
+<img src="https://raw.githubusercontent.com/Kingman37-net/kingman-digital-website/Root/docs/images/logo.png" width="120" height="auto" alt="KDCN Logo">
+
+# KINGMAN DIGITAL CYBER NETWORK
 
 ## *The Digital System*
 
@@ -290,8 +292,6 @@ Each stage is designed to strengthen the foundation established by the previous 
 
 ---
 
-### 🐺 © 2026 KINGMAN DIGITAL CYBER NETWORK (KDCN). All rights reserved.
+### © 2026 KINGMAN DIGITAL CYBER NETWORK (KDCN). All rights reserved.
 
 </div>
-
----
