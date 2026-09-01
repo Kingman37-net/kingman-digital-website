@@ -1,0 +1,49 @@
+============================================================
+  KDCN BRAND COLORS
+  KINGMAN DIGITAL CYBER NETWORK
+============================================================
+
+PRIMARY PALETTE
+---------------
+Dark Navy:      #0a0f14    RGB: 10, 15, 20
+Primary Blue:   #0b7fab    RGB: 11, 127, 171
+Accent Cyan:    #00d1ff    RGB: 0, 209, 255
+White:          #ffffff    RGB: 255, 255, 255
+Muted Gray:     #b9c6cf    RGB: 185, 198, 207
+
+LIGHT MODE PALETTE
+------------------
+Light Background: #f0f4f8    RGB: 240, 244, 248
+Dark Text:         #111111    RGB: 17, 17, 17
+Muted Text:        #2c3e44    RGB: 44, 62, 68
+Accent Blue:       #0077b6    RGB: 0, 119, 182
+
+GRADIENT
+--------
+Primary Gradient: #0b7fab → #00d1ff
+
+FONTS
+-----
+Primary Font: Segoe UI
+Fallback: system-ui, sans-serif
+
+WEBSITE
+-------
+URL: https://kingman37-net.github.io/kingman-digital-website/
+
+SOCIAL MEDIA
+------------
+Facebook:  https://www.facebook.com/Kingmandigitalnet
+X:         https://x.com/KDCN_OFFICIAL
+LinkedIn:  https://www.linkedin.com/company/kingman-digital-cyber-network
+Instagram: https://www.instagram.com/kingman_ke
+
+CONTACT
+-------
+Email: kingmandigitalcybernetwork@gmail.com
+Phone: +254 111 843 716
+Location: Manyatta, Embu, Kenya
+
+============================================================
+© 2026 KINGMAN DIGITAL CYBER NETWORK. All rights reserved.
+============================================================
