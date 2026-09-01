@@ -271,6 +271,17 @@ Each stage is designed to strengthen the foundation established by the previous 
 
 ---
 
+## 🤝 Community Guidelines
+
+We follow GitHub's Community Guidelines. By interacting with this repository, you agree to:
+
+- Be welcoming and open-minded.
+- Be respectful and constructive.
+- Be empathetic to others.
+
+Read the full guidelines: [GitHub Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
+
+---
 ## 📜 Executive Statement
 
 > *KINGMAN DIGITAL CYBER NETWORK exists to build digital infrastructure that organizations can depend on.*
