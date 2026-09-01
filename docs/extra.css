@@ -1,16 +1,202 @@
 /* =========================================================
-   KDCN FOOTER — EXACT ASCII MATCH
+   KDCN GLOBAL THEME VARIABLES
    ========================================================= */
 
-.kdcn-footer {
-  background: var(--footer-bg);
-  color: var(--muted);
-  padding: 60px 20px 30px;
+:root {
+  --primary: #0b7fab;
+  --accent: #00d1ff;
+  --dark: #0a0f14;
+  --light: #ffffff;
+  --muted: #b9c6cf;
+  --bg-gradient: linear-gradient(180deg, #060b10, #0a1118);
+  --card-bg: rgba(255, 255, 255, 0.04);
+  --border: rgba(255, 255, 255, 0.08);
+  --nav-bg: #0a1118;
+  --footer-bg: #05080c;
+}
+
+body.light {
+  --primary: #0b7fab;
+  --accent: #0077b6;
+  --dark: #f0f4f8;
+  --light: #111;
+  --muted: #2c3e44;
+  --bg-gradient: linear-gradient(180deg, #eef2f5, #ffffff);
+  --card-bg: rgba(0, 0, 0, 0.02);
+  --border: rgba(0, 0, 0, 0.08);
+  --nav-bg: #f8fafc;
+  --footer-bg: #eef2f5;
 }
 
 /* =========================================================
-   LEVEL 1 — 3-COLUMN GRID
+   GLOBAL BASE STYLES
    ========================================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  background: var(--bg-gradient);
+  color: var(--light);
+  line-height: 1.7;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light nav {
+  background: var(--nav-bg);
+  border-bottom-color: var(--border);
+}
+
+body.light nav a {
+  color: var(--light);
+}
+
+body.light footer {
+  background: var(--footer-bg);
+  color: #2c3e44;
+}
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--border);
+  z-index: 999;
+  padding: 1rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-menu a {
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: var(--accent);
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background: var(--light);
+  transition: 0.3s;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0 0.5rem;
+}
+
+/* =========================================================
+   DROPDOWN NAVIGATION
+   ========================================================= */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 230px;
+  background: var(--nav-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 0;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 16px;
+  color: var(--light);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+  color: var(--accent);
+  background: rgba(0, 209, 255, 0.06);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* =========================================================
+   CTA BUTTON
+   ========================================================= */
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #000;
+  padding: 9px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 700;
+  white-space: nowrap;
+  margin-left: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 209, 255, 0.3);
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+  background: var(--footer-bg);
+  padding: 60px 20px 30px;
+  color: var(--muted);
+}
 
 .kdcn-footer-level {
   max-width: 1200px;
@@ -48,10 +234,6 @@
   transform: translateX(3px);
 }
 
-/* =========================================================
-   DIVIDER
-   ========================================================= */
-
 .footer-divider {
   border: 0;
   height: 2px;
@@ -59,10 +241,6 @@
   margin: 0 auto 40px auto;
   background: linear-gradient(to right, transparent, var(--accent), transparent);
 }
-
-/* =========================================================
-   LEVEL 2 — SIDE-BY-SIDE (Identity | Legal)
-   ========================================================= */
 
 .level-two {
   display: grid;
@@ -72,10 +250,6 @@
   margin: 0 auto;
   padding-top: 10px;
 }
-
-/* =========================================================
-   IDENTITY (LEFT)
-   ========================================================= */
 
 .footer-identity {
   max-width: 600px;
@@ -117,7 +291,6 @@
   letter-spacing: 0.3px;
 }
 
-/* SOCIALS */
 .footer-socials {
   display: flex;
   flex-wrap: wrap;
@@ -135,10 +308,6 @@
 .footer-socials a:hover {
   color: var(--accent);
 }
-
-/* =========================================================
-   LEGAL (RIGHT)
-   ========================================================= */
 
 .footer-legal {
   border-left: 2px solid var(--border);
@@ -169,39 +338,68 @@
 }
 
 /* =========================================================
-   MOBILE — STACK LEVEL 2 VERTICALLY
+   MOBILE
    ========================================================= */
 
 @media (max-width: 768px) {
-  .kdcn-footer {
-    padding: 40px 18px 20px;
+  .hamburger {
+    display: block;
   }
-
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background: var(--nav-bg);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding: 2rem 0;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .nav-container {
+    flex-wrap: wrap;
+  }
+  .nav-container .theme-toggle {
+    order: 2;
+  }
+  .cta-button {
+    display: none;
+  }
+  .dropdown-content {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
   .level-one {
     grid-template-columns: 1fr 1fr;
     gap: 30px 20px;
   }
-
   .level-one .footer-section:last-child {
     grid-column: 1 / -1;
   }
-
   .level-two {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-
   .footer-legal {
     border-left: none;
     border-top: 2px solid var(--border);
     padding-left: 0;
     padding-top: 30px;
   }
-
   .footer-identity {
     max-width: 100%;
   }
-
   .footer-socials {
     gap: 10px 15px;
   }
@@ -212,19 +410,15 @@
     grid-template-columns: 1fr;
     gap: 25px;
   }
-
   .level-one .footer-section:last-child {
     grid-column: auto;
   }
-
   .footer-logo {
     width: 56px;
   }
-
   .footer-identity h3 {
     font-size: 1.2rem;
   }
-
   .footer-location {
     font-size: 0.95rem;
   }

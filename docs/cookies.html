@@ -1,300 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Policy | Kingman Digital Cyber Network</title>
+    <meta name="description" content="KDCN Cookie Policy — how we use cookies and how you can manage your preferences.">
+    <link rel="icon" href="images/logo-transparent.png">
     <link rel="stylesheet" href="extra.css">
-<meta charset="UTF-8">
-<title>Cookie Policy | KDCN</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="How KDCN uses cookies.">
-<link rel="icon" href="images/logo-transparent.png">
-<style>
-
-:root {
-  --primary: #0b7fab;
-  --accent: #00d1ff;
-  --dark: #0a0f14;
-  --light: #ffffff;
-  --muted: #b9c6cf;
-  --bg-gradient: linear-gradient(180deg, #060b10, #0a1118);
-  --card-bg: rgba(255,255,255,0.04);
-  --border: rgba(255,255,255,0.08);
-  --nav-bg: #0a1118;
-  --footer-bg: #05080c;
-}
-* { margin:0; padding:0; box-sizing:border-box; font-family:"Segoe UI", system-ui, sans-serif; }
-body { background:var(--bg-gradient); color:var(--light); line-height:1.7; }
-nav { position:fixed; top:0; width:100%; background:var(--nav-bg); border-bottom:1px solid var(--border); z-index:999; padding:1rem; }
-.nav-container { display:flex; justify-content:space-between; align-items:center; max-width:1200px; margin:auto; }
-.nav-menu { display:flex; gap:30px; list-style:none; }
-.nav-menu a { color:var(--light); text-decoration:none; font-weight:600; }
-.logo img { height:40px; }
-.hamburger { display:none; }
-.bar { display:block; width:25px; height:3px; margin:5px auto; background:var(--light); }
-.theme-toggle { background:none; border:none; font-size:1.5rem; cursor:pointer; margin-left:1rem; }
-header { text-align:center; padding:140px 20px 80px; }
-h1 { font-size:2.5rem; }
-h1 span { color:var(--accent); }
-section { max-width:800px; margin:auto; padding:70px 20px; text-align:center; }
-p { color:var(--muted); }
-footer { background:var(--footer-bg); padding:50px 20px 30px; color:var(--muted); text-align:center; }
-
-
-/* Dropdown styling */
-.nav-menu li { position: relative; }
-.dropdown-content { display:none; position:absolute; background:var(--nav-bg); min-width:200px; box-shadow:0 8px 16px rgba(0,0,0,0.5); z-index:1000; border-radius:8px; border:1px solid var(--border); }
-.dropdown-content a { color:var(--light); padding:12px 16px; text-decoration:none; display:block; text-align:left; }
-.dropdown-content a:hover { background:rgba(255,255,255,0.1); color:var(--accent); }
-.dropdown:hover .dropdown-content { display:block; }
-@media (max-width:768px) {
-  .dropdown-content { position:static; box-shadow:none; border:none; background:transparent; }
-  .dropdown.active .dropdown-content { display:block; }
-}
-
-
+    <style>
+        /* Cookie Policy Specific Styles */
+        .legal-page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 140px 20px 60px;
+        }
+        .legal-page h1 {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        .legal-page .last-updated {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1rem;
+        }
+        .legal-page h2 {
+            color: var(--accent);
+            margin-top: 2.5rem;
+            font-size: 1.5rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.5rem;
+        }
+        .legal-page h3 {
+            color: var(--light);
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+        }
+        .legal-page p, .legal-page li {
+            color: var(--muted);
+            line-height: 1.8;
+        }
+        .legal-page ul {
+            padding-left: 1.5rem;
+            margin: 1rem 0;
+        }
+        .legal-page ul li {
+            margin-bottom: 0.5rem;
+        }
+        .legal-page .highlight-box {
+            background: var(--card-bg);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border: 1px solid var(--border);
+        }
+        .legal-page .highlight-box p {
+            margin: 0;
+        }
+        .legal-page .highlight-box strong {
+            color: var(--accent);
+        }
+        .legal-page .contact-block {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-top: 1rem;
+        }
+        .legal-page .contact-block p {
+            margin: 4px 0;
+        }
+        .legal-page .table-of-contents {
+            background: var(--card-bg);
+            padding: 1.5rem 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+        .legal-page .table-of-contents a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .legal-page .table-of-contents a:hover {
+            text-decoration: underline;
+        }
+        .legal-page .table-of-contents li {
+            margin-bottom: 0.3rem;
+        }
+        .legal-page .cookie-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+        .legal-page .cookie-table th {
+            background: var(--card-bg);
+            color: var(--accent);
+            border: 1px solid var(--border);
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 700;
+        }
+        .legal-page .cookie-table td {
+            border: 1px solid var(--border);
+            padding: 10px 15px;
+            color: var(--muted);
+        }
+        .legal-page .cookie-table tr:hover td {
+            background: var(--card-bg);
+        }
+        .legal-page .badge {
+            display: inline-block;
+            padding: 0.2rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .legal-page .badge-essential {
+            background: rgba(0, 209, 255, 0.15);
+            color: var(--accent);
+            border: 1px solid var(--accent);
+        }
+        .legal-page .badge-functional {
+            background: rgba(0, 209, 255, 0.1);
+            color: #88ccff;
+            border: 1px solid #88ccff;
+        }
+        .legal-page .badge-analytics {
+            background: rgba(255, 193, 7, 0.15);
+            color: #ffc107;
+            border: 1px solid #ffc107;
+        }
+        .legal-page .badge-marketing {
+            background: rgba(255, 87, 34, 0.15);
+            color: #ff5722;
+            border: 1px solid #ff5722;
+        }
+        @media (max-width: 768px) {
+            .legal-page {
+                padding: 120px 16px 40px;
+            }
+            .legal-page h1 {
+                font-size: 2rem;
+            }
+            .legal-page .table-of-contents {
+                padding: 1rem;
+            }
+            .legal-page .cookie-table {
+                font-size: 0.85rem;
+            }
+            .legal-page .cookie-table th,
+            .legal-page .cookie-table td {
+                padding: 8px 10px;
+            }
+        }
+        @media (max-width: 480px) {
+            .legal-page .cookie-table {
+                font-size: 0.75rem;
+            }
+            .legal-page .cookie-table th,
+            .legal-page .cookie-table td {
+                padding: 6px 8px;
+            }
+        }
+    
 /* KDCN V1.1 COMPONENTS START */
 /* =========================================================
-   KDCN WEBSITE V1.1
-   GLOBAL NAVIGATION + FOOTER COMPONENTS
+   KDCN FOOTER — EXACT ASCII MATCH
    ========================================================= */
 
-
-/* =========================
-   NAVIGATION CTA
-   ========================= */
-
-.cta-button {
-  display: inline-block;
-  background: linear-gradient(
-    135deg,
-    var(--primary),
-    var(--accent)
-  );
-  color: #000;
-  padding: 9px 20px;
-  border-radius: 40px;
-  text-decoration: none;
-  font-weight: 700;
-  white-space: nowrap;
-  margin-left: 15px;
-  transition: transform .3s, box-shadow .3s;
-}
-
-.cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,209,255,.3);
-}
-
-
-/* =========================
-   DROPDOWN NAVIGATION
-   ========================= */
-
-.dropdown {
-  position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  min-width: 230px;
-  background: var(--nav-bg);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px 0;
-  box-shadow: 0 15px 35px rgba(0,0,0,.35);
-  z-index: 1000;
-}
-
-.dropdown-content a {
-  display: block;
-  padding: 10px 16px;
-  color: var(--light);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.dropdown-content a:hover {
-  color: var(--accent);
-  background: rgba(0,209,255,.06);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-/* =========================
-   FOOTER
-   ========================= */
-
-footer {
+.kdcn-footer {
   background: var(--footer-bg);
+  color: var(--muted);
   padding: 60px 20px 30px;
-  color: var(--muted);
 }
 
-.footer-grid {
+/* =========================================================
+   LEVEL 1 — 3-COLUMN GRID
+   ========================================================= */
+
+.kdcn-footer-level {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.level-one {
   display: grid;
-  grid-template-columns:
-    1.6fr
-    repeat(5, 1fr);
-  gap: 35px;
-  text-align: left;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding-bottom: 40px;
 }
 
-.footer-col h3,
-.footer-col h4 {
+.footer-section h4 {
   color: var(--accent);
-  margin-bottom: 16px;
+  margin: 0 0 18px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.footer-col p {
-  color: var(--muted);
-  margin: 6px 0;
-}
-
-.footer-col a {
+.footer-section a {
   display: block;
+  width: fit-content;
   color: var(--muted);
   text-decoration: none;
-  margin: 9px 0;
-  font-size: .94rem;
-  transition: color .3s;
+  margin: 10px 0;
+  font-size: 0.94rem;
+  transition: color 0.3s, transform 0.3s;
 }
 
-.footer-col a:hover {
+.footer-section a:hover {
   color: var(--accent);
+  transform: translateX(3px);
+}
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.footer-divider {
+  border: 0;
+  height: 2px;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  background: linear-gradient(to right, transparent, var(--accent), transparent);
+}
+
+/* =========================================================
+   LEVEL 2 — SIDE-BY-SIDE (Identity | Legal)
+   ========================================================= */
+
+.level-two {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+/* =========================================================
+   IDENTITY (LEFT)
+   ========================================================= */
+
+.footer-identity {
+  max-width: 600px;
 }
 
 .footer-logo {
-  width: 70px;
+  width: 72px;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-.footer-tagline {
+.footer-identity h3 {
+  color: var(--accent);
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.legal-name {
+  margin: 0 0 16px;
   font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-size: 0.95rem;
 }
 
-.brand-desc {
-  max-width: 280px;
-  line-height: 1.6;
+.footer-motto {
+  color: var(--light);
+  line-height: 1.7;
+  font-style: italic;
+  margin: 18px 0 12px 0;
 }
 
 .footer-location {
-  margin-top: 18px !important;
+  color: #cccccc;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 16px 0 20px 0;
+  letter-spacing: 0.3px;
 }
 
-
-/* =========================
-   LEGAL STRIP
-   ========================= */
-
-.footer-bottom {
-  max-width: 1200px;
-  margin: 40px auto 0;
-  padding-top: 22px;
-  border-top: 1px solid var(--border);
-
+/* SOCIALS */
+.footer-socials {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 18px;
+  gap: 12px 18px;
+  margin-top: 10px;
 }
 
-.footer-bottom a {
+.footer-socials a {
   color: var(--muted);
   text-decoration: none;
-  font-size: .88rem;
+  font-size: 0.9rem;
+  transition: color 0.3s;
 }
 
-.footer-bottom a:hover {
+.footer-socials a:hover {
   color: var(--accent);
 }
 
+/* =========================================================
+   LEGAL (RIGHT)
+   ========================================================= */
 
-/* =========================
-   COPYRIGHT
-   ========================= */
+.footer-legal {
+  border-left: 2px solid var(--border);
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+}
 
-.copyright {
-  max-width: 1200px;
-  margin: 20px auto 0;
-  padding-top: 18px;
-  border-top: 1px solid var(--border);
-  text-align: center;
+.legal-copyright {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 0 20px 0;
+}
+
+.footer-legal a {
   color: var(--muted);
-  font-size: .88rem;
+  text-decoration: none;
+  margin: 6px 0;
+  font-size: 0.94rem;
+  transition: color 0.3s, transform 0.3s;
+  width: fit-content;
 }
 
-.copyright span {
+.footer-legal a:hover {
   color: var(--accent);
+  transform: translateX(3px);
 }
 
-
-/* =========================
-   MOBILE
-   ========================= */
+/* =========================================================
+   MOBILE — STACK LEVEL 2 VERTICALLY
+   ========================================================= */
 
 @media (max-width: 768px) {
-
-  .cta-button {
-    display: none;
+  .kdcn-footer {
+    padding: 40px 18px 20px;
   }
 
-  .dropdown-content {
-    position: static;
-    width: 100%;
-    box-shadow: none;
-    border: none;
-    border-radius: 0;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .footer-grid {
+  .level-one {
     grid-template-columns: 1fr 1fr;
     gap: 30px 20px;
   }
 
-  .brand-col {
+  .level-one .footer-section:last-child {
     grid-column: 1 / -1;
   }
 
-  .footer-bottom {
-    justify-content: center;
-    text-align: center;
+  .level-two {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-legal {
+    border-left: none;
+    border-top: 2px solid var(--border);
+    padding-left: 0;
+    padding-top: 30px;
+  }
+
+  .footer-identity {
+    max-width: 100%;
+  }
+
+  .footer-socials {
+    gap: 10px 15px;
   }
 }
 
-
 @media (max-width: 480px) {
-
-  .footer-grid {
+  .level-one {
     grid-template-columns: 1fr;
+    gap: 25px;
   }
 
-  .brand-col {
+  .level-one .footer-section:last-child {
     grid-column: auto;
   }
 
-  .footer-bottom {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  .footer-logo {
+    width: 56px;
   }
 
+  .footer-identity h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-location {
+    font-size: 0.95rem;
+  }
 }
 /* KDCN V1.1 COMPONENTS END */
 </style>
 </head>
 <body>
+
+<!-- ==================== NAVIGATION ==================== -->
 <nav><nav>
   <div class="nav-container">
 
@@ -391,13 +501,204 @@ footer {
 </nav>
 </nav>
 
-<header>
-  <h1>Cookie <span>Policy</span></h1>
-  <p>How KDCN uses cookies.</p>
-</header>
-<section>
-  <p>This page is under construction. For more information, please <a href="contact.html" style="color:var(--accent);">contact us</a>.</p>
-</section>
+<!-- ==================== COOKIE POLICY CONTENT ==================== -->
+<main class="legal-page">
+    <h1>🍪 Cookie Policy</h1>
+    <p class="last-updated"><strong>Last Updated:</strong> September 2026</p>
+
+    <div class="highlight-box">
+        <p><strong>📍 KINGMAN DIGITAL CYBER NETWORK (KDCN)</strong><br>
+        Manyatta, Embu, Kenya<br>
+        <a href="mailto:kingmandigitalcybernetwork@gmail.com">kingmandigitalcybernetwork@gmail.com</a><br>
+        📞 +254 111 843 716</p>
+    </div>
+
+    <p>This Cookie Policy explains how <strong>KINGMAN DIGITAL CYBER NETWORK (KDCN)</strong> uses cookies and similar tracking technologies on our website. We are committed to transparency about how we collect and use your data.</p>
+
+    <p>By using our website, you consent to the use of cookies in accordance with this policy. You can manage your preferences at any time through our <a href="cookie-preferences.html">Cookie Preferences</a> page.</p>
+
+    <!-- ==================== TABLE OF CONTENTS ==================== -->
+    <div class="table-of-contents">
+        <h3 style="color: var(--accent); margin-top: 0; margin-bottom: 0.5rem;">Contents</h3>
+        <ol style="list-style: decimal; padding-left: 1.5rem;">
+            <li><a href="#section1">What Are Cookies?</a></li>
+            <li><a href="#section2">How We Use Cookies</a></li>
+            <li><a href="#section3">Types of Cookies We Use</a></li>
+            <li><a href="#section4">Cookies We Use</a></li>
+            <li><a href="#section5">Third-Party Cookies</a></li>
+            <li><a href="#section6">Managing Your Preferences</a></li>
+            <li><a href="#section7">Consent and Withdrawal</a></li>
+            <li><a href="#section8">Changes to This Policy</a></li>
+            <li><a href="#section9">Contact Us</a></li>
+        </ol>
+    </div>
+
+    <!-- ==================== SECTION 1 ==================== -->
+    <h2 id="section1">1. What Are Cookies?</h2>
+    <p>Cookies are small text files that are stored on your device (computer, phone, tablet) when you visit a website. They help the website remember your actions and preferences over time, improving your browsing experience.</p>
+    <p>Cookies are widely used to make websites function more efficiently and to provide information to the website owners.</p>
+
+    <h3>Why Are Cookies Important?</h3>
+    <ul>
+        <li><strong>Functionality:</strong> They enable basic functions like navigation and access to secure areas.</li>
+        <li><strong>Performance:</strong> They help us understand how users interact with our site, allowing us to improve it.</li>
+        <li><strong>Preferences:</strong> They remember your choices, such as dark/light mode or language preferences.</li>
+        <li><strong>Security:</strong> They help protect against fraudulent activity and unauthorized access.</li>
+    </ul>
+
+    <!-- ==================== SECTION 2 ==================== -->
+    <h2 id="section2">2. How We Use Cookies</h2>
+    <p>KDCN uses cookies for the following purposes:</p>
+    <ul>
+        <li><strong>Essential Operations:</strong> To ensure the basic functionality of our website.</li>
+        <li><strong>Performance Monitoring:</strong> To analyze how visitors use our site and improve user experience.</li>
+        <li><strong>Preference Management:</strong> To remember your preferences and settings.</li>
+        <li><strong>Security:</strong> To protect our website and users from security threats.</li>
+        <li><strong>Compliance:</strong> To comply with legal and regulatory requirements.</li>
+    </ul>
+
+    <!-- ==================== SECTION 3 ==================== -->
+    <h2 id="section3">3. Types of Cookies We Use</h2>
+    <p>We use the following categories of cookies on our website:</p>
+
+    <ul>
+        <li>
+            <strong><span class="badge badge-essential">Essential</span></strong>
+            <p>These cookies are necessary for the website to function properly. They enable core functionality such as navigation, security, and access to secure areas. You cannot opt out of these cookies as they are essential for the operation of the site.</p>
+        </li>
+        <li>
+            <strong><span class="badge badge-functional">Functional</span></strong>
+            <p>These cookies enhance your experience by remembering your preferences, such as theme selection (dark/light mode), language, and other settings.</p>
+        </li>
+        <li>
+            <strong><span class="badge badge-analytics">Analytics</span></strong>
+            <p>These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. We use this data to improve our site's performance and user experience.</p>
+        </li>
+        <li>
+            <strong><span class="badge badge-marketing">Marketing</span></strong>
+            <p>We do <strong>not</strong> currently use marketing or advertising cookies. If this changes in the future, we will update this policy and seek your consent accordingly.</p>
+        </li>
+    </ul>
+
+    <!-- ==================== SECTION 4 ==================== -->
+    <h2 id="section4">4. Cookies We Use</h2>
+    <p>The following table lists the specific cookies we use on the KDCN website:</p>
+
+    <table class="cookie-table">
+        <thead>
+            <tr>
+                <th>Cookie Name</th>
+                <th>Type</th>
+                <th>Purpose</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>theme</code></td>
+                <td><span class="badge badge-functional">Functional</span></td>
+                <td>Remembers your dark/light mode preference.</td>
+                <td>Persistent (until browser clear)</td>
+            </tr>
+            <tr>
+                <td><code>cookie-consent</code></td>
+                <td><span class="badge badge-essential">Essential</span></td>
+                <td>Remembers your cookie consent preference.</td>
+                <td>Persistent (1 year)</td>
+            </tr>
+            <tr>
+                <td><code>_ga</code></td>
+                <td><span class="badge badge-analytics">Analytics</span></td>
+                <td>Google Analytics — distinguishes unique users.</td>
+                <td>2 years</td>
+            </tr>
+            <tr>
+                <td><code>_gid</code></td>
+                <td><span class="badge badge-analytics">Analytics</span></td>
+                <td>Google Analytics — distinguishes users.</td>
+                <td>24 hours</td>
+            </tr>
+            <tr>
+                <td><code>_gat</code></td>
+                <td><span class="badge badge-analytics">Analytics</span></td>
+                <td>Google Analytics — throttles request rate.</td>
+                <td>1 minute</td>
+            </tr>
+            <tr>
+                <td><code>session</code></td>
+                <td><span class="badge badge-essential">Essential</span></td>
+                <td>Maintains session state for navigation.</td>
+                <td>Session (until browser closed)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><em>Note: Some cookies may be set by third-party services we use. See the next section for details.</em></p>
+
+    <!-- ==================== SECTION 5 ==================== -->
+    <h2 id="section5">5. Third-Party Cookies</h2>
+    <p>We use the following third-party services that may set cookies on your device:</p>
+
+    <ul>
+        <li>
+            <strong>Google Analytics:</strong> Used to analyze website traffic and user behavior. Data is anonymized where possible. You can learn more about Google's privacy practices <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">here</a>.
+        </li>
+        <li>
+            <strong>GitHub Pages:</strong> Our website is hosted on GitHub Pages. For more information about GitHub's use of data, visit their <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">Privacy Statement</a>.
+        </li>
+        <li>
+            <strong>Formspree:</strong> Used for processing contact form submissions. For more information, visit <a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener">Formspree's Privacy Policy</a>.
+        </li>
+    </ul>
+
+    <p>We do not control third-party cookies and recommend reviewing the privacy policies of these providers for more information.</p>
+
+    <!-- ==================== SECTION 6 ==================== -->
+    <h2 id="section6">6. Managing Your Preferences</h2>
+    <p>You have the right to manage your cookie preferences at any time. You can:</p>
+
+    <ul>
+        <li><strong>Adjust Your Browser Settings:</strong> Most browsers allow you to block, delete, or manage cookies through their settings. The instructions vary by browser:</li>
+        <ul>
+            <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Chrome</a></li>
+            <li><a href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer" target="_blank" rel="noopener">Firefox</a></li>
+            <li><a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
+            <li><a href="https://support.microsoft.com/en-us/windows/microsoft-edge-browsing-data-and-privacy-bb8174ba-9d73-dcf2-9b4a-c582b4e640dd" target="_blank" rel="noopener">Edge</a></li>
+        </ul>
+        <li><strong>Use Our Cookie Preferences Page:</strong> Visit our <a href="cookie-preferences.html">Cookie Preferences</a> page to manage your consent for non-essential cookies.</li>
+        <li><strong>Opt Out of Analytics:</strong> You can opt out of Google Analytics tracking by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-Out Browser Add-on</a>.</li>
+    </ul>
+
+    <!-- ==================== SECTION 7 ==================== -->
+    <h2 id="section7">7. Consent and Withdrawal</h2>
+    <p>When you first visit our website, we will ask for your consent to use non-essential cookies. Your consent is voluntary, and you may withdraw it at any time by:</p>
+    <ul>
+        <li>Visiting our <a href="cookie-preferences.html">Cookie Preferences</a> page.</li>
+        <li>Adjusting your browser settings to block or delete cookies.</li>
+    </ul>
+    <p>Withdrawing consent may affect the functionality and user experience of our website.</p>
+
+    <!-- ==================== SECTION 8 ==================== -->
+    <h2 id="section8">8. Changes to This Policy</h2>
+    <p>We may update this Cookie Policy from time to time to reflect changes in technology, legal requirements, or our practices. We encourage you to review this page periodically for the latest information.</p>
+    <p>When we make significant changes, we will notify you through a prominent notice on our website.</p>
+
+    <!-- ==================== SECTION 9 ==================== -->
+    <h2 id="section9">9. Contact Us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Cookie Policy, please contact us:</p>
+
+    <div class="contact-block">
+        <p><strong>KINGMAN DIGITAL CYBER NETWORK (KDCN)</strong></p>
+        <p>📍 Manyatta, Embu, Kenya</p>
+         <p>📧 <a href="mailto:kingmandigitalcybernetwork@gmail.com">kingmandigitalcybernetwork@gmail.com</a></p>
+        <p>📞 +254 111 843 716</p>
+    </div>
+
+    <p style="margin-top: 2.5rem; font-size: 0.9rem; color: var(--muted); text-align: center;">© 2026 KINGMAN DIGITAL CYBER NETWORK. All rights reserved.</p>
+    <p style="font-size: 0.85rem; color: var(--muted); text-align: center;">Built in Manyatta. Engineered for the world.</p>
+</main>
+
+<!-- ==================== FOOTER ==================== -->
 <footer class="kdcn-footer"><footer class="kdcn-footer">
 
   <!-- =====================================================
@@ -480,111 +781,27 @@ footer {
 </footer>
 </footer>
 
-
-<!-- KDCN Chat Widget -->
-<style>
-.kdcn-chat-btn { position:fixed; bottom:25px; right:25px; width:60px; height:60px; border-radius:50%; background:linear-gradient(135deg,#0b7fab,#00d1ff); border:none; cursor:pointer; box-shadow:0 8px 20px rgba(0,0,0,0.3); z-index:1000; display:flex; align-items:center; justify-content:center; font-size:30px; color:#000; transition:transform 0.3s; }
-.kdcn-chat-btn:hover { transform:scale(1.1); }
-.kdcn-chat-panel { position:fixed; bottom:95px; right:25px; width:320px; max-width:90vw; height:420px; max-height:70vh; background:#0a1118; border:1px solid rgba(255,255,255,0.1); border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,0.5); display:none; flex-direction:column; overflow:hidden; z-index:1001; }
-.kdcn-chat-panel.active { display:flex; }
-.kdcn-chat-header { background:linear-gradient(135deg,#0b7fab,#00d1ff); padding:15px; color:#000; font-weight:bold; display:flex; justify-content:space-between; align-items:center; }
-.kdcn-chat-header span { font-size:1.1rem; }
-.kdcn-chat-close { background:none; border:none; font-size:1.5rem; cursor:pointer; color:#000; }
-.kdcn-chat-body { flex:1; padding:15px; overflow-y:auto; color:#fff; }
-.kdcn-chat-message { margin-bottom:12px; display:flex; flex-direction:column; }
-.kdcn-chat-message.bot { align-items:flex-start; }
-.kdcn-chat-message.user { align-items:flex-end; }
-.kdcn-chat-bubble { max-width:80%; padding:10px 15px; border-radius:18px; background:rgba(255,255,255,0.1); font-size:0.9rem; line-height:1.4; }
-.kdcn-chat-message.user .kdcn-chat-bubble { background:#00d1ff; color:#000; }
-.kdcn-chat-input { display:flex; padding:10px; background:rgba(0,0,0,0.2); }
-.kdcn-chat-input input { flex:1; padding:10px; border-radius:20px; border:1px solid rgba(255,255,255,0.2); background:#fff; color:#000; outline:none; }
-.kdcn-chat-input button { margin-left:10px; padding:10px 20px; border-radius:20px; border:none; background:#00d1ff; color:#000; font-weight:bold; cursor:pointer; }
-</style>
-<button class="kdcn-chat-btn" id="kdcnChatBtn" aria-label="Chat with us">💬</button>
-<div class="kdcn-chat-panel" id="kdcnChatPanel">
-  <div class="kdcn-chat-header">
-    <span>KDCN Assistant</span>
-    <button class="kdcn-chat-close" id="kdcnChatClose">&times;</button>
-  </div>
-  <div class="kdcn-chat-body" id="kdcnChatBody">
-    <div class="kdcn-chat-message bot">
-      <div class="kdcn-chat-bubble">Hello! I'm the KDCN virtual assistant. Ask me about our services, pricing, or how to get started.</div>
-    </div>
-  </div>
-  <div class="kdcn-chat-input">
-    <input type="text" id="kdcnChatInput" placeholder="Type your question...">
-    <button id="kdcnChatSend">Send</button>
-  </div>
-</div>
+<!-- ==================== SCRIPTS ==================== -->
 <script>
-(function() {
-  var btn = document.getElementById('kdcnChatBtn');
-  var panel = document.getElementById('kdcnChatPanel');
-  var close = document.getElementById('kdcnChatClose');
-  var body = document.getElementById('kdcnChatBody');
-  var input = document.getElementById('kdcnChatInput');
-  var send = document.getElementById('kdcnChatSend');
-  if (!btn || !panel) return;
-  btn.addEventListener('click', function() { panel.classList.toggle('active'); });
-  close.addEventListener('click', function() { panel.classList.remove('active'); });
-  function addMessage(text, sender) {
-    var msgDiv = document.createElement('div');
-    msgDiv.className = 'kdcn-chat-message ' + sender;
-    var bubble = document.createElement('div');
-    bubble.className = 'kdcn-chat-bubble';
-    bubble.textContent = text;
-    msgDiv.appendChild(bubble);
-    body.appendChild(msgDiv);
-    body.scrollTop = body.scrollHeight;
-  }
-  function getBotResponse(userText) {
-    var t = userText.toLowerCase();
-    if (t.indexOf('hello') !== -1 || t.indexOf('hi') !== -1) return "Hi there! How can I help you today?";
-    if (t.indexOf('service') !== -1 || t.indexOf('offer') !== -1) return "We provide Cybersecurity Systems, IT Infrastructure & Cloud, Software Development, and Digital Systems Consulting. Which one are you interested in?";
-    if (t.indexOf('price') !== -1 || t.indexOf('cost') !== -1 || t.indexOf('fee') !== -1) return "Our pricing depends on the scope of the project. Please contact us via email or WhatsApp for a custom quote.";
-    if (t.indexOf('contact') !== -1 || t.indexOf('reach') !== -1) return "You can email us at kingmandigitalcybernetwork@gmail.com or WhatsApp +254111843716.";
-    if (t.indexOf('location') !== -1 || t.indexOf('where') !== -1) return "We are based in Embu, Kenya, serving clients globally.";
-    if (t.indexOf('platform') !== -1 || t.indexOf('ecosystem') !== -1) return "Our KDCN Platform and Ecosystem are coming soon! Stay tuned for updates.";
-    if (t.indexOf('security') !== -1 || t.indexOf('cyber') !== -1) return "We offer threat assessment, account protection, secure system architecture, and vulnerability analysis.";
-    return "I'm not sure I understand. For detailed assistance, please email kingmandigitalcybernetwork@gmail.com or WhatsApp +254111843716.";
-  }
-  send.addEventListener('click', function() {
-    var text = input.value.trim();
-    if (!text) return;
-    addMessage(text, 'user');
-    input.value = '';
-    setTimeout(function() { addMessage(getBotResponse(text), 'bot'); }, 500);
-  });
-  input.addEventListener('keypress', function(e) { if (e.key === 'Enter') send.click(); });
-})();
-</script>
-
-<script>
-  const hamburger = document.querySelector('.hamburger');
-  const navMenu = document.querySelector('.nav-menu');
-  if (hamburger && navMenu) {
-    hamburger.addEventListener('click', () => navMenu.classList.toggle('active'));
-  }
-  const toggle = document.getElementById('theme-toggle');
-  if (localStorage.getItem('theme') === 'light') {
-    document.body.classList.add('light');
-    toggle.textContent = '☀️';
-  }
-  toggle.addEventListener('click', () => {
-    document.body.classList.toggle('light');
-    const isLight = document.body.classList.contains('light');
-    localStorage.setItem('theme', isLight ? 'light' : 'dark');
-    toggle.textContent = isLight ? '☀️' : '🌙';
-  });
-  // Mobile dropdown toggle
-  document.querySelectorAll('.dropdown').forEach(item => {
-    item.addEventListener('click', function(e) {
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-        this.classList.toggle('active');
-      }
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    if (hamburger && navMenu) {
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    }
+    const toggle = document.getElementById('theme-toggle');
+    if (localStorage.getItem('theme') === 'light') {
+        document.body.classList.add('light');
+        toggle.textContent = '☀️';
+    }
+    toggle.addEventListener('click', () => {
+        document.body.classList.toggle('light');
+        const isLight = document.body.classList.contains('light');
+        localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        toggle.textContent = isLight ? '☀️' : '🌙';
     });
-  });
 </script>
+
 </body>
 </html>

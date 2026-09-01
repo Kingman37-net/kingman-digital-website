@@ -1,432 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Kingman Digital Cyber Network</title>
+    <meta name="description" content="KDCN Privacy Policy — how we collect, use, and protect your personal data in compliance with POPIA and GDPR.">
+    <link rel="icon" href="images/logo-transparent.png">
     <link rel="stylesheet" href="extra.css">
-<meta charset="UTF-8">
-<title>Privacy Policy | Kingman Digital Cyber Network</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Privacy Policy for Kingman Digital Cyber Network, detailing how user data is collected and handled.">
-<link rel="icon" href="images/logo-transparent.png">
-<style>
-/* Shared global styles (same as other upgraded pages) */
-:root {
-  --primary: #0b7fab;
-  --accent: #00d1ff;
-  --dark: #0a0f14;
-  --light: #ffffff;
-  --muted: #b9c6cf;
-  --bg-gradient: linear-gradient(180deg, #060b10, #0a1118);
-  --card-bg: rgba(255,255,255,0.04);
-  --border: rgba(255,255,255,0.08);
-  --nav-bg: #0a1118;
-  --footer-bg: #05080c;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", system-ui, sans-serif;
-}
-body {
-  background: var(--bg-gradient);
-  color: var(--light);
-  line-height: 1.7;
-  transition: background 0.3s, color 0.3s;
-}
-body.light {
-  --primary: #0b7fab;
-  --accent: #0077b6;
-  --dark: #f0f4f8;
-  --light: #111;
-  --muted: #2c3e44;
-  --bg-gradient: linear-gradient(180deg, #eef2f5, #ffffff);
-  --card-bg: rgba(0,0,0,0.02);
-  --border: rgba(0,0,0,0.08);
-  --nav-bg: #f8fafc;
-  --footer-bg: #eef2f5;
-}
-body.light nav {
-  background: var(--nav-bg);
-  border-bottom-color: var(--border);
-}
-body.light nav a {
-  color: var(--light);
-}
-body.light footer {
-  background: var(--footer-bg);
-  color: #2c3e44;
-}
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: var(--nav-bg);
-  border-bottom: 1px solid var(--border);
-  z-index: 999;
-  padding: 1rem;
-}
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: auto;
-}
-.nav-menu {
-  display: flex;
-  gap: 30px;
-  list-style: none;
-}
-.nav-menu a {
-  color: var(--light);
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s;
-}
-.nav-menu a:hover {
-  color: var(--accent);
-}
-.logo img {
-  height: 40px;
-  width: auto;
-}
-.hamburger {
-  display: none;
-  cursor: pointer;
-}
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background: var(--light);
-  transition: 0.3s;
-}
-.theme-toggle {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  margin-left: 1rem;
-  padding: 0 0.5rem;
-}
-header {
-  text-align: center;
-  padding: 140px 20px 80px;
-}
-header h1 {
-  font-size: 2.5rem;
-}
-header span {
-  color: var(--accent);
-}
-header p {
-  margin-top: 15px;
-  color: var(--muted);
-  font-size: 1.1rem;
-}
-section {
-  max-width: 1000px;
-  margin: auto;
-  padding: 70px 20px;
-}
-section h2 {
-  color: var(--accent);
-  margin-bottom: 20px;
-  font-size: 1.5rem;
-}
-section p {
-  margin-bottom: 15px;
-  color: var(--muted);
-  line-height: 1.6;
-  font-size: 1rem;
-}
-footer {
-  background: var(--footer-bg);
-  text-align: center;
-  padding: 35px;
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-footer span {
-  color: var(--accent);
-}
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    flex-direction: column;
-    background: var(--nav-bg);
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-    padding: 2rem 0;
-    gap: 1.5rem;
-    border-bottom: 1px solid var(--border);
-  }
-  .nav-menu.active {
-    left: 0;
-  }
-  .nav-container {
-    flex-wrap: wrap;
-  }
-  .nav-container .theme-toggle {
-    order: 2;
-  }
-  header {
-    padding-top: 120px;
-  }
-}
-
+    <style>
+        /* Privacy Policy Specific Styles */
+        .legal-page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 140px 20px 60px;
+        }
+        .legal-page h1 {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        .legal-page .last-updated {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1rem;
+        }
+        .legal-page h2 {
+            color: var(--accent);
+            margin-top: 2.5rem;
+            font-size: 1.5rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.5rem;
+        }
+        .legal-page h3 {
+            color: var(--light);
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+        }
+        .legal-page p, .legal-page li {
+            color: var(--muted);
+            line-height: 1.8;
+        }
+        .legal-page ul {
+            padding-left: 1.5rem;
+            margin: 1rem 0;
+        }
+        .legal-page ul li {
+            margin-bottom: 0.5rem;
+        }
+        .legal-page .highlight-box {
+            background: var(--card-bg);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border: 1px solid var(--border);
+        }
+        .legal-page .highlight-box p {
+            margin: 0;
+        }
+        .legal-page .highlight-box strong {
+            color: var(--accent);
+        }
+        .legal-page .contact-block {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-top: 1rem;
+        }
+        .legal-page .contact-block p {
+            margin: 4px 0;
+        }
+        @media (max-width: 768px) {
+            .legal-page {
+                padding: 120px 16px 40px;
+            }
+            .legal-page h1 {
+                font-size: 2rem;
+            }
+        }
+    
 /* KDCN V1.1 COMPONENTS START */
 /* =========================================================
-   KDCN WEBSITE V1.1
-   GLOBAL NAVIGATION + FOOTER COMPONENTS
+   KDCN FOOTER — EXACT ASCII MATCH
    ========================================================= */
 
-
-/* =========================
-   NAVIGATION CTA
-   ========================= */
-
-.cta-button {
-  display: inline-block;
-  background: linear-gradient(
-    135deg,
-    var(--primary),
-    var(--accent)
-  );
-  color: #000;
-  padding: 9px 20px;
-  border-radius: 40px;
-  text-decoration: none;
-  font-weight: 700;
-  white-space: nowrap;
-  margin-left: 15px;
-  transition: transform .3s, box-shadow .3s;
-}
-
-.cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,209,255,.3);
-}
-
-
-/* =========================
-   DROPDOWN NAVIGATION
-   ========================= */
-
-.dropdown {
-  position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  min-width: 230px;
-  background: var(--nav-bg);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px 0;
-  box-shadow: 0 15px 35px rgba(0,0,0,.35);
-  z-index: 1000;
-}
-
-.dropdown-content a {
-  display: block;
-  padding: 10px 16px;
-  color: var(--light);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.dropdown-content a:hover {
-  color: var(--accent);
-  background: rgba(0,209,255,.06);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-/* =========================
-   FOOTER
-   ========================= */
-
-footer {
+.kdcn-footer {
   background: var(--footer-bg);
+  color: var(--muted);
   padding: 60px 20px 30px;
-  color: var(--muted);
 }
 
-.footer-grid {
+/* =========================================================
+   LEVEL 1 — 3-COLUMN GRID
+   ========================================================= */
+
+.kdcn-footer-level {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.level-one {
   display: grid;
-  grid-template-columns:
-    1.6fr
-    repeat(5, 1fr);
-  gap: 35px;
-  text-align: left;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding-bottom: 40px;
 }
 
-.footer-col h3,
-.footer-col h4 {
+.footer-section h4 {
   color: var(--accent);
-  margin-bottom: 16px;
+  margin: 0 0 18px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.footer-col p {
-  color: var(--muted);
-  margin: 6px 0;
-}
-
-.footer-col a {
+.footer-section a {
   display: block;
+  width: fit-content;
   color: var(--muted);
   text-decoration: none;
-  margin: 9px 0;
-  font-size: .94rem;
-  transition: color .3s;
+  margin: 10px 0;
+  font-size: 0.94rem;
+  transition: color 0.3s, transform 0.3s;
 }
 
-.footer-col a:hover {
+.footer-section a:hover {
   color: var(--accent);
+  transform: translateX(3px);
+}
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.footer-divider {
+  border: 0;
+  height: 2px;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  background: linear-gradient(to right, transparent, var(--accent), transparent);
+}
+
+/* =========================================================
+   LEVEL 2 — SIDE-BY-SIDE (Identity | Legal)
+   ========================================================= */
+
+.level-two {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+/* =========================================================
+   IDENTITY (LEFT)
+   ========================================================= */
+
+.footer-identity {
+  max-width: 600px;
 }
 
 .footer-logo {
-  width: 70px;
+  width: 72px;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-.footer-tagline {
+.footer-identity h3 {
+  color: var(--accent);
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.legal-name {
+  margin: 0 0 16px;
   font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-size: 0.95rem;
 }
 
-.brand-desc {
-  max-width: 280px;
-  line-height: 1.6;
+.footer-motto {
+  color: var(--light);
+  line-height: 1.7;
+  font-style: italic;
+  margin: 18px 0 12px 0;
 }
 
 .footer-location {
-  margin-top: 18px !important;
+  color: #cccccc;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 16px 0 20px 0;
+  letter-spacing: 0.3px;
 }
 
-
-/* =========================
-   LEGAL STRIP
-   ========================= */
-
-.footer-bottom {
-  max-width: 1200px;
-  margin: 40px auto 0;
-  padding-top: 22px;
-  border-top: 1px solid var(--border);
-
+/* SOCIALS */
+.footer-socials {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 18px;
+  gap: 12px 18px;
+  margin-top: 10px;
 }
 
-.footer-bottom a {
+.footer-socials a {
   color: var(--muted);
   text-decoration: none;
-  font-size: .88rem;
+  font-size: 0.9rem;
+  transition: color 0.3s;
 }
 
-.footer-bottom a:hover {
+.footer-socials a:hover {
   color: var(--accent);
 }
 
+/* =========================================================
+   LEGAL (RIGHT)
+   ========================================================= */
 
-/* =========================
-   COPYRIGHT
-   ========================= */
+.footer-legal {
+  border-left: 2px solid var(--border);
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+}
 
-.copyright {
-  max-width: 1200px;
-  margin: 20px auto 0;
-  padding-top: 18px;
-  border-top: 1px solid var(--border);
-  text-align: center;
+.legal-copyright {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 0 20px 0;
+}
+
+.footer-legal a {
   color: var(--muted);
-  font-size: .88rem;
+  text-decoration: none;
+  margin: 6px 0;
+  font-size: 0.94rem;
+  transition: color 0.3s, transform 0.3s;
+  width: fit-content;
 }
 
-.copyright span {
+.footer-legal a:hover {
   color: var(--accent);
+  transform: translateX(3px);
 }
 
-
-/* =========================
-   MOBILE
-   ========================= */
+/* =========================================================
+   MOBILE — STACK LEVEL 2 VERTICALLY
+   ========================================================= */
 
 @media (max-width: 768px) {
-
-  .cta-button {
-    display: none;
+  .kdcn-footer {
+    padding: 40px 18px 20px;
   }
 
-  .dropdown-content {
-    position: static;
-    width: 100%;
-    box-shadow: none;
-    border: none;
-    border-radius: 0;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .footer-grid {
+  .level-one {
     grid-template-columns: 1fr 1fr;
     gap: 30px 20px;
   }
 
-  .brand-col {
+  .level-one .footer-section:last-child {
     grid-column: 1 / -1;
   }
 
-  .footer-bottom {
-    justify-content: center;
-    text-align: center;
+  .level-two {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-legal {
+    border-left: none;
+    border-top: 2px solid var(--border);
+    padding-left: 0;
+    padding-top: 30px;
+  }
+
+  .footer-identity {
+    max-width: 100%;
+  }
+
+  .footer-socials {
+    gap: 10px 15px;
   }
 }
 
-
 @media (max-width: 480px) {
-
-  .footer-grid {
+  .level-one {
     grid-template-columns: 1fr;
+    gap: 25px;
   }
 
-  .brand-col {
+  .level-one .footer-section:last-child {
     grid-column: auto;
   }
 
-  .footer-bottom {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  .footer-logo {
+    width: 56px;
   }
 
+  .footer-identity h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-location {
+    font-size: 0.95rem;
+  }
 }
 /* KDCN V1.1 COMPONENTS END */
 </style>
 </head>
 <body>
 
+<!-- ==================== NAVIGATION ==================== -->
 <nav><nav>
   <div class="nav-container">
 
@@ -523,31 +416,153 @@ footer {
 </nav>
 </nav>
 
-<header>
-  <h1>Privacy <span>Policy</span></h1>
-  <p>Learn how Kingman Digital Cyber Network collects, uses, and protects your data.</p>
-</header>
+<!-- ==================== PRIVACY POLICY CONTENT ==================== -->
+<main class="legal-page">
+    <h1>Privacy Policy</h1>
+    <p class="last-updated"><strong>Last Updated:</strong> September 2026</p>
 
-<section>
-  <h2>1. Information Collection</h2>
-  <p>We collect your name, email, and message when you submit forms or contact us. This data is used solely to respond to your inquiries.</p>
+    <div class="highlight-box">
+        <p><strong>📍 KINGMAN DIGITAL CYBER NETWORK (KDCN)</strong><br>
+        Manyatta, Embu, Kenya<br>
+        <a href="mailto:kingmandigitalcybernetwork@gmail.com">kingmandigitalcybernetwork@gmail.com</a><br>
+        📞 +254 111 843 716</p>
+    </div>
 
-  <h2>2. Use of Information</h2>
-  <p>Collected information is used to provide services, answer questions, or improve our digital platforms. We do not share personal data with unauthorized third parties.</p>
+    <p>KINGMAN DIGITAL CYBER NETWORK (KDCN) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or interact with our services.</p>
 
-  <h2>3. Cookies</h2>
-  <p>Our website may use cookies for performance monitoring and basic user experience enhancements. No sensitive personal data is tracked.</p>
+    <p>This policy complies with the <strong>Kenya Data Protection Act (POPIA)</strong> and the <strong>EU General Data Protection Regulation (GDPR)</strong> where applicable. We believe that <strong>"No data left unguarded"</strong> is not just a motto — it's our engineering standard.</p>
 
-  <h2>4. Third-Party Links</h2>
-  <p>We may provide links to external platforms like WhatsApp, Telegram, and Instagram. We are not responsible for their privacy practices.</p>
+    <h2>1. Information We Collect</h2>
 
-  <h2>5. Data Security</h2>
-  <p>We implement reasonable security measures to protect your data, but cannot guarantee absolute protection against unauthorized access.</p>
+    <h3>1.1 Information You Provide Directly</h3>
+    <ul>
+        <li><strong>Contact Information:</strong> Name, email address, phone number, and any other details you provide when using our contact forms, booking consultations, or reaching out to us.</li>
+        <li><strong>Communication Data:</strong> Messages, inquiries, feedback, or support requests you send to us via email, WhatsApp, or our website forms.</li>
+        <li><strong>Service Data:</strong> Information you provide when engaging our services, such as project details, system requirements, or business information.</li>
+    </ul>
 
-  <h2>6. Updates to Policy</h2>
-  <p>We reserve the right to update this privacy policy at any time. Continued use of our services constitutes acceptance of the updated policy.</p>
-</section>
+    <h3>1.2 Information Collected Automatically</h3>
+    <ul>
+        <li><strong>Usage Data:</strong> Pages visited, time spent, links clicked, and other browsing actions on our website.</li>
+        <li><strong>Device Data:</strong> IP address, browser type and version, operating system, device type, and screen resolution.</li>
+        <li><strong>Location Data:</strong> Approximate geographic location derived from your IP address.</li>
+        <li><strong>Cookie Data:</strong> We use essential and functional cookies to improve your browsing experience. For more details, see our <a href="cookies.html">Cookie Policy</a>.</li>
+    </ul>
 
+    <h2>2. How We Use Your Information</h2>
+    <p>We use the information we collect for the following purposes:</p>
+    <ul>
+        <li><strong>To Provide and Maintain Services:</strong> Operate, maintain, and improve our website and services.</li>
+        <li><strong>To Respond to Inquiries:</strong> Answer your questions, respond to support requests, and provide consultation services.</li>
+        <li><strong>To Send Updates:</strong> Provide you with security alerts, service updates, and information about our offerings — only where you have opted in.</li>
+        <li><strong>To Improve Our Platform:</strong> Analyze usage trends, monitor performance, and enhance user experience.</li>
+        <li><strong>To Ensure Security:</strong> Detect, prevent, and address technical issues, security vulnerabilities, and fraudulent activities.</li>
+        <li><strong>To Comply with Legal Obligations:</strong> Fulfill regulatory requirements and enforce our <a href="terms.html">Terms of Service</a>.</li>
+    </ul>
+
+    <h2>3. Legal Basis for Processing (POPIA / GDPR)</h2>
+    <p>Under data protection laws, we rely on the following legal bases to process your personal data:</p>
+    <ul>
+        <li><strong>Consent:</strong> Where you have given explicit consent for specific purposes (e.g., receiving marketing communications). You may withdraw this consent at any time.</li>
+        <li><strong>Contractual Necessity:</strong> Where processing is necessary to respond to your inquiries or deliver services you have requested.</li>
+        <li><strong>Legitimate Interest:</strong> Where processing is necessary for our legitimate business interests, including improving our website, ensuring security, and preventing fraud.</li>
+        <li><strong>Legal Obligation:</strong> Where processing is required to comply with applicable laws and regulations.</li>
+    </ul>
+
+    <h2>4. Data Sharing and Disclosure</h2>
+    <p><strong>We do not sell, trade, or rent your personal data to third parties.</strong> We may share your information only in the following limited circumstances:</p>
+    <ul>
+        <li><strong>Service Providers:</strong> We use trusted third-party services (e.g., Formspree for contact forms, GitHub Pages for hosting) that process data on our behalf. These providers are contractually obligated to protect your data and comply with relevant privacy laws.</li>
+        <li><strong>Legal Compliance:</strong> We may disclose your information if required by law, court order, or governmental authority.</li>
+        <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or asset sale, your data may be transferred to the successor entity, with notice provided to you.</li>
+        <li><strong>Protection of Rights:</strong> We may share information to protect the rights, property, or safety of KDCN, our users, or others.</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <div class="highlight-box">
+        <p><strong>"No data left unguarded. No system left unsafe."</strong></p>
+    </div>
+    <p>We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. These include:</p>
+    <ul>
+        <li><strong>Encryption:</strong> All data transmitted between your browser and our website is encrypted using TLS/HTTPS.</li>
+        <li><strong>Access Controls:</strong> We limit access to personal data to authorized personnel only, with strict need-to-know principles.</li>
+        <li><strong>Security Monitoring:</strong> We regularly monitor our systems for potential vulnerabilities and security threats.</li>
+        <li><strong>Data Minimization:</strong> We collect only what is necessary and retain it only as long as required.</li>
+        <li><strong>Regular Reviews:</strong> We conduct periodic security assessments and update our practices accordingly.</li>
+    </ul>
+    <p>While we strive to use commercially acceptable means to protect your data, no method of transmission over the internet is 100% secure. We cannot guarantee absolute security, but we are committed to continuous improvement.</p>
+
+    <h2>6. Data Retention</h2>
+    <p>We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable law. Our retention periods are as follows:</p>
+    <ul>
+        <li><strong>Inquiries and Correspondence:</strong> Retained for up to 24 months after the last communication, unless a longer period is required by law.</li>
+        <li><strong>Client and Service Data:</strong> Retained for the duration of the service engagement and up to 5 years thereafter for legal and audit purposes.</li>
+        <li><strong>Website Analytics Data:</strong> Retained in aggregated form for up to 12 months. Individual IP addresses are anonymized where possible.</li>
+        <li><strong>Cookie Data:</strong> Retained based on your cookie preferences. Essential cookies may persist until you clear your browser cache.</li>
+    </ul>
+    <p>When data is no longer needed, we securely delete or anonymize it.</p>
+
+    <h2>7. Your Data Subject Rights (POPIA & GDPR)</h2>
+    <p>Under POPIA and GDPR, you have the following rights regarding your personal data. We are committed to facilitating these rights in a timely and transparent manner.</p>
+
+    <ul>
+        <li><strong>Right to Access:</strong> You have the right to request a copy of the personal data we hold about you.</li>
+        <li><strong>Right to Correction:</strong> You have the right to request correction of inaccurate or incomplete personal data.</li>
+        <li><strong>Right to Deletion (Right to be Forgotten):</strong> You have the right to request deletion of your personal data where there is no compelling reason for continued processing.</li>
+        <li><strong>Right to Restriction:</strong> You have the right to request restriction of processing of your personal data in certain circumstances.</li>
+        <li><strong>Right to Object:</strong> You have the right to object to processing of your personal data for direct marketing purposes or where processing is based on legitimate interests.</li>
+        <li><strong>Right to Data Portability:</strong> You have the right to request a copy of your data in a structured, commonly used, and machine-readable format, and to transfer it to another data controller.</li>
+        <li><strong>Right to Withdraw Consent:</strong> Where we rely on consent as the legal basis, you have the right to withdraw your consent at any time.</li>
+        <li><strong>Right to Lodge a Complaint:</strong> You have the right to lodge a complaint with the relevant data protection authority if you believe your rights have been violated.</li>
+    </ul>
+
+    <h3>How to Exercise Your Rights</h3>
+    <p>To exercise any of these rights, please contact us using the information in the Contact section below. We will respond to your request within <strong>30 days</strong>, as required by law.</p>
+
+    <h2>8. Cookies and Tracking Technologies</h2>
+    <p>We use cookies and similar tracking technologies to improve your experience on our website. These include:</p>
+    <ul>
+        <li><strong>Essential Cookies:</strong> Required for the basic functionality of the website (e.g., navigation, security).</li>
+        <li><strong>Functional Cookies:</strong> Enhance your experience by remembering your preferences (e.g., dark/light mode).</li>
+        <li><strong>Analytics Cookies:</strong> Help us understand how visitors use our website (e.g., page views, navigation paths).</li>
+    </ul>
+    <p>For detailed information about the cookies we use and how to manage them, please visit our <a href="cookies.html">Cookie Policy</a> and <a href="cookie-preferences.html">Cookie Preferences</a> page.</p>
+
+    <h2>9. Third-Party Services</h2>
+    <p>We use the following third-party services that may collect, process, or store data on our behalf:</p>
+    <ul>
+        <li><strong>Formspree:</strong> Used for processing contact form submissions. Data is transmitted securely via HTTPS. Read <a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener">Formspree's Privacy Policy</a>.</li>
+        <li><strong>GitHub Pages:</strong> Used to host our static website. Read <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub's Privacy Statement</a>.</li>
+        <li><strong>Cloud Infrastructure:</strong> We may use Google Cloud or other providers for certain services, with data protection safeguards in place.</li>
+    </ul>
+    <p>We encourage you to review the privacy policies of these third-party providers.</p>
+
+    <h2>10. Children's Privacy</h2>
+    <p>Our website and services are not intended for individuals under the age of 16. We do not knowingly collect personal data from children. If we become aware that we have inadvertently collected such data, we will take steps to delete it promptly.</p>
+
+    <h2>11. International Data Transfers</h2>
+    <p>Your information may be transferred to and processed in countries other than Kenya. We ensure that any such transfers are conducted in compliance with applicable data protection laws and that appropriate safeguards (such as Standard Contractual Clauses or adequacy decisions) are in place.</p>
+
+    <h2>12. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, or legal requirements. We encourage you to review this page periodically for the latest information. The "Last Updated" date at the top of this policy indicates when it was most recently revised.</p>
+    <p>If we make significant changes, we will notify you through a prominent notice on our website or via email (where appropriate).</p>
+
+    <h2>13. Contact Us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your personal data, please contact us:</p>
+
+    <div class="contact-block">
+        <p><strong>KINGMAN DIGITAL CYBER NETWORK (KDCN)</strong></p>
+        <p>📍 Manyatta, Embu, Kenya</p>
+        <p>📧 <a href="mailto:kingmandigitalcybernetwork@gmail.com">kingmandigitalcybernetwork@gmail.com</a></p>
+        <p>📞 +254 111 843 716</p>
+        <p style="margin-top: 10px;"><strong>Data Protection Officer:</strong> For privacy-specific concerns, please use the email above with "Privacy Request" in the subject line.</p>
+    </div>
+
+    <p style="margin-top: 2.5rem; font-size: 0.9rem; color: var(--muted); text-align: center;">© 2026 KINGMAN DIGITAL CYBER NETWORK. All rights reserved.</p>
+    <p style="font-size: 0.85rem; color: var(--muted); text-align: center;">Built in Manyatta. Engineered for the world.</p>
+</main>
+
+<!-- ==================== FOOTER ==================== -->
 <footer class="kdcn-footer"><footer class="kdcn-footer">
 
   <!-- =====================================================
@@ -630,132 +645,26 @@ footer {
 </footer>
 </footer>
 
+<!-- ==================== SCRIPTS ==================== -->
 <script>
-  const hamburger = document.querySelector('.hamburger');
-  const navMenu = document.querySelector('.nav-menu');
-  if (hamburger && navMenu) {
-    hamburger.addEventListener('click', () => {
-      navMenu.classList.toggle('active');
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    if (hamburger && navMenu) {
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    }
+    const toggle = document.getElementById('theme-toggle');
+    if (localStorage.getItem('theme') === 'light') {
+        document.body.classList.add('light');
+        toggle.textContent = '☀️';
+    }
+    toggle.addEventListener('click', () => {
+        document.body.classList.toggle('light');
+        const isLight = document.body.classList.contains('light');
+        localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        toggle.textContent = isLight ? '☀️' : '🌙';
     });
-  }
-  const toggle = document.getElementById('theme-toggle');
-  if (localStorage.getItem('theme') === 'light') {
-    document.body.classList.add('light');
-    toggle.textContent = '☀️';
-  }
-  toggle.addEventListener('click', () => {
-    document.body.classList.toggle('light');
-    const isLight = document.body.classList.contains('light');
-    localStorage.setItem('theme', isLight ? 'light' : 'dark');
-    toggle.textContent = isLight ? '☀️' : '🌙';
-  });
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- KDCN Chat Widget -->
-<style>
-.kdcn-chat-btn { position:fixed; bottom:25px; right:25px; width:60px; height:60px; border-radius:50%; background:linear-gradient(135deg,#0b7fab,#00d1ff); border:none; cursor:pointer; box-shadow:0 8px 20px rgba(0,0,0,0.3); z-index:1000; display:flex; align-items:center; justify-content:center; font-size:30px; color:#000; transition:transform 0.3s; }
-.kdcn-chat-btn:hover { transform:scale(1.1); }
-.kdcn-chat-panel { position:fixed; bottom:95px; right:25px; width:320px; max-width:90vw; height:420px; max-height:70vh; background:#0a1118; border:1px solid rgba(255,255,255,0.1); border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,0.5); display:none; flex-direction:column; overflow:hidden; z-index:1001; }
-.kdcn-chat-panel.active { display:flex; }
-.kdcn-chat-header { background:linear-gradient(135deg,#0b7fab,#00d1ff); padding:15px; color:#000; font-weight:bold; display:flex; justify-content:space-between; align-items:center; }
-.kdcn-chat-header span { font-size:1.1rem; }
-.kdcn-chat-close { background:none; border:none; font-size:1.5rem; cursor:pointer; color:#000; }
-.kdcn-chat-body { flex:1; padding:15px; overflow-y:auto; color:#fff; }
-.kdcn-chat-message { margin-bottom:12px; display:flex; flex-direction:column; }
-.kdcn-chat-message.bot { align-items:flex-start; }
-.kdcn-chat-message.user { align-items:flex-end; }
-.kdcn-chat-bubble { max-width:80%; padding:10px 15px; border-radius:18px; background:rgba(255,255,255,0.1); font-size:0.9rem; line-height:1.4; }
-.kdcn-chat-message.user .kdcn-chat-bubble { background:#00d1ff; color:#000; }
-.kdcn-chat-input { display:flex; padding:10px; background:rgba(0,0,0,0.2); }
-.kdcn-chat-input input { flex:1; padding:10px; border-radius:20px; border:1px solid rgba(255,255,255,0.2); background:#fff; color:#000; outline:none; }
-.kdcn-chat-input button { margin-left:10px; padding:10px 20px; border-radius:20px; border:none; background:#00d1ff; color:#000; font-weight:bold; cursor:pointer; }
-</style>
-<button class="kdcn-chat-btn" id="kdcnChatBtn" aria-label="Chat with us">💬</button>
-<div class="kdcn-chat-panel" id="kdcnChatPanel">
-  <div class="kdcn-chat-header">
-    <span>KDCN Assistant</span>
-    <button class="kdcn-chat-close" id="kdcnChatClose">&times;</button>
-  </div>
-  <div class="kdcn-chat-body" id="kdcnChatBody">
-    <div class="kdcn-chat-message bot">
-      <div class="kdcn-chat-bubble">Hello! I'm the KDCN virtual assistant. Ask me about our services, pricing, or how to get started.</div>
-    </div>
-  </div>
-  <div class="kdcn-chat-input">
-    <input type="text" id="kdcnChatInput" placeholder="Type your question...">
-    <button id="kdcnChatSend">Send</button>
-  </div>
-</div>
-<script>
-(function() {
-  var btn = document.getElementById('kdcnChatBtn');
-  var panel = document.getElementById('kdcnChatPanel');
-  var close = document.getElementById('kdcnChatClose');
-  var body = document.getElementById('kdcnChatBody');
-  var input = document.getElementById('kdcnChatInput');
-  var send = document.getElementById('kdcnChatSend');
-
-  if (!btn || !panel) return;
-
-  btn.addEventListener('click', function() {
-    panel.classList.toggle('active');
-  });
-  close.addEventListener('click', function() {
-    panel.classList.remove('active');
-  });
-
-  function addMessage(text, sender) {
-    var msgDiv = document.createElement('div');
-    msgDiv.className = 'kdcn-chat-message ' + sender;
-    var bubble = document.createElement('div');
-    bubble.className = 'kdcn-chat-bubble';
-    bubble.textContent = text;
-    msgDiv.appendChild(bubble);
-    body.appendChild(msgDiv);
-    body.scrollTop = body.scrollHeight;
-  }
-
-  function getBotResponse(userText) {
-    var t = userText.toLowerCase();
-    if (t.indexOf('hello') !== -1 || t.indexOf('hi') !== -1) return "Hi there! How can I help you today?";
-    if (t.indexOf('service') !== -1 || t.indexOf('offer') !== -1) return "We provide Cybersecurity Systems, IT Infrastructure & Cloud, Software Development, and Digital Systems Consulting. Which one are you interested in?";
-    if (t.indexOf('price') !== -1 || t.indexOf('cost') !== -1 || t.indexOf('fee') !== -1) return "Our pricing depends on the scope of the project. Please contact us via email or WhatsApp for a custom quote.";
-    if (t.indexOf('contact') !== -1 || t.indexOf('reach') !== -1) return "You can email us at kingmandigitalcybernetwork@gmail.com or WhatsApp +254111843716.";
-    if (t.indexOf('location') !== -1 || t.indexOf('where') !== -1) return "We are based in Embu, Kenya, serving clients globally.";
-    if (t.indexOf('platform') !== -1 || t.indexOf('ecosystem') !== -1) return "Our KDCN Platform and Ecosystem are coming soon! Stay tuned for updates.";
-    if (t.indexOf('security') !== -1 || t.indexOf('cyber') !== -1) return "We offer threat assessment, account protection, secure system architecture, and vulnerability analysis.";
-    return "I'm not sure I understand. For detailed assistance, please email kingmandigitalcybernetwork@gmail.com or WhatsApp +254111843716.";
-  }
-
-  send.addEventListener('click', function() {
-    var text = input.value.trim();
-    if (!text) return;
-    addMessage(text, 'user');
-    input.value = '';
-    setTimeout(function() {
-      addMessage(getBotResponse(text), 'bot');
-    }, 500);
-  });
-
-  input.addEventListener('keypress', function(e) {
-    if (e.key === 'Enter') send.click();
-  });
-})();
 </script>
 
 </body>

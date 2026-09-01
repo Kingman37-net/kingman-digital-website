@@ -51,245 +51,238 @@ footer { background:var(--footer-bg); padding:50px 20px 30px; color:var(--muted)
 }
 
 
+
 /* KDCN V1.1 COMPONENTS START */
 /* =========================================================
-   KDCN WEBSITE V1.1
-   GLOBAL NAVIGATION + FOOTER COMPONENTS
+   KDCN FOOTER — EXACT ASCII MATCH
    ========================================================= */
 
-
-/* =========================
-   NAVIGATION CTA
-   ========================= */
-
-.cta-button {
-  display: inline-block;
-  background: linear-gradient(
-    135deg,
-    var(--primary),
-    var(--accent)
-  );
-  color: #000;
-  padding: 9px 20px;
-  border-radius: 40px;
-  text-decoration: none;
-  font-weight: 700;
-  white-space: nowrap;
-  margin-left: 15px;
-  transition: transform .3s, box-shadow .3s;
-}
-
-.cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,209,255,.3);
-}
-
-
-/* =========================
-   DROPDOWN NAVIGATION
-   ========================= */
-
-.dropdown {
-  position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  min-width: 230px;
-  background: var(--nav-bg);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px 0;
-  box-shadow: 0 15px 35px rgba(0,0,0,.35);
-  z-index: 1000;
-}
-
-.dropdown-content a {
-  display: block;
-  padding: 10px 16px;
-  color: var(--light);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.dropdown-content a:hover {
-  color: var(--accent);
-  background: rgba(0,209,255,.06);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-/* =========================
-   FOOTER
-   ========================= */
-
-footer {
+.kdcn-footer {
   background: var(--footer-bg);
+  color: var(--muted);
   padding: 60px 20px 30px;
-  color: var(--muted);
 }
 
-.footer-grid {
+/* =========================================================
+   LEVEL 1 — 3-COLUMN GRID
+   ========================================================= */
+
+.kdcn-footer-level {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.level-one {
   display: grid;
-  grid-template-columns:
-    1.6fr
-    repeat(5, 1fr);
-  gap: 35px;
-  text-align: left;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding-bottom: 40px;
 }
 
-.footer-col h3,
-.footer-col h4 {
+.footer-section h4 {
   color: var(--accent);
-  margin-bottom: 16px;
+  margin: 0 0 18px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.footer-col p {
-  color: var(--muted);
-  margin: 6px 0;
-}
-
-.footer-col a {
+.footer-section a {
   display: block;
+  width: fit-content;
   color: var(--muted);
   text-decoration: none;
-  margin: 9px 0;
-  font-size: .94rem;
-  transition: color .3s;
+  margin: 10px 0;
+  font-size: 0.94rem;
+  transition: color 0.3s, transform 0.3s;
 }
 
-.footer-col a:hover {
+.footer-section a:hover {
   color: var(--accent);
+  transform: translateX(3px);
+}
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.footer-divider {
+  border: 0;
+  height: 2px;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  background: linear-gradient(to right, transparent, var(--accent), transparent);
+}
+
+/* =========================================================
+   LEVEL 2 — SIDE-BY-SIDE (Identity | Legal)
+   ========================================================= */
+
+.level-two {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+/* =========================================================
+   IDENTITY (LEFT)
+   ========================================================= */
+
+.footer-identity {
+  max-width: 600px;
 }
 
 .footer-logo {
-  width: 70px;
+  width: 72px;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-.footer-tagline {
+.footer-identity h3 {
+  color: var(--accent);
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.legal-name {
+  margin: 0 0 16px;
   font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-size: 0.95rem;
 }
 
-.brand-desc {
-  max-width: 280px;
-  line-height: 1.6;
+.footer-motto {
+  color: var(--light);
+  line-height: 1.7;
+  font-style: italic;
+  margin: 18px 0 12px 0;
 }
 
 .footer-location {
-  margin-top: 18px !important;
+  color: #cccccc;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 16px 0 20px 0;
+  letter-spacing: 0.3px;
 }
 
-
-/* =========================
-   LEGAL STRIP
-   ========================= */
-
-.footer-bottom {
-  max-width: 1200px;
-  margin: 40px auto 0;
-  padding-top: 22px;
-  border-top: 1px solid var(--border);
-
+/* SOCIALS */
+.footer-socials {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 18px;
+  gap: 12px 18px;
+  margin-top: 10px;
 }
 
-.footer-bottom a {
+.footer-socials a {
   color: var(--muted);
   text-decoration: none;
-  font-size: .88rem;
+  font-size: 0.9rem;
+  transition: color 0.3s;
 }
 
-.footer-bottom a:hover {
+.footer-socials a:hover {
   color: var(--accent);
 }
 
+/* =========================================================
+   LEGAL (RIGHT)
+   ========================================================= */
 
-/* =========================
-   COPYRIGHT
-   ========================= */
+.footer-legal {
+  border-left: 2px solid var(--border);
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+}
 
-.copyright {
-  max-width: 1200px;
-  margin: 20px auto 0;
-  padding-top: 18px;
-  border-top: 1px solid var(--border);
-  text-align: center;
+.legal-copyright {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 0 20px 0;
+}
+
+.footer-legal a {
   color: var(--muted);
-  font-size: .88rem;
+  text-decoration: none;
+  margin: 6px 0;
+  font-size: 0.94rem;
+  transition: color 0.3s, transform 0.3s;
+  width: fit-content;
 }
 
-.copyright span {
+.footer-legal a:hover {
   color: var(--accent);
+  transform: translateX(3px);
 }
 
-
-/* =========================
-   MOBILE
-   ========================= */
+/* =========================================================
+   MOBILE — STACK LEVEL 2 VERTICALLY
+   ========================================================= */
 
 @media (max-width: 768px) {
-
-  .cta-button {
-    display: none;
+  .kdcn-footer {
+    padding: 40px 18px 20px;
   }
 
-  .dropdown-content {
-    position: static;
-    width: 100%;
-    box-shadow: none;
-    border: none;
-    border-radius: 0;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .footer-grid {
+  .level-one {
     grid-template-columns: 1fr 1fr;
     gap: 30px 20px;
   }
 
-  .brand-col {
+  .level-one .footer-section:last-child {
     grid-column: 1 / -1;
   }
 
-  .footer-bottom {
-    justify-content: center;
-    text-align: center;
+  .level-two {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-legal {
+    border-left: none;
+    border-top: 2px solid var(--border);
+    padding-left: 0;
+    padding-top: 30px;
+  }
+
+  .footer-identity {
+    max-width: 100%;
+  }
+
+  .footer-socials {
+    gap: 10px 15px;
   }
 }
 
-
 @media (max-width: 480px) {
-
-  .footer-grid {
+  .level-one {
     grid-template-columns: 1fr;
+    gap: 25px;
   }
 
-  .brand-col {
+  .level-one .footer-section:last-child {
     grid-column: auto;
   }
 
-  .footer-bottom {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  .footer-logo {
+    width: 56px;
   }
 
+  .footer-identity h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-location {
+    font-size: 0.95rem;
+  }
 }
 /* KDCN V1.1 COMPONENTS END */
 </style>
@@ -390,6 +383,8 @@ footer {
   </div>
 </nav>
 </nav>
+</nav>
+</nav>
 
 <header>
   <h1>Platform <span>Access</span></h1>
@@ -477,6 +472,8 @@ footer {
 
   </div>
 
+</footer>
+</footer>
 </footer>
 </footer>
 
