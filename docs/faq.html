@@ -526,6 +526,32 @@ footer span {
   display: block !important;
 }
 
+
+/* =========================
+   NAV CTA BUTTON (INLINE FIX)
+   ========================= */
+.cta-button {
+  display: inline-block !important;
+  background: linear-gradient(135deg, #0b7fab, #00d1ff) !important;
+  color: #000 !important;
+  padding: 9px 20px !important;
+  border-radius: 40px !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+  margin-left: 15px !important;
+  transition: transform .3s, box-shadow .3s !important;
+}
+.cta-button:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(0,209,255,.3) !important;
+}
+@media (max-width: 768px) {
+  .cta-button {
+    display: none !important;
+  }
+}
+
 </style>
 </head>
 <body>
