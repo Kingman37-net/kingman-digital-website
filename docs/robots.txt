@@ -1,17 +1,17 @@
 # robots.txt for KDCN Website
-# https://kingman37-net.github.io/kingman-digital-website/
+# https://www.kingmandigital.co.ke/
 
 User-agent: *
 Allow: /
 Disallow: /images/icons/
 Disallow: /files/
 
-# Allow all legal pages
+# Legal pages
 Allow: /privacy.html
 Allow: /terms.html
 Allow: /security.html
 Allow: /cookies.html
 Allow: /cookie-preferences.html
 
-# Sitemap location
-Sitemap: https://kingman37-net.github.io/kingman-digital-website/sitemap.xml
+# Sitemap
+Sitemap: https://www.kingmandigital.co.ke/sitemap.xml
