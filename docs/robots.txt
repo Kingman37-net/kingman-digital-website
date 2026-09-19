@@ -3,15 +3,48 @@
 
 User-agent: *
 Allow: /
+
+# Public pages (indexed)
+Allow: /index.html
+Allow: /about.html
+Allow: /approach.html
+Allow: /services.html
+Allow: /cybersecurity.html
+Allow: /infrastructure.html
+Allow: /software-development.html
+Allow: /digital-consulting.html
+Allow: /platform.html
+Allow: /platform-access.html
+Allow: /ecosystem.html
+Allow: /ecosystem-overview.html
+Allow: /portfolio.html
+Allow: /blog.html
+Allow: /resources.html
+Allow: /knowledge-center.html
+Allow: /faq.html
+Allow: /support.html
+Allow: /contact.html
+Allow: /careers.html
+Allow: /livestream.html
+
+# Private pages (hidden from search)
+Disallow: /privacy.html
+Disallow: /terms.html
+Disallow: /cookies.html
+Disallow: /cookie-preferences.html
+Disallow: /disclaimer.html
+Disallow: /aup.html
+Disallow: /dmca.html
+Disallow: /compliance.html
+Disallow: /accessibility.html
+Disallow: /service-terms.html
+Disallow: /third-party.html
+Disallow: /client-portal.html
+Disallow: /security.html
+
+# Block internal directories
 Disallow: /images/icons/
 Disallow: /files/
-
-# Legal pages
-Allow: /privacy.html
-Allow: /terms.html
-Allow: /security.html
-Allow: /cookies.html
-Allow: /cookie-preferences.html
 
 # Sitemap
 Sitemap: https://www.kingmandigital.co.ke/sitemap.xml
