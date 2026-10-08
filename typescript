@@ -1,1903 +1,0 @@
-Script started on 2026-10-08 19:50:09+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="59" LINES="35"]
-[H[2J[3J[1;34m
-╻┏ ╻┏┓╻┏━╸┏┳┓┏━┓┏┓╻
-┣┻┓┃┃┗┫┃╺┓┃┃┃┣━┫┃┗┫
-╹ ╹╹╹ ╹┗━┛╹ ╹╹ ╹╹ ╹
-[1;34m
-▛▀▖▜▘▞▀▖▜▘▀▛▘▞▀▖▌   ▞▀▖▌ ▌▛▀▖▛▀▘▛▀▖ ▙ ▌▛▀▘▀▛▘▌ ▌▞▀▖▛▀▖▌ ▌
-▌ ▌▐ ▌▄▖▐  ▌ ▙▄▌▌   ▌  ▝▞ ▙▄▘▙▄ ▙▄▘ ▌▌▌▙▄  ▌ ▌▖▌▌ ▌▙▄▘▙▞ 
-▌ ▌▐ ▌ ▌▐  ▌ ▌ ▌▌   ▌ ▖ ▌ ▌ ▌▌  ▌▚  ▌▝▌▌   ▌ ▙▚▌▌ ▌▌▚ ▌▝▖
-▀▀ ▀▘▝▀ ▀▘ ▘ ▘ ▘▀▀▘ ▝▀  ▘ ▀▀ ▀▀▘▘ ▘ ▘ ▘▀▀▘ ▘ ▘ ▘▝▀ ▘ ▘▘ ▘
-[0m
-
-[1;35mUser:      [1;33mKINGMAN_DIGITAL[0m
-[1;35mWorkspace: [1;33mKDCN37K[0m
-[1;35mCloud:     [1;33mGoogle Drive ✓[0m
-[1;35mBackup:    [1;33mReady ✓[0m
-
-[1;37mDate: Thursday, October 08, 2026[0m
-[1;31mTime: 07:50 PM[0m
-
-[1;36m=========================================[0m
-
-[1;32mKDCN37K Workspace Loaded Successfully ✓[0m
-
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/KDCN37K]1;~/KDCN37K]7;file://localhost/data/data/com.termux/files/home/KDCN37K\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/KDCN37K[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hc[1m[31mc[0m[39m[1m[31mc[0m[39m[90md ~/kingman-site/kingman-digital-website[39m[40D[1m[31mc[1m[31md[0m[39m[0m[32mc[0m[32md[39m[39m [39m~[39m/[39mk[39mi[39mn[39mg[39mm[39ma[39mn[39m-[39ms[39mi[39mt[39me[39m/[39mk[39mi[39mn[39mg[39mm[39ma[39mn[39m-[39md[39mi[39mg[39mi[39mt[39ma[39ml[39m-[39mw[39me[39mb[39ms[39mi[39mt[39me[38D[4m~[4m/[4mk[4mi[4mn[4mg[4mm[4ma[4mn[4m-[4ms[4mi[4mt[4me[4m/[4mk[4mi[4mn[4mg[4mm[4ma[4mn[4m-[4md[4mi[4mg[4mi[4mt[4ma[4ml[4m-[4mw[4me[4mb[4ms[4mi[4mt[4me[24m[?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hcd ~/kingman-site/kingman-digital-website[41D[32mc[32md[39m [4m~[4m/[4mk[4mi[4mn[4mg[4mm[4ma[4mn[4m-[4ms[4mi[4mt[4me[4m/[4mk[4mi[4mn[4mg[4mm[4ma[4mn[4m-[4md[4mi[4mg[4mi[4mt[4ma[4ml[4m-[4mw[4me[4mb[4ms[4mi[4mt[4me[24m[4me[4m/[24m[4m/[4ms[24m[4ms[4mc[24m[4mc[4mr[24m[4mr[4mi[24m[4mi[4mp[24m[4mp[4mt[24m[4mt[4ms[24m[?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website/scripts]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/scripts]1;..bsite/scripts]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/scripts\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/scripts[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004ht[1m[31mt[0m[39m[1m[31mt[0m[39m[90mree -L 1[39m[8D[1m[31mt[1m[31mr[0m[39m[0m[32mt[0m[32mr[39m[32mt[32mr[32me[39m[1m[31mt[1m[31mr[1m[31me[0m[39m[1m[31me[1m[31me[0m[39m[0m[32mt[0m[32mr[0m[32me[0m[32me[39m[39m [39m [39m [39m [39m [?1l>[?2004l
-]2;tree -C]1;tree[01;34m.[0m
-├── add_csp.py
-├── apply_footer_v2.py
-├── build_site.py
-├── chat_insert.py
-├── chat_integration.py
-├── create_pages_v1_1.py
-├── fix_theme.py
-├── make_placeholder.sh
-├── update_all_v1_1.py
-├── update_site.py
-└── validate_links.py
-
-1 directory, 11 files
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/scripts]1;..bsite/scripts]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/scripts\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/scripts[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hk[1m[31mk[0m[39m[1m[31mk[0m[39m[90ms[39m[1m[31mk[1m[31ms[0m[39m[0m[32mk[0m[32ms[39m[?1l>[?2004l
-]2;cd ~/kingman-site]1;ks[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site]1;~/kingman-site]7;file://localhost/data/data/com.termux/files/home/kingman-site\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hccat > ~/kingman-site/kingman-digital-website/scripts/ [K[Krrewrite-to-cdn.py << 'PYEOF'[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h##!/usr/bin/env python3[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h""""[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hRRewrite local image references in kingman-digital- [K[Kwwebsite to CDN URLs.[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hUUsage:[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h   python3 scripts/rewrite-to-cdn.py --dry-run[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h   python3 scripts/rewrite-to-cdn.py --apply[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h""""[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hiimport sys[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hffrom pathlib import Path[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hRREPO = Path(__file__).resolve().parent.parent[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hDDOCS = REPO / "docs"[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hCCDN = "https://media.kingmandigital.co.ke"[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h## Order matters — longer / more specific keys firs [K[Kt[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hMMAPPING = [[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     # OG/Twitter meta — full URL form[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("https://www.kingmandigital.co.ke/images/logo [K[K--banner.png",[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h      f"{CDN}/website/main/logo/logo-banner.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     # Covers[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/cover-home.jpg", f"{CDN}/website/mai [K[Knn/covers/cover-home.jpg"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/cover-page.jpg", f"{CDN}/website/mai [K[Knn/covers/cover-page.jpg"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     # Logos — specific first, then general[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/logo-transparent.png", f"{CDN}/websi [K[Ktte/main/logo/logo-transparent.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/logo-small.png",       f"{CDN}/websi [K[Ktte/main/logo/logo-small.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/logo-square.png",      f"{CDN}/websi [K[Ktte/main/logo/logo-square.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/logo-banner.png",      f"{CDN}/websi [K[Ktte/main/logo/logo-banner.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/logo-wide.jpg",        f"{CDN}/websi [K[Ktte/main/logo/logo-wide.jpg"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/logo.png",             f"{CDN}/websi [K[Ktte/main/logo/logo.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     # Icons — all 12[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/domain.png",     f"{CDN}/icons [K[K//domain.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/email.png",      f"{CDN}/icons [K[K//email.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/facebook.png",   f"{CDN}/icons [K[K//facebook.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/github.png",     f"{CDN}/icons [K[K//github.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/instagram.png",  f"{CDN}/icons [K[K//instagram.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/legal.png",      f"{CDN}/icons [K[K//legal.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/linkedin.png",   f"{CDN}/icons [K[K//linkedin.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/phone.png",      f"{CDN}/icons [K[K//phone.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/tiktok.png",     f"{CDN}/icons [K[K//tiktok.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/whatsapp.png",   f"{CDN}/icons [K[K//whatsapp.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/x.png",          f"{CDN}/icons [K[K//x.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     ("/images/icons/youtube.png",    f"{CDN}/icons [K[K//youtube.png"),[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h][?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hddef main():[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     dry = "--dry-run" in sys.argv[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     apply = "--apply" in sys.argv[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     if not (dry or apply):[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h         print("Usage: rewrite-to-cdn.py [--dry-run [K[K[1C | --apply]")[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h         return 1[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     html_files = sorted(DOCS.rglob("*.html"))[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     print(f"▶ Scanning {len(html_files)} HTML file [K[Kss")[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     print()[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     total = 0[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     changed = 0[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     per_file = {}[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     for path in html_files:[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h         original = path.read_text(encoding="utf-8" [K[K)[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h         content = original[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h         hits = 0[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h         for old, new in MAPPING:[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h             c = content.count(old)[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h             if c:[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h                 content = content.replace(old, new [K[K)[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h                 hits += c[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h         if hits:[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h             per_file[path] = hits[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h             total += hits[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h             changed += 1[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h             rel = path.relative_to(REPO)[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h             print(f"  {hits:>3}  {rel}")[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h             if apply:[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h                 path.write_text(content, encoding= [K[K""utf-8")[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     print()[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     print(f"▶ Files changed:      {changed}")[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     print(f"▶ Total replacements: {total}")[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     print()[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     print("✅ Dry run complete — no files written" [K[K[1C if dry else "✅ Changes applied")[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     return 0[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hiif __name__ == "__main__":[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004h     sys.exit(main())[?1l>[?2004l
-[0m[27m[24m[Jheredoc> [K[?1h=[?2004hPPYEOF[?1l>[?2004l
-]2;cat > ~/kingman-site/kingman-digital-website/scripts/rewrite-to-cdn.py <<<'']1;cat[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site]1;~/kingman-site]7;file://localhost/data/data/com.termux/files/home/kingman-site\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hcchmod +x scripts/rewrite-to-cdn.py[34D[32mc[32mh[32mm[32mo[32md[39m[29C[?1l>[?2004l
-]2;chmod +x scripts/rewrite-to-cdn.py]1;chmodchmod: cannot access 'scripts/rewrite-to-cdn.py': No such file or directory
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site]1;~/kingman-site]7;file://localhost/data/data/com.termux/files/home/kingman-site\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hchmod +x scripts/rewrite-to-cdn.py[34D[32mc[32mh[32mm[32mo[32md[39m[29C[34D[32mc[32ma[32mt[32m [32m>[39m ~/kingman-site/kingman-digital-website/scripts/rewrite-to-cdn.py << 'PYEOF'[K
-#!/usr/bin/env python3[K
-"""[K
-Rewrite local image references in kingman-digital-website to CDN URLs.[K
-Usage:[K
-  python3 scripts/rewrite-to-cdn.py --dry-run[K
-  python3 scripts/rewrite-to-cdn.py --apply[K
-"""[K
-[K
-import sys[K
-from pathlib import Path[K
-[K
-REPO = Path(__file__).resolve().parent.parent[K
-DOCS = REPO / "docs"[K
-CDN = "https://media.kingmandigital.co.ke"[K
-[K
-# Order matters — longer / more specific keys first[K
-MAPPING = [[K
-    # OG/Twitter meta — full URL form[K
-    ("https://www.kingmandigital.co.ke/images/logo-banner.png",[K
-     f"{CDN}/website/main/logo/logo-banner.png"),[K
-[K
-    # Covers[K
-    ("/images/cover-home.jpg", f"{CDN}/website/main/covers/cover-home.jpg"),[K
-    ("/images/cover-page.jpg", f"{CDN}/website/main/covers/cover-page.jpg"),[K
-[K
-    # Logos — specific first, then general[K
-    ("/images/logo-transparent.png", f"{CDN}/website/main/logo/logo-transparent.png"),[K
-    ("/images/logo-small.png",       f"{CDN}/website <....[K[33A[30D[A[20D[32mt[39m[39m [33m>[39m [4m~[4m/[4mk[4mi[4mn[4mg[4mm[4ma[4mn[4m-[4ms[4mi[4mt[4me[4m/[4mk[4mi[4mn[4mg[4mm[4ma[4mn[4m-[4md[4mi[4mg[4mi[4mt[4ma[4ml[4m-[4mw[4me[4mb[4ms[4mi[4mt[4me[4m/[4ms[4mc[4mr[4mi[4mp[4mt[4ms[4m/[4mr[4me[4mw[4mr[4mi[4mt[4me[4m-[4mt[4mo[4m-[4mc[4md[4mn[4m.[4mp[4my[24m [33m<[33m<[39m [33m'[33mP[33mY[33mE[33mO[33mF[33m'[39m[1B[1m[30m#[1m[30m![1m[30m/[1m[30mu[1m[30ms[1m[30mr[1m[30m/[1m[30mb[1m[30mi[1m[30mn[1m[30m/[1m[30me[1m[30mn[1m[30mv[1m[30m [1m[30mp[1m[30my[1m[30mt[1m[30mh[1m[30mo[1m[30mn[1m[30m3[0m[39m[1B[1m[31m"[1m[31m"[1m[31m"[1B[0m[39m[1m[31mR[1m[31me[1m[31mw[1m[31mr[1m[31mi[1m[31mt[1m[31me[1m[31m [1m[31ml[1m[31mo[1m[31mc[1m[31ma[1m[31ml[1m[31m [1m[31mi[1m[31mm[1m[31ma[1m[31mg[1m[31me[1m[31m [1m[31mr[1m[31me[1m[31mf[1m[31me[1m[31mr[1m[31me[1m[31mn[1m[31mc[1m[31me[1m[31ms[1m[31m [1m[31mi[1m[31mn[1m[31m [1m[31mk[1m[31mi[1m[31mn[1m[31mg[1m[31mm[1m[31ma[1m[31mn[1m[31m-[1m[31md[1m[31mi[1m[31mg[1m[31mi[1m[31mt[1m[31ma[1m[31ml[1m[31m-[1m[31mw[1m[31me[1m[31mb[1m[31ms[1m[31mi[1m[31mt[1m[31me[1m[31m [1m[31mt[1m[31mo[1m[31m [1m[31mC[1m[31mD[1m[31mN[1m[31m [1m[31mU[1m[31mR[1m[31mL[1m[31ms[1m[31m.[1B[0m[39m[1m[31mU[1m[31ms[1m[31ma[1m[31mg[1m[31me[1m[31m:[1B[0m[39m[1m[31m [1m[31m [1m[31mp[1m[31my[1m[31mt[1m[31mh[1m[31mo[1m[31mn[1m[31m3[1m[31m [1m[31ms[1m[31mc[1m[31mr[1m[31mi[1m[31mp[1m[31mt[1m[31ms[1m[31m/[1m[31mr[1m[31me[1m[31mw[1m[31mr[1m[31mi[1m[31mt[1m[31me[1m[31m-[1m[31mt[1m[31mo[1m[31m-[1m[31mc[1m[31md[1m[31mn[1m[31m.[1m[31mp[1m[31my[1m[31m [1m[31m-[1m[31m-[1m[31md[1m[31mr[1m[31my[1m[31m-[1m[31mr[1m[31mu[1m[31mn[1B[0m[39m[1m[31m [1m[31m [1m[31mp[1m[31my[1m[31mt[1m[31mh[1m[31mo[1m[31mn[1m[31m3[1m[31m [1m[31ms[1m[31mc[1m[31mr[1m[31mi[1m[31mp[1m[31mt[1m[31ms[1m[31m/[1m[31mr[1m[31me[1m[31mw[1m[31mr[1m[31mi[1m[31mt[1m[31me[1m[31m-[1m[31mt[1m[31mo[1m[31m-[1m[31mc[1m[31md[1m[31mn[1m[31m.[1m[31mp[1m[31my[1m[31m [1m[31m-[1m[31m-[1m[31ma[1m[31mp[1m[31mp[1m[31ml[1m[31my[1B[0m[39m[1m[31m"[1m[31m"[1m[31m"[0m[39m[2B[32mi[32mm[32mp[32mo[32mr[32mt[39m[1B[32mf[32mr[32mo[32mm[39m[2B[1m[31mR[1m[31mE[1m[31mP[1m[31mO[0m[39m[25C[33m([33m)[39m[1m[31m.[1m[31mp[1m[31ma[1m[31mr[1m[31me[1m[31mn[1m[31mt[1m[31m.[1m[31mp[1m[31ma[1m[31mr[1m[31me[1m[31mn[1m[31mt[0m[39m[1B[1m[31mD[1m[31mO[1m[31mC[1m[31mS[0m[39m[8C[4m/[24m [33m"[33md[33mo[33mc[33ms[33m"[39m[1B[1m[31mC[1m[31mD[1m[31mN[0m[39m[3C[33m"[33mh[33mt[33mt[33mp[33ms[33m:[33m/[33m/[33mm[33me[33md[33mi[33ma[33m.[33mk[33mi[33mn[33mg[33mm[33ma[33mn[33md[33mi[33mg[33mi[33mt[33ma[33ml[33m.[33mc[33mo[33m.[33mk[33me[33m"[39m[2B[1m[30m#[1m[30m [1m[30mO[1m[30mr[1m[30md[1m[30me[1m[30mr[1m[30m [1m[30mm[1m[30ma[1m[30mt[1m[30mt[1m[30me[1m[30mr[1m[30ms[1m[30m [1m[30m—[1m[30m [1m[30ml[1m[30mo[1m[30mn[1m[30mg[1m[30me[1m[30mr[1m[30m [1m[30m/[1m[30m [1m[30mm[1m[30mo[1m[30mr[1m[30me[1m[30m [1m[30ms[1m[30mp[1m[30me[1m[30mc[1m[30mi[1m[30mf[1m[30mi[1m[30mc[1m[30m [1m[30mk[1m[30me[1m[30my[1m[30ms[1m[30m [1m[30mf[1m[30mi[1m[30mr[1m[30ms[1m[30mt[0m[39m[1B[1m[31mM[1m[31mA[1m[31mP[1m[31mP[1m[31mI[1m[31mN[1m[31mG[0m[39m[1B[1m[30m#[1m[30m [1m[30mO[1m[30mG[1m[30m/[1m[30mT[1m[30mw[1m[30mi[1m[30mt[1m[30mt[1m[30me[1m[30mr[1m[30m [1m[30mm[1m[30me[1m[30mt[1m[30ma[1m[30m [1m[30m—[1m[30m [1m[30mf[1m[30mu[1m[30ml[1m[30ml[1m[30m [1m[30mU[1m[30mR[1m[30mL[1m[30m [1m[30mf[1m[30mo[1m[30mr[1m[30mm[0m[39m[1B[33D[33m([39m[1m[31m"[1m[31mh[1m[31mt[1m[31mt[1m[31mp[1m[31ms[1m[31m:[1m[31m/[1m[31m/[1m[31mw[1m[31mw[1m[31mw[1m[31m.[1m[31mk[1m[31mi[1m[31mn[1m[31mg[1m[31mm[1m[31ma[1m[31mn[1m[31md[1m[31mi[1m[31mg[1m[31mi[1m[31mt[1m[31ma[1m[31ml[1m[31m.[1m[31mc[1m[31mo[1m[31m.[1m[31mk[1m[31me[1m[31m/[1m[31mi[1m[31mm[1m[31ma[1m[31mg[1m[31me[1m[31ms[1m[31m/[1m[31ml[1m[31mo[1m[31mg[1m[31mo[1m[31m-[1m[31mb[1m[31ma[1m[31mn[1m[31mn[1m[31me[1m[31mr[1m[31m.[1m[31mp[1m[31mn[1m[31mg[1m[31m"[1m[31m,[0m[39m[1B[1C[1m[31mf[1m[31m"[1m[31m{[1m[31mC[1m[31mD[1m[31mN[1m[31m}[1m[31m/[1m[31mw[1m[31me[1m[31mb[1m[31ms[1m[31mi[1m[31mt[1m[31me[1m[31m/[1m[31mm[1m[31ma[1m[31mi[1m[31mn[1m[31m/[1m[31ml[1m[31mo[1m[31mg[1m[31mo[1m[31m/[1m[31ml[1m[31mo[1m[31mg[1m[31mo[1m[31m-[1m[31mb[1m[31ma[1m[31mn[1m[31mn[1m[31me[1m[31mr[1m[31m.[1m[31mp[1m[31mn[1m[31mg[1m[31m"[0m[39m[33m)[39m[2B[44D[1m[30m#[1m[30m [1m[30mC[1m[30mo[1m[30mv[1m[30me[1m[30mr[1m[30ms[0m[39m[1B[8D[33m([39m[1m[31m"[1m[31m/[1m[31mi[1m[31mm[1m[31ma[1m[31mg[1m[31me[1m[31ms[1m[31m/[1m[31mc[1m[31mo[1m[31mv[1m[31me[1m[31mr[1m[31m-[1m[31mh[1m[31mo[1m[31mm[1m[31me[1m[31m.[1m[31mj[1m[31mp[1m[31mg[1m[31m"[1m[31m,[0m[39m[2C[33m"[33m{[33mC[33mD[33mN[33m}[33m/[33mw[33me[33mb[33ms[33mi[33mt[33me[33m/[33mm[33ma[33mi[33mn[33m/[33mc[33mo[33mv[33me[33mr[33ms[33m/[33mc[33mo[33mv[33me[33mr[33m-[33mh[33mo[33mm[33me[33m.[33mj[33mp[33mg[33m"[39m[33m)[39m[1B[12D[33m([39m[1m[31m"[1m[31m/[1m[31mi[1m[31mm[1m[31ma[1m[31mg[1m[31me[1m[31ms[1m[31m/[1m[31mc[1m[31mo[1m[31mv[1m[31me[1m[31mr[1m[31m-[1m[31mp[1m[31ma[1m[31mg[1m[31me[1m[31m.[1m[31mj[1m[31mp[1m[31mg[1m[31m"[1m[31m,[0m[39m[2C[33m"[33m{[33mC[33mD[33mN[33m}[33m/[33mw[33me[33mb[33ms[33mi[33mt[33me[33m/[33mm[33ma[33mi[33mn[33m/[33mc[33mo[33mv[33me[33mr[33ms[33m/[33mc[33mo[33mv[33me[33mr[33m-[33mp[33ma[33mg[33me[33m.[33mj[33mp[33mg[33m"[39m[33m)[39m[2B[12D[1m[30m#[1m[30m [1m[30mL[1m[30mo[1m[30mg[1m[30mo[1m[30ms[1m[30m [1m[30m—[1m[30m [1m[30ms[1m[30mp[1m[30me[1m[30mc[1m[30mi[1m[30mf[1m[30mi[1m[30mc[1m[30m [1m[30mf[1m[30mi[1m[30mr[1m[30ms[1m[30mt[1m[30m,[1m[30m [1m[30mt[1m[30mh[1m[30me[1m[30mn[1m[30m [1m[30mg[1m[30me[1m[30mn[1m[30me[1m[30mr[1m[30ma[1m[30ml[0m[39m[1B[38D[33m([39m[1m[31m"[1m[31m/[1m[31mi[1m[31mm[1m[31ma[1m[31mg[1m[31me[1m[31ms[1m[31m/[1m[31ml[1m[31mo[1m[31mg[1m[31mo[1m[31m-[1m[31mt[1m[31mr[1m[31ma[1m[31mn[1m[31ms[1m[31mp[1m[31ma[1m[31mr[1m[31me[1m[31mn[1m[31mt[1m[31m.[1m[31mp[1m[31mn[1m[31mg[1m[31m"[1m[31m,[0m[39m[2C[33m"[33m{[33mC[33mD[33mN[33m}[33m/[33mw[33me[33mb[33ms[33mi[33mt[33me[33m/[33mm[33ma[33mi[33mn[33m/[33ml[33mo[33mg[33mo[33m/[33ml[33mo[33mg[33mo[33m-[33mt[33mr[33ma[33mn[33ms[33mp[33ma[33mr[33me[33mn[33mt[33m.[33mp[33mn[33mg[33m"[39m[33m)[39m[1B[22D[33m([39m[1m[31m"[1m[31m/[1m[31mi[1m[31mm[1m[31ma[1m[31mg[1m[31me[1m[31ms[1m[31m/[1m[31ml[1m[31mo[1m[31mg[1m[31mo[1m[31m-[1m[31ms[1m[31mm[1m[31ma[1m[31ml[1m[31ml[1m[31m.[1m[31mp[1m[31mn[1m[31mg[1m[31m"[1m[31m,[0m[39m[8C[33m"[33m{[33mC[33mD[33mN[33m}[33m/[33mw[33me[33mb[33ms[33mi[33mt[33me[33A[24D[A[22D[32mk[32ms[39m[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[34A[8C[39mk[39mstree[32mt[32mr[32me[32me[39m[32mc[32md[32m [32m~[39m/kingman-site/kingman-digital-website/scripts[49D[32mc[32md[39m[39m [39m[4m~[4m/[4mk[4mi[4mn[4mg[4mm[4ma[4mn[4m-[4ms[4mi[4mt[4me[4m/[4mk[4mi[4mn[4mg[4mm[4ma[4mn[4m-[4md[4mi[4mg[4mi[4mt[4ma[4ml[4m-[4mw[4me[4mb[4ms[4mi[4mt[4me[4m/[4ms[4mc[4mr[4mi[4mp[4mt[4ms[24m[?1l>[?2004l[1B]2;cd ~/kingman-site/kingman-digital-website/scripts]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/scripts]1;..bsite/scripts]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/scripts\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/scripts[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004ht[1m[31mt[0m[39m[1m[31mt[0m[39m[90mree[39m[1m[31mt[1m[31mr[0m[39m[0m[32mt[0m[32mr[39m[39me[39me[32mt[32mr[32me[32me[39m[?1l>[?2004l
-]2;tree -C]1;tree[01;34m.[0m
-├── add_csp.py
-├── apply_footer_v2.py
-├── build_site.py
-├── chat_insert.py
-├── chat_integration.py
-├── create_pages_v1_1.py
-├── fix_theme.py
-├── make_placeholder.sh
-├── rewrite-to-cdn.py
-├── update_all_v1_1.py
-├── update_site.py
-└── validate_links.py
-
-1 directory, 12 files
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/scripts]1;..bsite/scripts]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/scripts\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/scripts[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hc[1m[31mc[0m[39m[1m[31mc[0m[39m[90md ~/kingman-site/kingman-digital-website/scripts[39m[48D[1m[31mc[1m[31ma[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [47D[90mt > ~/kingman-site/kingman-digital-website/scripts/[90mr[90mewrite-to-cdn.py << 'PYEOF'[39m[K
-[90m#!/usr/bin/env python3[39m[K
-[90m"""[39m[K
-[90mRewrite local image references in kingman-digital-website t[90mo[90m CDN URLs.[39m[K
-[90mUsage:[39m[K
-[90m  python3 scripts/rewrite-to-cdn.py --dry-run[39m[K
-[90m  python3 scripts/rewrite-to-cdn.py --apply[39m[K
-[90m"""[39m[K
-[K
-[90mimport sys[39m[K
-[90mfrom pathlib import Path[39m[K
-[K
-[90mREPO = Path(__file__).resolve().parent.parent[39m[K
-[90mDOCS = REPO / "docs"[39m[K
-[90mCDN = "https://media.kingmandigital.co.ke"[39m[K
-[K
-[90m# Order matters — longer / more specific keys first[39m[K
-[90mMAPPING = [[39m[K
-[90m    # OG/Twitter meta — full URL form[39m[K
-[90m    ("https://www.kingmandigital.co.ke/images/logo-banner.p[90mn[90mg",[39m[K
-[90m     f"{CDN}/website/main/logo/logo-banner.png"),[39m[K
-[K
-[90m    # Covers[39m[K
-[90m    ("/images/cover-home.jpg", f"{CDN}/website/main/covers/[90mc[90mover-home.jpg"),[39m[K
-[90m    ("/images/cover-page.jpg", f"{CDN}/website/main/covers/[90mc[90mover-page.jpg"),[39m[K
-[K
-[90m    # Logos — specific first, then general[39m[K
-[90m    ("/images/logo-transparent.png", f"{CDN}/website/main/l[90mo[90mgo/logo-transparent.png"),[39m[K
-[90m    ("/images/logo-small.png",       f"{CDN}/website[39m <....[K[34A[50D[1m[31mc[1m[31ma[1m[31mt[0m[39m[0m[32mc[0m[32ma[0m[32mt[39m[32mt[32m [39m[32mt[39m[39m [39mr[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90mi[90mg[90mi[90mt[90ma[90ml[90m-[90mw[90me[90mb[90msite/scripts[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39mc[39ma[39mt[2C[39me[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90mi[90mg[90mi[90mt[90ma[90ml[90m-[90mw[90me[90mbsite/script[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39mw[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90mi[90mg[90mi[90mt[90ma[90ml[90m-[90mw[90mebsite/scrip[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39mr[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90mi[90mg[90mi[90mt[90ma[90ml[90m-[90mwebsite/scri[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39mi[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90mi[90mg[90mi[90mt[90ma[90ml[90m-website/scr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39mt[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90mi[90mg[90mi[90mt[90ma[90ml-website/sc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39me[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90mi[90mg[90mi[90mt[90mal-website/s[90mc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39m-[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90mi[90mg[90mi[90mtal-website/[90ms[90mc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39mt[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90mi[90mg[90mital-website[90m/[90ms[90mc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39mo[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90mi[90mgital-websit[90me[90m/[90ms[90mc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39m-[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90md[90migital-websi[90mt[90me[90m/[90ms[90mc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39mc[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-[90mdigital-webs[90mi[90mt[90me[90m/[90ms[90mc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39md[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn[90m-digital-web[90ms[90mi[90mt[90me[90m/[90ms[90mc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39mn[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90ma[90mn-digital-we[90mb[90ms[90mi[90mt[90me[90m/[90ms[90mc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39m.[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mm[90man-digital-w[90me[90mb[90ms[90mi[90mt[90me[90m/[90ms[90mc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39mp[90m>[90m [90m~[39m[12P[9C[90ms[90mi[90mt[90me[90m/[90mk[90mi[90mn[90mg[90mman-digital-[90mw[90me[90mb[90ms[90mi[90mt[90me[90m/[90ms[90mc[90mr[90mi[90mp[90mt[90ms[90m/[90mr[90me[90mw[90mr[90mi[90mt[90me[90m-[90mt[90mo[90m-[90mc[90md[90mn[90m.[90mp[90my[90m [90m<[90m<[90m [90m'[90mP[90mY[90mE[90mO[90mF[90m'[A[18D[39m[39my[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[34A[27C[21D[32mc[32ma[32mt[39m [4mr[4me[4mw[4mr[4mi[4mt[4me[4m-[4mt[4mo[4m-[4mc[4md[4mn[4m.[4mp[4my[24m[?1l>[?2004l[1B]2;cat rewrite-to-cdn.py]1;cat#!/usr/bin/env python3
-"""
-Rewrite local image references in kingman-digital-website to CDN URLs.
-Usage:
-  python3 scripts/rewrite-to-cdn.py --dry-run
-  python3 scripts/rewrite-to-cdn.py --apply
-"""
-
-import sys
-from pathlib import Path
-
-REPO = Path(__file__).resolve().parent.parent
-DOCS = REPO / "docs"
-CDN = "https://media.kingmandigital.co.ke"
-
-# Order matters — longer / more specific keys first
-MAPPING = [
-    # OG/Twitter meta — full URL form
-    ("https://www.kingmandigital.co.ke/images/logo-banner.png",
-     f"{CDN}/website/main/logo/logo-banner.png"),
-
-    # Covers
-    ("/images/cover-home.jpg", f"{CDN}/website/main/covers/cover-home.jpg"),
-    ("/images/cover-page.jpg", f"{CDN}/website/main/covers/cover-page.jpg"),
-
-    # Logos — specific first, then general
-    ("/images/logo-transparent.png", f"{CDN}/website/main/logo/logo-transparent.png"),
-    ("/images/logo-small.png",       f"{CDN}/website/main/logo/logo-small.png"),
-    ("/images/logo-square.png",      f"{CDN}/website/main/logo/logo-square.png"),
-    ("/images/logo-banner.png",      f"{CDN}/website/main/logo/logo-banner.png"),
-    ("/images/logo-wide.jpg",        f"{CDN}/website/main/logo/logo-wide.jpg"),
-    ("/images/logo.png",             f"{CDN}/website/main/logo/logo.png"),
-
-    # Icons — all 12
-    ("/images/icons/domain.png",     f"{CDN}/icons/domain.png"),
-    ("/images/icons/email.png",      f"{CDN}/icons/email.png"),
-    ("/images/icons/facebook.png",   f"{CDN}/icons/facebook.png"),
-    ("/images/icons/github.png",     f"{CDN}/icons/github.png"),
-    ("/images/icons/instagram.png",  f"{CDN}/icons/instagram.png"),
-    ("/images/icons/legal.png",      f"{CDN}/icons/legal.png"),
-    ("/images/icons/linkedin.png",   f"{CDN}/icons/linkedin.png"),
-    ("/images/icons/phone.png",      f"{CDN}/icons/phone.png"),
-    ("/images/icons/tiktok.png",     f"{CDN}/icons/tiktok.png"),
-    ("/images/icons/whatsapp.png",   f"{CDN}/icons/whatsapp.png"),
-    ("/images/icons/x.png",          f"{CDN}/icons/x.png"),
-    ("/images/icons/youtube.png",    f"{CDN}/icons/youtube.png"),
-]
-
-
-def main():
-    dry = "--dry-run" in sys.argv
-    apply = "--apply" in sys.argv
-
-    if not (dry or apply):
-        print("Usage: rewrite-to-cdn.py [--dry-run | --apply]")
-        return 1
-
-    html_files = sorted(DOCS.rglob("*.html"))
-    print(f"▶ Scanning {len(html_files)} HTML files")
-    print()
-
-    total = 0
-    changed = 0
-    per_file = {}
-
-    for path in html_files:
-        original = path.read_text(encoding="utf-8")
-        content = original
-        hits = 0
-        for old, new in MAPPING:
-            c = content.count(old)
-            if c:
-                content = content.replace(old, new)
-                hits += c
-
-        if hits:
-            per_file[path] = hits
-            total += hits
-            changed += 1
-            rel = path.relative_to(REPO)
-            print(f"  {hits:>3}  {rel}")
-            if apply:
-                path.write_text(content, encoding="utf-8")
-
-    print()
-    print(f"▶ Files changed:      {changed}")
-    print(f"▶ Total replacements: {total}")
-    print()
-    print("✅ Dry run complete — no files written" if dry else "✅ Changes applied")
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/scripts]1;..bsite/scripts]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/scripts\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/scripts[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/scripts[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/scripts[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m cchmod +x scripts/rewrite-to-cdn.py[34D[32mc[32mh[32mm[32mo[32md[39m[29C[?1l>[?2004l
-]2;chmod +x scripts/rewrite-to-cdn.py]1;chmodchmod: cannot access 'scripts/rewrite-to-cdn.py': No such file or directory
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/scripts]1;..bsite/scripts]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/scripts\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/scripts[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hc[1m[31mc[0m[39m[1m[31mc[0m[39m[90mhmod +x scripts/rewrite-to-cdn.py[39m[33D[1m[31mc[1m[31ms[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [32D[1m[31mc[0m[39m[0m[39m [1m[31mc[0m[39m[90mhmod +x scripts/rewrite-to-cdn.py[39m[33D[1m[31mc[1m[31md[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [32D[0m[32mc[0m[32md[39m[90m ~/kingman-site/kingman-digital-website/scripts[39m[47D[39m [39m~[39m/[39mk[39mi[39mn[39mg[39mm[39ma[39mn[39m-[39ms[39mi[39mt[39me[39m/[39mk[39mi[39mn[39mg[39mm[39ma[39mn[39m-[39md[39mi[39mg[39mi[39mt[39ma[39ml[39m-[39mw[39me[39mb[39ms[39mi[39mt[39me[39m/[39ms[39mc[39mr[39mi[39mp[39mt[39ms[46D[4m~[4m/[4mk[4mi[4mn[4mg[4mm[4ma[4mn[4m-[4ms[4mi[4mt[4me[4m/[4mk[4mi[4mn[4mg[4mm[4ma[4mn[4m-[4md[4mi[4mg[4mi[4mt[4ma[4ml[4m-[4mw[4me[4mb[4ms[4mi[4mt[4me[4m/[4ms[4mc[4mr[4mi[4mp[4mt[4ms[24m[4mt[24m[24m [90ms[39m[4mp[24m[24m [39m [90mts[39m[4mi[24m[24m [39m [39m [90mpts[39m[4mr[24m[24m [39m [39m [39m [90mipts[39m[4mc[24m[24m [39m [39m [39m [39m [90mripts[39m[4ms[24m[24m [39m [39m [39m [39m [39m [90mcripts[39m[4m/[24m[24m [39m [39m [39m [39m [39m [39m [90mscripts[39m[4me[24m[24m [39m [39m [39m [39m [39m [39m [39m [8D[90m/scripts[39m[8D[39m/[39ms[39mc[39mr[39mi[39mp[39mt[39ms[9D[4me[4m/[4ms[4mc[4mr[4mi[4mp[4mt[4ms[24m[4mt[24m[24m [90ms[39m[4mp[24m[24m [39m [90mts[39m[4mi[24m[24m [39m [39m [90mpts[39m[4mr[24m[24m [39m [39m [39m [90mipts[39m[4mc[24m[24m [39m [39m [39m [39m [90mripts[39m[4ms[24m[24m [39m [39m [39m [39m [39m [90mcripts[39m[4m/[24m[24m [39m [39m [39m [39m [39m [39m [90mscripts[39m[39m [39m [39m [39m [39m [39m [39m [?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website/]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hcchmod +x scripts/rewrite-to-cdn.py[34D[32mc[32mh[32mm[32mo[32md[39m[4C[4ms[4mc[4mr[4mi[4mp[4mt[4ms[4m/[4mr[4me[4mw[4mr[4mi[4mt[4me[4m-[4mt[4mo[4m-[4mc[4md[4mn[4m.[4mp[4my[24m[?1l>[?2004l
-]2;chmod +x scripts/rewrite-to-cdn.py]1;chmod[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ccd ~/kingman-site/kingman-digital-website[?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hppython3 scripts/rewrite-to-cdn.py --dry-run[43D[32mp[32my[32mt[32mh[32mo[32mn[32m3[39m [4ms[4mc[4mr[4mi[4mp[4mt[4ms[4m/[4mr[4me[4mw[4mr[4mi[4mt[4me[4m-[4mt[4mo[4m-[4mc[4md[4mn[4m.[4mp[4my[24m[10C[?1l>[?2004l
-]2;python3 scripts/rewrite-to-cdn.py --dry-run]1;python3▶ Scanning 35 HTML files
-
-    2  docs/404.html
-    7  docs/about/index.html
-    6  docs/accessibility/index.html
-    6  docs/approach/index.html
-    5  docs/aup/index.html
-    6  docs/blog/index.html
-    6  docs/careers/index.html
-    6  docs/client-portal/index.html
-    5  docs/compliance/index.html
-    6  docs/contact/index.html
-    5  docs/cookie-preferences/index.html
-    5  docs/cookies/index.html
-    6  docs/cybersecurity/index.html
-    6  docs/digital-consulting/index.html
-    5  docs/disclaimer/index.html
-    5  docs/dmca/index.html
-    6  docs/ecosystem/index.html
-    6  docs/ecosystem-overview/index.html
-   15  docs/faq/index.html
-    8  docs/index.html
-    6  docs/infrastructure/index.html
-    6  docs/knowledge-center/index.html
-    8  docs/livestream/index.html
-    6  docs/platform/index.html
-    6  docs/platform-access/index.html
-    6  docs/portfolio/index.html
-    5  docs/privacy/index.html
-    6  docs/resources/index.html
-    5  docs/security/index.html
-    5  docs/service-terms/index.html
-    6  docs/services/index.html
-    6  docs/software-development/index.html
-    6  docs/support/index.html
-    5  docs/terms/index.html
-    5  docs/third-party/index.html
-
-▶ Files changed:      35
-▶ Total replacements: 209
-
-✅ Dry run complete — no files written
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ssed 's|/images/logo-transparent.png|https://media.kin [K[Kggmandigital.co.ke/website/main/logo/logo-transparent.png|g' [K[K[1C \[?1l>[?2004l
-[0m[27m[24m[J> [K[?1h=[?2004h   docs/about/index.html | grep -E "src=|rel=.icon" | head [K[K[1C -10[A[4md[4mo[4mc[4ms[4m/[4ma[4mb[4mo[4mu[4mt[4m/[4mi[4mn[4md[4me[4mx[4m.[4mh[4mt[4mm[4ml[24m[3C[32mg[32mr[32me[32mp[39m[4C[33m"[33ms[33mr[33mc[33m=[33m|[33mr[33me[33ml[33m=[33m.[33mi[33mc[33mo[33mn[33m"[39m[3C[32mh[32me[32ma[32md[39m [3C[?1l>[?2004l
-]2;sed  docs/about/index.html | grep --color=auto  -E "src=|rel=.icon" | head -1]1;sed    <link rel="icon" href="https://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png" type="image/png">
-<link rel="icon" href="https://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png" type="image/png">
-      <img src="https://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png"
-      <img src="/images/logo.png" alt="KDCN Logo" class="footer-logo">
-    <script src="/assets/kdcn-agent.js"></script>
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ppython3 scripts/rewrite-to-cdn.py --apply[41D[32mp[32my[32mt[32mh[32mo[32mn[32m3[39m [4ms[4mc[4mr[4mi[4mp[4mt[4ms[4m/[4mr[4me[4mw[4mr[4mi[4mt[4me[4m-[4mt[4mo[4m-[4mc[4md[4mn[4m.[4mp[4my[24m[8C[?1l>[?2004l
-]2;python3 scripts/rewrite-to-cdn.py --apply]1;python3▶ Scanning 35 HTML files
-
-    2  docs/404.html
-    7  docs/about/index.html
-    6  docs/accessibility/index.html
-    6  docs/approach/index.html
-    5  docs/aup/index.html
-    6  docs/blog/index.html
-    6  docs/careers/index.html
-    6  docs/client-portal/index.html
-    5  docs/compliance/index.html
-    6  docs/contact/index.html
-    5  docs/cookie-preferences/index.html
-    5  docs/cookies/index.html
-    6  docs/cybersecurity/index.html
-    6  docs/digital-consulting/index.html
-    5  docs/disclaimer/index.html
-    5  docs/dmca/index.html
-    6  docs/ecosystem/index.html
-    6  docs/ecosystem-overview/index.html
-   15  docs/faq/index.html
-    8  docs/index.html
-    6  docs/infrastructure/index.html
-    6  docs/knowledge-center/index.html
-    8  docs/livestream/index.html
-    6  docs/platform/index.html
-    6  docs/platform-access/index.html
-    6  docs/portfolio/index.html
-    5  docs/privacy/index.html
-    6  docs/resources/index.html
-    5  docs/security/index.html
-    5  docs/service-terms/index.html
-    6  docs/services/index.html
-    6  docs/software-development/index.html
-    6  docs/support/index.html
-    5  docs/terms/index.html
-    5  docs/third-party/index.html
-
-▶ Files changed:      35
-▶ Total replacements: 209
-
-✅ Changes applied
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ## No more local /images/ references should remain[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggrep -rn 'src="/images/\|href="/images/' docs/ | wc - [K[Kl[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grep2
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h## Expected: 0[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h## But wait — the OG meta might still show /images/ in [K[K[1C some pages?[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggrep -rn 'www.kingmandigital.co.ke/images' docs/ | wc [K[K[1C -l[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grep0
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h## Expected: 0[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h## CDN URLs should now be present[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggrep -rn 'media.kingmandigital.co.ke' docs/ | wc -l[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grep209
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h## Should equal the total replacements from the dry ru [K[Kn[A[5C[1m[30m#[1m[30m [1m[30mS[1m[30mh[1m[30mo[1m[30mu[1m[30ml[1m[30md[1m[30m [1m[30me[1m[30mq[1m[30mu[1m[30ma[1m[30ml[1m[30m [1m[30mt[1m[30mh[1m[30me[1m[30m [1m[30mt[1m[30mo[1m[30mt[1m[30ma[1m[30ml[1m[30m [1m[30mr[1m[30me[1m[30mp[1m[30ml[1m[30ma[1m[30mc[1m[30me[1m[30mm[1m[30me[1m[30mn[1m[30mt[1m[30ms[1m[30m [1m[30mf[1m[30mr[1m[30mo[1m[30mm[1m[30m [1m[30mt[1m[30mh[1m[30me[1m[30m [1m[30md[1m[30mr[1m[30my[1m[30m [1m[30mr[1m[30mu[1m[30mn[0m[39m[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ccd ~/kingman-site/kingman-digital-website[?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hppython3 -m http.server 8081[27D[32mp[32my[32mt[32mh[32mo[32mn[32m3[39m[20C[?1l>[?2004l
-]2;python3 -m http.server 8081]1;python3Serving HTTP on :: port 8081 (http://[::]:8081/) ...
-::1 - - [08/Oct/2026 19:56:41] "GET /docs/ HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 19:56:41] code 404, message File not found
-::1 - - [08/Oct/2026 19:56:41] "GET /extra.css HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 19:56:42] code 404, message File not found
-::1 - - [08/Oct/2026 19:56:42] "GET /assets/kdcn-agent.js HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 19:56:51] "GET /docs/index.html HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 19:56:51] code 404, message File not found
-::1 - - [08/Oct/2026 19:56:51] "GET /extra.css HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 19:56:51] code 404, message File not found
-::1 - - [08/Oct/2026 19:56:51] "GET /assets/kdcn-agent.js HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 19:56:55] code 404, message File not found
-::1 - - [08/Oct/2026 19:56:55] "GET /extra.css HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 19:56:55] code 404, message File not found
-::1 - - [08/Oct/2026 19:56:55] "GET /assets/kdcn-agent.js HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 19:56:57] code 404, message File not found
-::1 - - [08/Oct/2026 19:56:57] "GET /services/ HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 19:56:57] code 404, message File not found
-::1 - - [08/Oct/2026 19:56:57] "GET /favicon.ico HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 19:57:04] code 404, message File not found
-::1 - - [08/Oct/2026 19:57:04] "GET /resources/ HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 19:57:11] code 404, message File not found
-::1 - - [08/Oct/2026 19:57:11] "GET /about/ HTTP/1.1" 404 -
-^C
-Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hccd ~/kingman-site/kingman-digital-website[?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hppython3 scripts/rewrite-to-cdn.py --dry-run[43D[32mp[32my[32mt[32mh[32mo[32mn[32m3[39m [4ms[4mc[4mr[4mi[4mp[4mt[4ms[4m/[4mr[4me[4mw[4mr[4mi[4mt[4me[4m-[4mt[4mo[4m-[4mc[4md[4mn[4m.[4mp[4my[24m[10C[?1l>[?2004l
-]2;python3 scripts/rewrite-to-cdn.py --dry-run]1;python3▶ Scanning 35 HTML files
-
-
-▶ Files changed:      0
-▶ Total replacements: 0
-
-✅ Dry run complete — no files written
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ssed 's|/images/logo-transparent.png|https://media.kin [K[Kggmandigital.co.ke/website/main/logo/logo-transparent.png|g' [K[K[1C \[?1l>[?2004l
-[0m[27m[24m[J> [K[?1h=[?2004h   docs/about/index.html | grep -E 'src=|rel="icon"' | hea [K[Kdd -10[A[4md[4mo[4mc[4ms[4m/[4ma[4mb[4mo[4mu[4mt[4m/[4mi[4mn[4md[4me[4mx[4m.[4mh[4mt[4mm[4ml[24m[3C[32mg[32mr[32me[32mp[39m[4C[33m'[33ms[33mr[33mc[33m=[33m|[33mr[33me[33ml[33m=[33m"[33mi[33mc[33mo[33mn[33m"[33m'[39m[3C[32mh[32me[32ma[32md[39m[4C[?1l>[?2004l
-]2;sed  docs/about/index.html | grep --color=auto  -E 'src=|rel="icon"' | head ]1;sed    <link rel="icon" href="https://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png" type="image/png">
-<link rel="icon" href="https://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png" type="image/png">
-      <img src="https://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png"
-      <img src="https://media.kingmandigital.co.ke/website/main/logo/logo.png" alt="KDCN Logo" class="footer-logo">
-    <script src="/assets/kdcn-agent.js"></script>
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004ht[4mt[24m[4mt[24m[90mree[39m[4mt[24m[39mr[39me[39me[24m[32mt[32mr[32me[32me[39m[?1l>[?2004l
-]2;tree -C]1;tree[01;34m.[0m
-├── COPYRIGHT
-├── LICENSE
-├── README.md
-├── [01;34mdocs[0m
-│   ├── 404.html
-│   ├── BingSiteAuth.xml
-│   ├── CNAME
-│   ├── [01;34mabout[0m
-│   │   └── index.html
-│   ├── [01;34maccessibility[0m
-│   │   └── index.html
-│   ├── [01;34mapproach[0m
-│   │   └── index.html
-│   ├── [01;34massets[0m
-│   │   └── kdcn-agent.js
-│   ├── [01;34maup[0m
-│   │   └── index.html
-│   ├── [01;34mblog[0m
-│   │   └── index.html
-│   ├── [01;34mcareers[0m
-│   │   └── index.html
-│   ├── [01;34mclient-portal[0m
-│   │   └── index.html
-│   ├── [01;34mcompliance[0m
-│   │   └── index.html
-│   ├── [01;34mcontact[0m
-│   │   └── index.html
-│   ├── [01;34mcookie-preferences[0m
-│   │   └── index.html
-│   ├── [01;34mcookies[0m
-│   │   └── index.html
-│   ├── [01;34mcybersecurity[0m
-│   │   └── index.html
-│   ├── [01;34mdigital-consulting[0m
-│   │   └── index.html
-│   ├── [01;34mdisclaimer[0m
-│   │   └── index.html
-│   ├── [01;34mdmca[0m
-│   │   └── index.html
-│   ├── [01;34mecosystem[0m
-│   │   └── index.html
-│   ├── [01;34mecosystem-overview[0m
-│   │   └── index.html
-│   ├── extra.css
-│   ├── [01;34mfaq[0m
-│   │   └── index.html
-│   ├── [01;34mfiles[0m
-│   │   ├── digital-system-guides.pdf
-│   │   ├── remote-job-resources.pdf
-│   │   └── software-tools-tips.pdf
-│   ├── fix_paths.py
-│   ├── [01;34mimages[0m
-│   │   ├── [01;35mcover-home.jpg[0m
-│   │   ├── [01;35mcover-page.jpg[0m
-│   │   ├── [01;34micons[0m
-│   │   │   ├── [01;35mdomain.png[0m
-│   │   │   ├── [01;35memail.png[0m
-│   │   │   ├── [01;35mfacebook.png[0m
-│   │   │   ├── [01;35mgithub.png[0m
-│   │   │   ├── [01;35minstagram.png[0m
-│   │   │   ├── [01;35mlegal.png[0m
-│   │   │   ├── [01;35mlinkedin.png[0m
-│   │   │   ├── [01;35mphone.png[0m
-│   │   │   ├── [01;35mtiktok.png[0m
-│   │   │   ├── [01;35mwhatsapp.png[0m
-│   │   │   ├── [01;35mx.png[0m
-│   │   │   └── [01;35myoutube.png[0m
-│   │   ├── [01;35mlogo-banner.png[0m
-│   │   ├── [01;35mlogo-small.png[0m
-│   │   ├── [01;35mlogo-square.png[0m
-│   │   ├── [01;35mlogo-transparent.png[0m
-│   │   ├── [01;35mlogo-wide.jpg[0m
-│   │   └── [01;35mlogo.png[0m
-│   ├── index.html
-│   ├── [01;34minfrastructure[0m
-│   │   └── index.html
-│   ├── [01;34mknowledge-center[0m
-│   │   └── index.html
-│   ├── [01;34mlivestream[0m
-│   │   └── index.html
-│   ├── [01;34mplatform[0m
-│   │   └── index.html
-│   ├── [01;34mplatform-access[0m
-│   │   └── index.html
-│   ├── [01;34mportfolio[0m
-│   │   └── index.html
-│   ├── [01;34mprivacy[0m
-│   │   └── index.html
-│   ├── [01;34mresources[0m
-│   │   └── index.html
-│   ├── robots.txt
-│   ├── [01;34msecurity[0m
-│   │   └── index.html
-│   ├── [01;34mservice-terms[0m
-│   │   └── index.html
-│   ├── [01;34mservices[0m
-│   │   └── index.html
-│   ├── sitemap.xml
-│   ├── [01;34msoftware-development[0m
-│   │   └── index.html
-│   ├── [01;34msupport[0m
-│   │   └── index.html
-│   ├── [01;34mterms[0m
-│   │   └── index.html
-│   └── [01;34mthird-party[0m
-│       └── index.html
-├── [01;34mecosystem[0m
-│   ├── [01;34mapis[0m
-│   ├── [01;34mdocumentation[0m
-│   ├── [01;34mintegrations[0m
-│   ├── [01;34moverview[0m
-│   ├── [01;34mpartners[0m
-│   ├── [01;34mplatforms[0m
-│   ├── [01;34mregistry[0m
-│   └── [01;34mservices[0m
-├── [01;34mgovernance[0m
-│   ├── [01;34mbrand[0m
-│   │   └── BRAND_GUIDELINES.md
-│   ├── [01;34mcompliance[0m
-│   │   ├── compliance-framework.md
-│   │   └── third-party-risk-assessment.md
-│   ├── [01;34mcontributing[0m
-│   │   └── CONTRIBUTOR_AGREEMENT.md
-│   ├── [01;34mlegal[0m
-│   │   └── intellectual-property.md
-│   ├── [01;34moperations[0m
-│   ├── [01;34mpolicies[0m
-│   │   ├── access-control-policy.md
-│   │   └── data-governance-policy.md
-│   ├── [01;34mprivacy[0m
-│   │   └── data-subject-request-process.md
-│   ├── [01;34mprocedures[0m
-│   │   ├── backup-strategy.md
-│   │   └── change-management.md
-│   ├── [01;34msecurity[0m
-│   │   ├── incident-response-plan.md
-│   │   └── monitoring-logging-policy.md
-│   └── [01;34mstandards[0m
-│       └── engineering-standards.md
-├── [01;34mmedia-kit[0m
-│   ├── README.md
-│   ├── brand-colors.txt
-│   ├── [01;35mlogo-small.png[0m
-│   ├── [01;35mlogo-square.png[0m
-│   ├── [01;35mlogo-transparent.png[0m
-│   └── [01;35mlogo.png[0m
-├── [01;34mprojects[0m
-├── [01;34mscripts[0m
-│   ├── add_csp.py
-│   ├── apply_footer_v2.py
-│   ├── build_site.py
-│   ├── chat_insert.py
-│   ├── chat_integration.py
-│   ├── create_pages_v1_1.py
-│   ├── fix_theme.py
-│   ├── make_placeholder.sh
-│   ├── [01;32mrewrite-to-cdn.py[0m
-│   ├── update_all_v1_1.py
-│   ├── update_site.py
-│   └── validate_links.py
-├── [01;34mtemplates[0m
-│   ├── extra.css
-│   ├── footer.html
-│   ├── nav.html
-│   ├── nda-template.md
-│   └── sla-template.md
-└── typescript
-
-63 directories, 105 files
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m c[1m[31mc[0m[39m[1m[31mc[0m[39m[90md ~/kingman-site/kingman-digital-website[39m[40D[1m[31mc[1m[31ml[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39D[90mear[39m[39me[39ma[39mr[0m[32mc[0m[32ml[32me[32ma[32mr[39m[?1l>[?2004l
-]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hccd ~/kingman-site/kingman-digital-website/docs[?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website/docs]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/docs]1;..-website/docs]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/docs\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hppython3 -m http.server 8081[27D[32mp[32my[32mt[32mh[32mo[32mn[32m3[39m[20C[?1l>[?2004l
-]2;python3 -m http.server 8081]1;python3Serving HTTP on :: port 8081 (http://[::]:8081/) ...
-::1 - - [08/Oct/2026 20:00:57] code 404, message File not found
-::1 - - [08/Oct/2026 20:00:57] "GET /docs/index.html HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 20:00:57] code 404, message File not found
-::1 - - [08/Oct/2026 20:00:57] "GET /favicon.ico HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 20:01:00] code 404, message File not found
-::1 - - [08/Oct/2026 20:01:00] "GET /docs/index.html HTTP/1.1" 404 -
-::1 - - [08/Oct/2026 20:01:22] "GET / HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 20:01:22] "GET /extra.css HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 20:01:22] "GET /assets/kdcn-agent.js HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 20:01:25] "GET /about/ HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 20:01:28] "GET /services/ HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 20:01:30] "GET /resources/ HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 20:01:32] "GET /ecosystem/ HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 20:01:34] "GET /ecosystem/index.html HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 20:02:33] "GET /about/index.html HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 20:02:40] "GET /about/index.html HTTP/1.1" 304 -
-::1 - - [08/Oct/2026 20:02:50] "GET / HTTP/1.1" 304 -
-^C
-Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/docs]1;..-website/docs]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/docs\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hc[4mc[24m[4mc[24m[90md ~/kingman-site/kingman-digital-website/docs[39m[45D[4mc[39m[4ml[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [44D[90mear[39m[39me[39ma[39mr[24m[32mc[24m[32ml[32me[32ma[32mr[39m[?1l>[?2004l
-]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/docs]1;..-website/docs]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/docs\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hp[4mp[24m[4mp[24m[90mython3 -m http.server 8081[39m[26D[4mp[24m[39my[39mt[39mh[39mo[39mn[39m3[39m [39m-[39mm[39m [39mh[39mt[39mt[39mp[39m.[39ms[39me[39mr[39mv[39me[39mr[39m [39m8[39m0[39m8[39m1[27D[24m[32mp[32my[32mt[32mh[32mo[32mn[32m3[39m[20C[?1l>[?2004l
-]2;python3 -m http.server 8081]1;python3Serving HTTP on :: port 8081 (http://[::]:8081/) ...
-::1 - - [08/Oct/2026 20:03:12] "GET /index.html HTTP/1.1" 200 -
-::1 - - [08/Oct/2026 20:03:28] "GET /services/ HTTP/1.1" 304 -
-::1 - - [08/Oct/2026 20:03:38] "GET /about/ HTTP/1.1" 304 -
-::1 - - [08/Oct/2026 20:03:41] "GET /resources/ HTTP/1.1" 304 -
-::1 - - [08/Oct/2026 20:03:43] "GET /contact/ HTTP/1.1" 200 -
-^C
-Keyboard interrupt received, exiting.
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/docs]1;..-website/docs]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/docs\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hc[4mc[24m[4mc[24m[90mlear[39m[4mc[39m[4ma[24m[39m [39m [39m [90mt rewrite-to-cdn.py[39m[19D[4mc[4ma[39m[4mt[24m[24m[32mc[24m[32ma[24m[32mt[39m[32mt[32m [39m[32mt[39m[39m [39mi[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[4mi[24m[90mndex.html[39m[9D[39mn[39md[39me[39mx[39m.[39mh[39mt[39mm[39ml[10D[4mi[4mn[4md[4me[4mx[4m.[4mh[4mt[4mm[4ml[24m[?1l>[?2004l
-]2;cat index.html]1;cat<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' https://formspree.io https:; img-src 'self' data: https:; connect-src 'self' https://formspree.io https:; frame-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; upgrade-insecure-requests;">
-    <link rel="stylesheet" href="/extra.css">
-    <meta charset="UTF-8">
-    <title>KINGMAN DIGITAL CYBER NETWORK | Cybersecurity, IT Systems & Cloud</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kingman Digital Cyber Network delivers cybersecurity, IT systems, software development, cloud solutions, and digital consulting for organizations across Kenya and beyond.">
-    <meta name="author" content="Kingman Digital Cyber Network">
-    <meta name="theme-color" content="#0a0f14">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.kingmandigital.co.ke/">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="KINGMAN DIGITAL CYBER NETWORK | Cybersecurity, IT Systems & Cloud">
-    <meta property="og:description" content="Kingman Digital Cyber Network delivers cybersecurity, IT systems, software development, cloud solutions, and digital consulting for organizations across Kenya and beyond.">
-    <meta property="og:url" content="https://www.kingmandigital.co.ke/">
-    <meta property="og:site_name" content="KINGMAN DIGITAL CYBER NETWORK">
-    <meta property="og:image" content="https://media.kingmandigital.co.ke/website/main/logo/logo-banner.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Kingman Digital Cyber Network logo">
-    <meta property="og:locale" content="en_KE">
-
-    <!-- Twitter / X -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="KINGMAN DIGITAL CYBER NETWORK | Cybersecurity, IT Systems & Cloud">
-    <meta name="twitter:description" content="Kingman Digital Cyber Network delivers cybersecurity, IT systems, software development, cloud solutions, and digital consulting for organizations across Kenya and beyond.">
-    <meta name="twitter:image" content="https://media.kingmandigital.co.ke/website/main/logo/logo-banner.png">
-    <meta name="twitter:site" content="@KDCN_OFFICIAL">
-
-    <link rel="icon" href="https://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png" type="image/png">
-    <link rel="preconnect" href="https://formspree.io">
-    <link rel="preconnect" href="https://i.ibb.co">
-
-<!-- Organization Structured Data (Homepage only) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://www.kingmandigital.co.ke/#organization",
-  "name": "KINGMAN DIGITAL CYBER NETWORK",
-  "alternateName": "KDCN",
-  "url": "https://www.kingmandigital.co.ke/",
-  "logo": "https://www.kingmandigital.co.kehttps://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png",
-  "email": "info@kingmandigital.co.ke",
-  "telephone": "+254111843716",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Manyatta, Embu",
-    "addressCountry": "KE"
-  },
-  "sameAs": [
-    "https://github.com/Kingman37-net",
-    "https://www.linkedin.com/company/kingman-digital-cyber-network",
-    "https://www.facebook.com/Kingmandigitalnet",
-    "https://x.com/KDCN_OFFICIAL",
-    "https://www.instagram.com/kingman.ke",
-    "https://www.youtube.com/@KDCN-Official"
-  ]
-}
-</script>
-
-    <link rel="stylesheet" href="/extra.css">
-<meta charset="UTF-8">
-<title>KINGMAN DIGITAL CYBER NETWORK | Cybersecurity & IT Systems</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Kingman Digital Cyber Network – Global Cybersecurity, IT Systems, Software Development & Cloud Solutions. Built for long-term digital survival.">
-<meta name="author" content="CTO KINGMAN_KE">
-<meta name="keywords" content="Cybersecurity, IT Systems, Software Development, Cloud Solutions, Digital Consulting, Kingman Digital Cyber Network">
-<link rel="icon" href="https://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png" type="image/png">
-
-<style>
-:root {
-  --primary: #0b7fab;
-  --accent: #00d1ff;
-  --dark: #0a0f14;
-  --light: #ffffff;
-  --muted: #b9c6cf;
-  --bg-gradient: linear-gradient(180deg, #060b10, #0a1118);
-  --card-bg: rgba(255,255,255,0.04);
-  --border: rgba(255,255,255,0.08);
-  --nav-bg: #0a1118;
-  --footer-bg: #05080c;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", system-ui, sans-serif;
-}
-
-body {
-  background: var(--bg-gradient);
-  color: var(--light);
-  line-height: 1.7;
-  transition: background 0.3s, color 0.3s;
-}
-
-/* Light theme */
-body.light {
-  --primary: #0b7fab;
-  --accent: #0077b6;
-  --dark: #f0f4f8;
-  --light: #111;
-  --muted: #2c3e44;
-  --bg-gradient: linear-gradient(180deg, #eef2f5, #ffffff);
-  --card-bg: rgba(0,0,0,0.02);
-  --border: rgba(0,0,0,0.08);
-  --nav-bg: #f8fafc;
-  --footer-bg: #eef2f5;
-}
-body.light .card,
-body.light .system {
-  background: var(--card-bg);
-  border-color: var(--border);
-}
-body.light nav {
-  background: var(--nav-bg);
-  border-bottom-color: var(--border);
-}
-body.light nav a {
-  color: var(--light);
-}
-body.light footer {
-  background: var(--footer-bg);
-  color: #2c3e44;
-}
-body.light .contact a {
-  color: var(--accent);
-}
-
-/* Navigation */
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: var(--nav-bg);
-  border-bottom: 1px solid var(--border);
-  z-index: 999;
-  padding: 1rem;
-}
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: auto;
-}
-.nav-menu {
-  display: flex;
-  gap: 30px;
-  list-style: none;
-}
-.nav-menu a {
-  color: var(--light);
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s;
-}
-.nav-menu a:hover {
-  color: var(--accent);
-}
-.logo img {
-  height: 40px;
-  width: auto;
-}
-.hamburger {
-  display: none;
-  cursor: pointer;
-}
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background: var(--light);
-  transition: 0.3s;
-}
-.theme-toggle {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  margin-left: 1rem;
-  padding: 0 0.5rem;
-}
-
-/* Header */
-header {
-  text-align: center;
-  padding: 140px 20px 80px;
-}
-.site-logo {
-  max-width: 140px;
-  margin-bottom: 25px;
-}
-header h1 {
-  font-size: 2.6rem;
-  letter-spacing: 1px;
-}
-header span {
-  color: var(--accent);
-}
-header p {
-  margin-top: 15px;
-  font-size: 1.15rem;
-  color: var(--muted);
-}
-.cta {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 14px 34px;
-  border-radius: 40px;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  color: #000;
-  text-decoration: none;
-  font-weight: 600;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.cta:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 15px 35px rgba(0,209,255,0.35);
-}
-
-/* Sections */
-section {
-  max-width: 1200px;
-  margin: auto;
-  padding: 70px 20px;
-}
-.section-title {
-  text-align: center;
-  font-size: 2.1rem;
-  margin-bottom: 50px;
-}
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 30px;
-}
-.card {
-  background: var(--card-bg);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 35px;
-  transition: transform 0.3s, border 0.3s;
-}
-.card:hover {
-  transform: translateY(-8px);
-  border-color: var(--accent);
-}
-.card h3 {
-  margin-bottom: 12px;
-  color: var(--accent);
-}
-.card p {
-  color: var(--muted);
-}
-
-/* System statement */
-.system {
-  background: linear-gradient(135deg, #07141d, #0b1f2c);
-  border-radius: 20px;
-  padding: 60px 35px;
-  text-align: center;
-}
-.system h2 {
-  margin-bottom: 25px;
-}
-.system p {
-  max-width: 820px;
-  margin: auto;
-  color: var(--muted);
-  font-size: 1.1rem;
-}
-body.light .system {
-  background: linear-gradient(135deg, #d4e4f0, #e0edf5);
-  color: #111;
-}
-body.light .system p {
-  color: #2c3e44;
-}
-
-/* Contact section */
-.contact {
-  text-align: center;
-}
-.contact p {
-  margin: 12px 0;
-  color: var(--muted);
-  font-size: 1.05rem;
-}
-.contact a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-/* Footer */
-footer {
-  background: var(--footer-bg);
-  text-align: center;
-  padding: 35px 20px;
-  font-size: 0.95rem;
-  color: var(--muted);
-}
-footer span {
-  color: var(--accent);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    flex-direction: column;
-    background: var(--nav-bg);
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-    padding: 2rem 0;
-    gap: 1.5rem;
-    border-bottom: 1px solid var(--border);
-  }
-  .nav-menu.active {
-    left: 0;
-  }
-  .nav-container {
-    flex-wrap: wrap;
-  }
-  .nav-container .theme-toggle {
-    order: 2;
-  }
-  header {
-    padding-top: 120px;
-  }
-  .cards {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-
-/* KDCN V1.1 COMPONENTS START */
-/* =========================================================
-   KDCN FOOTER — EXACT ASCII MATCH
-   ========================================================= */
-
-.kdcn-footer {
-  background: var(--footer-bg);
-  color: var(--muted);
-  padding: 60px 20px 30px;
-}
-
-/* =========================================================
-   LEVEL 1 — 3-COLUMN GRID
-   ========================================================= */
-
-.kdcn-footer-level {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.level-one {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
-  padding-bottom: 40px;
-}
-
-.footer-section h4 {
-  color: var(--accent);
-  margin: 0 0 18px;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.footer-section a {
-  display: block;
-  width: fit-content;
-  color: var(--muted);
-  text-decoration: none;
-  margin: 10px 0;
-  font-size: 0.94rem;
-  transition: color 0.3s, transform 0.3s;
-}
-
-.footer-section a:hover {
-  color: var(--accent);
-  transform: translateX(3px);
-}
-
-/* =========================================================
-   DIVIDER
-   ========================================================= */
-
-.footer-divider {
-  border: 0;
-  height: 2px;
-  max-width: 1200px;
-  margin: 0 auto 40px auto;
-  background: linear-gradient(to right, transparent, var(--accent), transparent);
-}
-
-/* =========================================================
-   LEVEL 2 — SIDE-BY-SIDE (Identity | Legal)
-   ========================================================= */
-
-.level-two {
-  display: grid;
-  grid-template-columns: 1.6fr 1fr;
-  gap: 60px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 10px;
-}
-
-/* =========================================================
-   IDENTITY (LEFT)
-   ========================================================= */
-
-.footer-identity {
-  max-width: 600px;
-}
-
-.footer-logo {
-  width: 72px;
-  height: auto;
-  margin-bottom: 12px;
-}
-
-.footer-identity h3 {
-  color: var(--accent);
-  margin: 0 0 4px;
-  font-size: 1.4rem;
-  font-weight: 800;
-}
-
-.legal-name {
-  margin: 0 0 16px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  color: #ffffff;
-  font-size: 0.95rem;
-}
-
-.footer-motto {
-  color: var(--light);
-  line-height: 1.7;
-  font-style: italic;
-  margin: 18px 0 12px 0;
-}
-
-.footer-location {
-  color: #cccccc;
-  font-weight: 600;
-  font-size: 1.05rem;
-  margin: 16px 0 20px 0;
-  letter-spacing: 0.3px;
-}
-
-/* SOCIALS */
-.footer-socials {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 18px;
-  margin-top: 10px;
-}
-
-.footer-socials a {
-  color: var(--muted);
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: color 0.3s;
-}
-
-.footer-socials a:hover {
-  color: var(--accent);
-}
-
-/* =========================================================
-   LEGAL (RIGHT)
-   ========================================================= */
-
-.footer-legal {
-  border-left: 2px solid var(--border);
-  padding-left: 45px;
-  display: flex;
-  flex-direction: column;
-}
-
-.legal-copyright {
-  color: var(--accent);
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin: 0 0 20px 0;
-}
-
-.footer-legal a {
-  color: var(--muted);
-  text-decoration: none;
-  margin: 6px 0;
-  font-size: 0.94rem;
-  transition: color 0.3s, transform 0.3s;
-  width: fit-content;
-}
-
-.footer-legal a:hover {
-  color: var(--accent);
-  transform: translateX(3px);
-}
-
-/* =========================================================
-   MOBILE — STACK LEVEL 2 VERTICALLY
-   ========================================================= */
-
-@media (max-width: 768px) {
-  .kdcn-footer {
-    padding: 40px 18px 20px;
-  }
-
-  .level-one {
-    grid-template-columns: 1fr 1fr;
-    gap: 30px 20px;
-  }
-
-  .level-one .footer-section:last-child {
-    grid-column: 1 / -1;
-  }
-
-  .level-two {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  .footer-legal {
-    border-left: none;
-    border-top: 2px solid var(--border);
-    padding-left: 0;
-    padding-top: 30px;
-  }
-
-  .footer-identity {
-    max-width: 100%;
-  }
-
-  .footer-socials {
-    gap: 10px 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .level-one {
-    grid-template-columns: 1fr;
-    gap: 25px;
-  }
-
-  .level-one .footer-section:last-child {
-    grid-column: auto;
-  }
-
-  .footer-logo {
-    width: 56px;
-  }
-
-  .footer-identity h3 {
-    font-size: 1.2rem;
-  }
-
-  .footer-location {
-    font-size: 0.95rem;
-  }
-}
-/* KDCN V1.1 COMPONENTS END */
-
-/* =========================
-   NAV DROPDOWN (INLINE FIX)
-   ========================= */
-.dropdown {
-  position: relative;
-}
-.dropdown-content {
-  display: none !important;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  min-width: 230px;
-  background: var(--nav-bg);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px 0;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.35);
-  z-index: 1000;
-}
-.dropdown-content a {
-  display: block;
-  padding: 10px 16px;
-  color: var(--light);
-  text-decoration: none;
-  white-space: nowrap;
-}
-.dropdown-content a:hover {
-  color: var(--accent);
-  background: rgba(0,209,255,0.06);
-}
-.dropdown:hover .dropdown-content {
-  display: block !important;
-}
-
-
-/* =========================
-   NAV CTA BUTTON (INLINE FIX)
-   ========================= */
-.cta-button {
-  display: inline-block !important;
-  background: linear-gradient(135deg, #0b7fab, #00d1ff) !important;
-  color: #000 !important;
-  padding: 9px 20px !important;
-  border-radius: 40px !important;
-  text-decoration: none !important;
-  font-weight: 700 !important;
-  white-space: nowrap !important;
-  margin-left: 15px !important;
-  transition: transform .3s, box-shadow .3s !important;
-}
-.cta-button:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 8px 20px rgba(0,209,255,.3) !important;
-}
-@media (max-width: 768px) {
-  .cta-button {
-    display: none !important;
-  }
-}
-
-</style>
-</head>
-<body>
-
-<nav>
-  <div class="nav-container">
-
-    <a href="index.html" class="logo" aria-label="KDCN Home">
-      <img src="https://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png"
-           alt="Kingman Digital Cyber Network Logo">
-    </a>
-
-    <ul class="nav-menu">
-
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-
-      <li class="dropdown">
-        <a href="/about/" class="dropbtn">About</a>
-        <div class="dropdown-content">
-          <a href="/about/">About Us</a>
-          <a href="/approach/">Our Approach</a>
-        </div>
-      </li>
-
-      <li class="dropdown">
-        <a href="/services/" class="dropbtn">Services</a>
-        <div class="dropdown-content">
-          <a href="/services/">Services Overview</a>
-          <a href="/cybersecurity/">Cybersecurity Systems</a>
-          <a href="/infrastructure/">IT Infrastructure &amp; Cloud</a>
-          <a href="/software-development/">Software Development</a>
-          <a href="/digital-consulting/">Digital Systems Consulting</a>
-        </div>
-      </li>
-
-      <li class="dropdown">
-        <a href="/resources/" class="dropbtn">Resources</a>
-        <div class="dropdown-content">
-          <a href="/resources/">Resources Hub</a>
-          <a href="/blog/">Blog</a>
-          <a href="/portfolio/">Portfolio</a>
-          <a href="/faq/">FAQ</a>
-          <a href="/knowledge-center/">Knowledge Center</a>
-        </div>
-      </li>
-
-      <li class="dropdown">
-        <a href="/platform/" class="dropbtn">Platform</a>
-        <div class="dropdown-content">
-          <a href="/platform/">Platform Overview</a>
-          <a href="/client-portal/">Client Portal</a>
-          <a href="/platform-access/">Platform Access</a>
-        </div>
-      </li>
-
-      <li class="dropdown">
-        <a href="/ecosystem/" class="dropbtn">Ecosystem</a>
-        <div class="dropdown-content">
-          <a href="/ecosystem/">Ecosystem Overview</a>
-          <a href="/ecosystem-overview/">Explore Ecosystem</a>
-        </div>
-      </li>
-
-      <li class="dropdown">
-        <a href="/contact/" class="dropbtn">Contact</a>
-        <div class="dropdown-content">
-          <a href="/contact/">Contact Us</a>
-          <a href="/support/">Technical Support</a>
-          <a href="/livestream/">Network Live Stream</a>
-        </div>
-      </li>
-
-    </ul>
-
-    <a href="/contact/" class="cta-button">
-      Get in Touch
-    </a>
-
-    <button
-      class="theme-toggle"
-      id="theme-toggle"
-      aria-label="Toggle dark and light theme">
-      🌙
-    </button>
-
-    <button
-      class="hamburger"
-      aria-label="Open navigation menu"
-      aria-expanded="false">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
-
-  </div>
-</nav>
-
-
-</nav>
-</nav>
-</nav>
-</nav>
-
-<header>
-  <img src="https://media.kingmandigital.co.ke/website/main/logo/logo-transparent.png"
-       alt="Kingman Digital Cyber Network Logo"
-       class="site-logo">
-  <h1>KINGMAN<span>DIGITAL</span> CYBER NETWORK</h1>
-  <p>Cybersecurity • IT Systems • Software • Cloud Infrastructure</p>
-  <a href="/contact/" class="cta">Request Consultation</a>
-</header>
-
-<section>
-  <h2 class="section-title">What We Do</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Cybersecurity Systems</h3>
-      <p>Threat assessment, account protection, digital risk reduction, and secure system architecture for individuals and businesses.</p>
-    </div>
-    <div class="card">
-      <h3>IT Infrastructure & Cloud</h3>
-      <p>Design and deployment of scalable IT systems, Firebase hosting, Cloudflare security, and Google-based solutions.</p>
-    </div>
-    <div class="card">
-      <h3>Software Development</h3>
-      <p>Clean, efficient, and secure web systems built with long-term maintainability and performance in mind.</p>
-    </div>
-    <div class="card">
-      <h3>Digital Systems Consulting</h3>
-      <p>Guidance for professionals, startups, and online workers focused on sustainability, security, and system thinking.</p>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="system">
-    <h2>System-Driven Philosophy</h2>
-    <p>
-      Shortcuts create fast money and dead accounts.<br>
-      Systems build slower income, strong foundations, and long-term survival.<br>
-      Every solution here is designed with security, scalability, and continuity at its core.
-    </p>
-  </div>
-</section>
-
-<section id="contact" class="contact">
-  <h2 class="section-title">Contact</h2>
-  <p>Reach out to us for consultations, collaborations, or any IT & cybersecurity inquiries. We’ll respond as fast as possible!</p>
-  <p>Email: <a href="mailto:kingmandigitalcybernetwork@gmail.com">kingmandigitalcybernetwork@gmail.com</a></p>
-  <p>Phone/WhatsApp: <a href="https://wa.me/254111843716">+254 111 843 716</a></p>
-
-  
-
-<script>
-  // Hamburger menu
-  const hamburger = document.querySelector('.hamburger');
-  const navMenu = document.querySelector('.nav-menu');
-  hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-  });
-
-  // Dark/Light theme toggle
-  const toggle = document.getElementById('theme-toggle');
-  if (localStorage.getItem('theme') === 'light') {
-    document.body.classList.add('light');
-    toggle.textContent = '☀️';
-  }
-  toggle.addEventListener('click', () => {
-    document.body.classList.toggle('light');
-    const isLight = document.body.classList.contains('light');
-    localStorage.setItem('theme', isLight ? 'light' : 'dark');
-    toggle.textContent = isLight ? '☀️' : '🌙';
-  });
-</script>
-
-
-<footer class="kdcn-footer">
-
-  <!-- =====================================================
-       LEVEL 1 — ORGANIZATIONAL NAVIGATION
-       ===================================================== -->
-
-  <div class="kdcn-footer-level level-one">
-
-    <!-- COMPANY -->
-    <div class="footer-section">
-      <h4>Company</h4>
-      <a href="/about/">About Us</a>
-      <a href="/careers/">Careers</a>
-      <a href="/blog/">News &amp; Insights</a>
-      <a href="https://kingman37-net.github.io/cto-website/about.html"
-         target="_blank"
-         rel="noopener noreferrer">Leadership</a>
-    </div>
-
-    <!-- OUR PLATFORMS -->
-    <div class="footer-section">
-      <h4>Our Platforms</h4>
-      <a href="/platform/">KDCN Digital</a>
-      <a href="https://app.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Business</a>
-      <a href="#">KDCN Systems</a>
-      <a href="https://academy.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Academy</a>
-      <a href="https://shop.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-    </div>
-
-    <!-- CONTACT -->
-    <div class="footer-section">
-      <h4>Contact</h4>
-      <a href="mailto:info@kingmandigital.co.ke">✉ Email</a>
-      <a href="tel:+254111843716">☎ Phone</a>
-    </div>
-
-  </div>
-
-  <!-- DIVIDER -->
-  <hr class="footer-divider">
-
-  <!-- =====================================================
-       LEVEL 2 — CORPORATE IDENTITY + LEGAL
-       ===================================================== -->
-
-  <div class="kdcn-footer-level level-two">
-
-    <!-- IDENTITY -->
-    <div class="footer-identity">
-      <img src="https://media.kingmandigital.co.ke/website/main/logo/logo.png" alt="KDCN Logo" class="footer-logo">
-      <h3>KDCN</h3>
-      <p class="legal-name">KINGMAN DIGITAL CYBER NETWORK</p>
-      <p class="footer-motto">
-        "No data left unguarded.<br>
-        No system left unsafe."
-      </p>
-      <p class="footer-location">📍 Manyatta, Embu, Kenya 🇰🇪</p>
-
-      <div class="footer-socials">
-        <a href="https://www.facebook.com/Kingmandigitalnet" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="https://x.com/KDCN_OFFICIAL" target="_blank" rel="noopener noreferrer">X</a>
-        <a href="https://www.youtube.com/@KDCN-Official" target="_blank" rel="noopener noreferrer">YouTube</a>
-        <a href="https://www.linkedin.com/company/kingman-digital-cyber-network" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://www.instagram.com/kingman.254k" target="_blank" rel="noopener noreferrer">Instagram</a>
-      </div>
-    </div>
-
-    <!-- LEGAL -->
-    <div class="footer-legal">
-      <p class="legal-copyright">© 2026 KINGMAN DIGITAL</p>
-      <a href="/privacy/">Privacy Policy</a>
-      <a href="/terms/">Terms of Service</a>
-      <a href="/cookies/">Cookie Policy</a>
-    </div>
-
-  </div>
-
-</footer>
-
-
-</footer>
-</footer>
-</footer>
-</footer>
-
-
-    <!-- KDCN AI Agent v2.0 -->
-    <script src="/assets/kdcn-agent.js"></script>
-</body>
-</html>
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/docs]1;..-website/docs]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/docs\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m t[4mt[24m[4mt[24m[90mree[39m[4mt[39m[4mr[24m[24m[32mt[24m[32mr[39m[39me[39me[32mt[32mr[32me[32me[39m[32me[32m [39m[32me[39m[39m [90m-L 1[39m[39m-[39mL[39m [39m1[?1l>[?2004l
-]2;tree -C -L 1]1;tree[01;34m.[0m
-├── 404.html
-├── BingSiteAuth.xml
-├── CNAME
-├── [01;34mabout[0m
-├── [01;34maccessibility[0m
-├── [01;34mapproach[0m
-├── [01;34massets[0m
-├── [01;34maup[0m
-├── [01;34mblog[0m
-├── [01;34mcareers[0m
-├── [01;34mclient-portal[0m
-├── [01;34mcompliance[0m
-├── [01;34mcontact[0m
-├── [01;34mcookie-preferences[0m
-├── [01;34mcookies[0m
-├── [01;34mcybersecurity[0m
-├── [01;34mdigital-consulting[0m
-├── [01;34mdisclaimer[0m
-├── [01;34mdmca[0m
-├── [01;34mecosystem[0m
-├── [01;34mecosystem-overview[0m
-├── extra.css
-├── [01;34mfaq[0m
-├── [01;34mfiles[0m
-├── fix_paths.py
-├── [01;34mimages[0m
-├── index.html
-├── [01;34minfrastructure[0m
-├── [01;34mknowledge-center[0m
-├── [01;34mlivestream[0m
-├── [01;34mplatform[0m
-├── [01;34mplatform-access[0m
-├── [01;34mportfolio[0m
-├── [01;34mprivacy[0m
-├── [01;34mresources[0m
-├── robots.txt
-├── [01;34msecurity[0m
-├── [01;34mservice-terms[0m
-├── [01;34mservices[0m
-├── sitemap.xml
-├── [01;34msoftware-development[0m
-├── [01;34msupport[0m
-├── [01;34mterms[0m
-└── [01;34mthird-party[0m
-
-37 directories, 8 files
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/docs]1;..-website/docs]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/docs\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hc[4mc[24m[4mc[24m[90mat index.html[39m[13D[4mc[39m[4ma[24m[4mc[4ma[39m[4mt[24m[24m[32mc[24m[32ma[24m[32mt[39m[32mt[32m [39m[32mt[39m[39m [39ms[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[4ms[24m[90mecurity-scan.sh[39m[15D[4ms[39m[4mi[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[90mtemap.xml[39m[9D[4mi[39m[4mt[24m[39me[39mm[39ma[39mp[39m.[39mx[39mm[39ml[9D[4mt[4me[4mm[4ma[4mp[4m.[4mx[4mm[4ml[24m[?1l>[?2004l
-]2;cat sitemap.xml]1;cat<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url><loc>https://www.kingmandigital.co.ke/</loc><lastmod>2026-09-19</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/about/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/approach/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/services/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/cybersecurity/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/infrastructure/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/software-development/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/digital-consulting/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/platform/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/platform-access/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/ecosystem/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/ecosystem-overview/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/portfolio/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/blog/</loc><lastmod>2026-09-19</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/resources/</loc><lastmod>2026-09-19</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/knowledge-center/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/faq/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/support/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/contact/</loc><lastmod>2026-09-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/careers/</loc><lastmod>2026-09-19</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.kingmandigital.co.ke/livestream/</loc><lastmod>2026-09-19</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-
-</urlset>
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/docs]1;..-website/docs]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/docs\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m c[4mc[24m[4mc[24m[90mat sitemap.xml[39m[14D[4mc[39m[4ma[24m[4mc[4ma[39m[4mt[24m[24m[32mc[24m[32ma[24m[32mt[39m[32mt[32m [39m[32mt[39m[39m [39mr[90ms[90mi[90mt[90me[90mm[90ma[90mp[90m.[90mx[90mm[90ml[39m[11D[39mc[39ma[39mt[2C[39mo[90ms[90mi[90mt[90me[90mm[90ma[90mp[90m.[90mx[90mm[90ml[39m[11D[39mb[90ms[90mi[90mt[90me[90mm[90ma[90mp[90m.[90mx[90mm[90ml[39m[11D[39mo[90ms[90mi[90mt[90me[90mm[90ma[90mp[90m.[90mx[90mm[90ml[39m[11D[39mt[90ms[90mi[90mt[90me[90mm[90ma[90mp[90m.[90mx[90mm[90ml[39m[11D[39ms[90ms[90mi[90mt[90me[90mm[90ma[90mp[90m.[90mx[90mm[90ml[39m[11D[39m.[90ms[90mi[90mt[90me[90mm[90ma[90mp[90m.[90mx[90mm[90ml[39m[11D[39mt[90ms[90mi[90mt[90me[90mm[90ma[90mp[90m.[90mx[90mm[90ml[39m[11D[39mx[90ms[90mi[90mt[90me[90mm[90ma[90mp[90m.[90mx[90mm[90ml[39m[11D[39mt[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[14D[32mc[32ma[32mt[39m [4mr[4mo[4mb[4mo[4mt[4ms[4m.[4mt[4mx[4mt[24m[?1l>[?2004l
-]2;cat robots.txt]1;cat# robots.txt for KDCN Website
-# https://www.kingmandigital.co.ke/
-
-User-agent: *
-Allow: /
-
-# Internal resources (not for public crawling)
-Disallow: /images/icons/
-Disallow: /files/
-
-# Sitemap
-Sitemap: https://www.kingmandigital.co.ke/sitemap.xml
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website/docs]1;..-website/docs]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website/docs\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m s[4ms[24m[4ms[24m[90med 's|/images/logo-transparent.png|https://media.kin[90mg[90mmandigital.co.ke/website/main/logo/logo-transparent.png|g'[90m [90m\[39m[K
-[90m  docs/about/index.html | grep -E 'src=|rel="icon"' | head [90m-[90m10[39m[K[4A[4C[4ms[39m[4me[24m[4ms[4me[39m[4md[24m[24m[32ms[24m[32me[24m[32md[39m[32md[32m [39m[32md[39m[39m [39mi[K[1B[K[1B[K[1B[K[1B[K[4A[11C[4mi[24m[24m [90m's|/images/logo-transparent.png|https://media.kin[90mg[90mmandigital.co.ke/website/main/logo/logo-transparent.png|g'[90m [90m\[39m[K[1B[90m  docs/about/index.html | grep -E 'src=|rel="icon"' | head [90m-[90m10[39m[K[4A[7C[39ml[K[1B[K[1B[K[1B[K[1B[K[4A[11C[4ml[24m[24m [90m's|/images/logo-transparent.png|https://media.kin[90mg[90mmandigital.co.ke/website/main/logo/logo-transparent.png|g'[90m [90m\[39m[K[1B[90m  docs/about/index.html | grep -E 'src=|rel="icon"' | head [90m-[90m10[39m[K[4A[7C[39mi[K[1B[K[1B[K[1B[K[1B[K[4A[11C[4mi[24m[24m [90m's|/images/logo-transparent.png|https://media.kin[90mg[90mmandigital.co.ke/website/main/logo/logo-transparent.png|g'[90m [90m\[39m[K[1B[90m  docs/about/index.html | grep -E 'src=|rel="icon"' | head [90m-[90m10[39m[K[4A[7C[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [32msed[39m [90m's|/images/logo-transparent.png|https://media.kin[90mg[90mmandigital.co.ke/website/main/logo/logo-transparent.png|g'[90m [90m\[39m
-[90m  docs/about/index.html | grep -E 'src=|rel="icon"' | head [90m-[90m10[39m[4A[7C[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website/docs[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [32msed[39m [90m's|/images/logo-transparent.png|https://media.kin[90mg[90mmandigital.co.ke/website/main/logo/logo-transparent.png|g'[90m [90m\[39m
-[90m  docs/about/index.html | grep -E 'src=|rel="icon"' | head [90m-[90m10[39m[4A[7C[K[1B[K[1B[K[1B[K[1B[K[4A[9C[90m 's|/images/logo-transparent.png|https://media.kin[90mg[90mmandigital.co.ke/website/main/logo/logo-transparent.png|g'[90m [90m\[39m[K[1B[90m  docs/about/index.html | grep -E 'src=|rel="icon"' | head [90m-[90m10[39m[K[4A[6C[32ms[32me[39m[K[1B[K[1B[K[1B[K[1B[K[4A[8C[39m[4ms[39m[4me[24m[90md 's|/images/logo-transparent.png|https://media.kin[90mg[90mmandigital.co.ke/website/main/logo/logo-transparent.png|g'[90m [90m\[39m[K[1B[90m  docs/about/index.html | grep -E 'src=|rel="icon"' | head [90m-[90m10[39m[K[4A[5C[4ms[24m[K[1B[K[1B[K[1B[K[1B[K[4A[7C[4ms[24m[90med 's|/images/logo-transparent.png|https://media.kin[90mg[90mmandigital.co.ke/website/main/logo/logo-transparent.png|g'[90m [90m\[39m[K[1B[90m  docs/about/index.html | grep -E 'src=|rel="icon"' | head [90m-[90m10[39m[K[4A[4C[K[1B[K[1B[K[1B[K[1B[K[4A[6Cccd ~/kingman-site/kingman-digital-website[?1l>[?2004l[1B]2;cd ~/kingman-site/kingman-digital-website]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004heecho "=== Files containing shop.kingmandigital.co.ke  [K[K===="[?1l>[?2004l
-]2;echo "=== Files containing shop.kingmandigital.co.ke ==="]1;echo=== Files containing shop.kingmandigital.co.ke ===
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggrep -rln "shop\.kingmandigital\.co\.ke" docs/ 2>/dev [K[K//null[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grep[35m[Kdocs/accessibility/index.html[m[K
-[35m[Kdocs/approach/index.html[m[K
-[35m[Kdocs/aup/index.html[m[K
-[35m[Kdocs/blog/index.html[m[K
-[35m[Kdocs/careers/index.html[m[K
-[35m[Kdocs/client-portal/index.html[m[K
-[35m[Kdocs/cookies/index.html[m[K
-[35m[Kdocs/faq/index.html[m[K
-[35m[Kdocs/infrastructure/index.html[m[K
-[35m[Kdocs/index.html[m[K
-[35m[Kdocs/livestream/index.html[m[K
-[35m[Kdocs/platform-access/index.html[m[K
-[35m[Kdocs/platform/index.html[m[K
-[35m[Kdocs/portfolio/index.html[m[K
-[35m[Kdocs/privacy/index.html[m[K
-[35m[Kdocs/resources/index.html[m[K
-[35m[Kdocs/security/index.html[m[K
-[35m[Kdocs/service-terms/index.html[m[K
-[35m[Kdocs/support/index.html[m[K
-[35m[Kdocs/terms/index.html[m[K
-[35m[Kdocs/third-party/index.html[m[K
-[35m[Kdocs/compliance/index.html[m[K
-[35m[Kdocs/contact/index.html[m[K
-[35m[Kdocs/cybersecurity/index.html[m[K
-[35m[Kdocs/digital-consulting/index.html[m[K
-[35m[Kdocs/disclaimer/index.html[m[K
-[35m[Kdocs/dmca/index.html[m[K
-[35m[Kdocs/ecosystem-overview/index.html[m[K
-[35m[Kdocs/ecosystem/index.html[m[K
-[35m[Kdocs/knowledge-center/index.html[m[K
-[35m[Kdocs/services/index.html[m[K
-[35m[Kdocs/software-development/index.html[m[K
-[35m[Kdocs/cookie-preferences/index.html[m[K
-[35m[Kdocs/about/index.html[m[K
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004heecho ""[?1l>[?2004l
-]2;echo ""]1;echo
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004heecho "=== Total occurrences ==="[?1l>[?2004l
-]2;echo "=== Total occurrences ==="]1;echo=== Total occurrences ===
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggrep -rn "shop\.kingmandigital\.co\.ke" docs/ 2>/dev/ [K[Knnull | wc -l[A[32mg[32mr[32me[32mp[39m[5C[33m"[33ms[33mh[33mo[33mp[33m\[33m.[33mk[33mi[33mn[33mg[33mm[33ma[33mn[33md[33mi[33mg[33mi[33mt[33ma[33ml[33m\[33m.[33mc[33mo[33m\[33m.[33mk[33me[33m"[39m [4md[4mo[4mc[4ms[4m/[24m [33m2[33m>[39m[4m/[4md[4me[4mv[4m/[4mn[4mu[4ml[4ml[24m[3C[32mw[32mc[39m[3C[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grep34
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ccd ~/kingman-site/kingman-digital-website[?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004heecho "=== All *.kingmandigital.co.ke subdomains refer [K[Keenced ==="[?1l>[?2004l
-]2;echo "=== All *.kingmandigital.co.ke subdomains referenced ==="]1;echo=== All *.kingmandigital.co.ke subdomains referenced ===
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggrep -roh 'https://[a-z0-9-]*\.kingmandigital\.co\.ke [K[K'' docs/ | sort | uniq -c | sort -rn[A[29D[32mg[32mr[32me[32mp[39m[6C[33m'[33mh[33mt[33mt[33mp[33ms[33m:[33m/[33m/[33m[[33ma[33m-[33mz[33m0[33m-[33m9[33m-[33m][33m*[33m\[33m.[33mk[33mi[33mn[33mg[33mm[33ma[33mn[33md[33mi[33mg[33mi[33mt[33ma[33ml[33m\[33m.[33mc[33mo[33m\[33m.[33mk[33me[33m'[39m [4md[4mo[4mc[4ms[4m/[24m[3C[32ms[32mo[32mr[32mt[39m[3C[32mu[32mn[32mi[32mq[39m[6C[32ms[32mo[32mr[32mt[39m[4C[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grep    209 https://media.kingmandigital.co.ke
-     98 https://www.kingmandigital.co.ke
-     34 https://shop.kingmandigital.co.ke
-     34 https://app.kingmandigital.co.ke
-     34 https://academy.kingmandigital.co.ke
-      3 https://cto.kingmandigital.co.ke
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ccd ~/kingman-site/kingman-digital-website[?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h## Show what WOULD change (no file edits)[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggrep -rn "shop\.kingmandigital\.co\.ke" docs/ | sed ' [K[Kss|shop\.kingmandigital\.co\.ke|store.kingmandigital.co.ke|g [K[K'[A[A[5C[32mg[32mr[32me[32mp[39m[5C[33m"[33ms[33mh[33mo[33mp[33m\[33m.[33mk[33mi[33mn[33mg[33mm[33ma[33mn[33md[33mi[33mg[33mi[33mt[33ma[33ml[33m\[33m.[33mc[33mo[33m\[33m.[33mk[33me[33m"[39m [4md[4mo[4mc[4ms[4m/[24m[3C[32ms[32me[32md[39m [33m'[33ms[33m|[33ms[33mh[33mo[33mp[33m\[33m.[33mk[33mi[33mn[33mg[33mm[33ma[33mn[33md[33mi[33mg[33mi[33mt[33ma[33ml[33m\[33m.[33mc[33mo[33m\[33m.[33mk[33me[33m|[33ms[33mt[33mo[33mr[33me[33m.[33mk[33mi[33mn[33mg[33mm[33ma[33mn[33md[33mi[33mg[33mi[33mt[33ma[33ml[33m.[33mc[33mo[33m.[33mk[33me[33m|[33mg[33m'[39m[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grepdocs/accessibility/index.html:496:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/approach/index.html:496:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/aup/index.html:404:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/blog/index.html:752:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/careers/index.html:742:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/client-portal/index.html:521:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/cookies/index.html:822:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/faq/index.html:770:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/infrastructure/index.html:521:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/index.html:850:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/livestream/index.html:720:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/platform-access/index.html:521:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/platform/index.html:496:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/portfolio/index.html:752:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/privacy/index.html:686:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/resources/index.html:752:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/security/index.html:799:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/service-terms/index.html:377:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/support/index.html:496:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/terms/index.html:765:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/third-party/index.html:372:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/compliance/index.html:413:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/contact/index.html:778:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/cybersecurity/index.html:521:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/digital-consulting/index.html:521:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/disclaimer/index.html:283:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/dmca/index.html:332:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/ecosystem-overview/index.html:521:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/ecosystem/index.html:496:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/knowledge-center/index.html:496:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/services/index.html:737:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/software-development/index.html:521:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/cookie-preferences/index.html:774:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-docs/about/index.html:783:      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">KDCN Store</a>
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ccd ~/kingman-site/kingman-digital-website[?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h## In-place edit, all files that contain the URL[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggrep -rln "shop\.kingmandigital\.co\.ke" docs/ | xarg [K[Kss sed -i 's|shop\.kingmandigital\.co\.ke|store.kingmandigit [K[Kaal.co.ke|g'[A[A[32mg[32mr[32me[32mp[39m[6C[33m"[33ms[33mh[33mo[33mp[33m\[33m.[33mk[33mi[33mn[33mg[33mm[33ma[33mn[33md[33mi[33mg[33mi[33mt[33ma[33ml[33m\[33m.[33mc[33mo[33m\[33m.[33mk[33me[33m"[39m [4md[4mo[4mc[4ms[4m/[24m[3C[32mx[32ma[32mr[32mg[32ms[39m[8C[33m'[33ms[33m|[33ms[33mh[33mo[33mp[33m\[33m.[33mk[33mi[33mn[33mg[33mm[33ma[33mn[33md[33mi[33mg[33mi[33mt[33ma[33ml[33m\[33m.[33mc[33mo[33m\[33m.[33mk[33me[33m|[33ms[33mt[33mo[33mr[33me[33m.[33mk[33mi[33mn[33mg[33mm[33ma[33mn[33md[33mi[33mg[33mi[33mt[33ma[33ml[33m.[33mc[33mo[33m.[33mk[33me[33m|[33mg[33m'[39m[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grep[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m eecho "=== Old URL should be gone ==="[?1l>[?2004l
-]2;echo "=== Old URL should be gone ==="]1;echo=== Old URL should be gone ===
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggrep -rn "shop\.kingmandigital\.co\.ke" docs/ | wc -l [K[K[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grep0
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h## Expected: 0[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004heecho ""[?1l>[?2004l
-]2;echo ""]1;echo
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004heecho "=== New URL should be present ==="[?1l>[?2004l
-]2;echo "=== New URL should be present ==="]1;echo=== New URL should be present ===
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggrep -rn "store\.kingmandigital\.co\.ke" docs/ | wc - [K[Kl[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grep34
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h## Expected: same as Step 1 total[32D[1m[30m#[1m[30m [1m[30mE[1m[30mx[1m[30mp[1m[30me[1m[30mc[1m[30mt[1m[30me[1m[30md[1m[30m:[1m[30m [1m[30ms[1m[30ma[1m[30mm[1m[30me[1m[30m [1m[30ma[1m[30ms[1m[30m [1m[30mS[1m[30mt[1m[30me[1m[30mp[1m[30m [1m[30m1[1m[30m [1m[30mt[1m[30mo[1m[30mt[1m[30ma[1m[30ml[0m[39m[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ggrep -A 1 'KDCN Store' docs/index.html[38D[32mg[32mr[32me[32mp[39m[6C[33m'[33mK[33mD[33mC[33mN[33m [33mS[33mt[33mo[33mr[33me[33m'[39m [4md[4mo[4mc[4ms[4m/[4mi[4mn[4md[4me[4mx[4m.[4mh[4mt[4mm[4ml[24m[?1l>[?2004l
-]2;grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv]1;grep      <a href="https://store.kingmandigital.co.ke" target="_blank" rel="noopener noreferrer">[01;31m[KKDCN Store[m[K</a>
-    </div>
-[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004h[A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [A[A[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m ccd ~/kingman-site/kingman-digital-website[?1l>[?2004l
-]2;cd ~/kingman-site/kingman-digital-website]1;cd[1m[7m%[27m[1m[0m                                                           ]2;u0_a222@localhost:~/kingman-site/kingman-digital-website]1;..gital-website]7;file://localhost/data/data/com.termux/files/home/kingman-site/kingman-digital-website\[0m[27m[24m[J[36m╭─[39m[33m[[39m[32mKINGMAN[39m[37m@[39m[34mlocalhost[39m[33m][39m[36m─[39m[35m[[39m[31m~/kingman-site/kingman-digital-website[39m[35m][39m
-[36m╰─[39m[38;5;196m»»»[39m [K[?1h=[?2004hggit status[10D[32mg[32mi[32mt[39m[7C[?1l>[?2004l
-]2;git status]1;gitOn branch Root
-Your branch is up to date with 'origin/Root'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <fil
